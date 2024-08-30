@@ -1,10 +1,54 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
+## Perfis de Usuários
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+<table>
+<tbody>
+<tr>
+<th colspan="2">Perfil 01: Refugiado </th>
+</tr>
+<tr>
+<td width="150px"><b>Descrição</b></td>
+<td width="600px">
+Indivíduos que buscaram refúgio no Brasil devido a crises em seus países de origem, e que estão em busca de emprego e oportunidades de capacitação para integrarem a sociedade 
+</td>
+</tr>
+<tr>
+<td><b>Necessidades</b></td>
+<td>
+1. Acesso a vagas de emprego adequadas ao seu perfil profissional.<br>
+2. Acesso a programas de capacitação e aprendizado.<br>
+3. Ser orientado quanto ao seu posicionamento frente ao mercado de trabalho brasileiro.<br>
+4. Necessidade de renda para custear as suas necessidades e de sua família. 
+</td>
+</tr>
+</tbody>
+</table>
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+<br>
+
+<table>
+<tbody>
+<tr>
+<th colspan="2">Perfil 02: Empregador </th>
+</tr>
+<tr>
+<td width="150px"><b>Descrição</b></td>
+<td width="600px">
+Empresas que queiram aderir a colocação de refugiados no mercado de trabalho brasileiro com divulgação de vagas de emprego no sistema  
+</td>
+</tr>
+<tr>
+<td><b>Necessidades</b></td>
+<td>
+1. Preenchimento das vagas de seu quadro funcional.<br>
+2. Fazer parte de um programa que promove cidadania.<br>
+3. Publicar e gerenciar vagas de emprego.<br>
+4. Acesso a página de candidatos que atendam suas necessidades especificas.<br> 
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Personas
 
@@ -27,23 +71,25 @@ Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos 
 >
 Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
 
+
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Ana Clara  | Uma forma de identificar se uma agência é realmente confiável           | Me sentir mais segura ao contratar seus serviços               |
-|Ana Clara       | Ter um mecanismo eficiente e rápido de comunicação                 | Que eu possa sanar todas as minhas dúvidas rapidamente |
+|Refugiado          |Criar um perfil no sistema   | Para me candidatar as vagas |
+|Refugiado          |Encontrar vagas de emprego  | Candidatar a vagas disponíveis|
+|Refugiado          |Me inscrever em cursos de idioma oferecidos pelo sistema  | Melhorar minhas habilidades linguísticas e facilitar minha integração |
+|Refugiado          |Criar e editar meu currículo  | Para atualizar minhas informações |
+|Refugiado          |Receber notificações de novas vagas de emprego | Para aproveitar oportunidades recém cadastradas |
+|Refugiado          |Receber alerta de entrevista | Saber quando a empresa confirmar entrevista |
+|Refugiado          |Consultar as Ongs disponíveis para suporte das minhas dificuldades | Receber auxilio nos problemas enfrentados no país |
+|Empregador   |Publicar vagas de emprego na plataforma  | Contratar novos profissionais |
+|Empregador   |Filtrar candidatos com base em habilidades e experiências | Realizar uma melhor escolha do candidato que melhor se encaixe na vaga   |
+|Empregador   |Fazer parte das empresas parceiras do projeto | Ajudar na redução das desigualdades no mercado de trabalho |
+|Empregador   |Excluir vaga que já foi preenchida  | Correção de erros |
+|Empregador   |Editar vagas e competências   | Escolher o curso certo |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
