@@ -74,6 +74,7 @@ Lembre-se que você deve ser enumerar e descrever precisamente e personalizada t
 
 ## Histórias de Usuários
 
+Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
@@ -99,31 +100,35 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação deve permitir que o usuário avalie uma agência de intercâmbio com base na sua experiência| ALTA | 
-|RF-002| A aplicação deve permitir que o usuário inclua comentários ao fazer uma avaliação de uma agência de intercâmbio    | ALTA |
-|RF-003| A aplicação deve permitir que o usuário consulte todas as agências de intercâmbio cadastradas ordenando-as com base em suas notas | ALTA |
+|RF-001| O site deve permitir gerenciar usuário  | ALTA | 
+|RF-002| Permitir fazer pesquisas de vagas disponíveis  | ALTA |
+|RF-003| Realizar a indicação de cursos   | ALTA |
+|RF-004| Permitir a criação de currículos com base no cadastro     | MÉDIA |
+|RF-005| Notificar usuário sobre novas vagas    | MÉDIA |
+|RF-006| Notificar usuário sobre entrevista     | MÉDIA |
+|RF-007| Permitir consultas de ONGS regulamentadas para capacitação    | ALTA |
+|RF-008| Permitir que a empresa cadastre vagas de emprego    | ALTA |
+|RF-009| Permitir a empresa filtrar candidatos     | ALTA |
+|RF-010| Exibir lista de empresas parceiras do projeto    | MÉDIA |
+|RF-011| Permitir que a empresa exclua a vaga já preenchida    | ALTA |
+|RF-012| Permitir que a empresa edite a vaga divulgada no sistema    | ALTA |
+
+**Prioridade: Alta / Média / Baixa.
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| A aplicação deve ser responsiva | MÉDIA | 
-|RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O sistema deve garantir a segurança e privacidade dos dados dos usuários  | ALTA | 
+|RNF-002| A aplicação deve ter visualização responsiva adequada em desktops, tablets e celulares  |  MÉDIA | 
+|RNF-003| Compatibilidade com sistemas operacionais (Windows, Linux, IOS e Android)   | ALTA |
+|RNF-004| O site deve ser compatível com os principais navegadores Google Chrome, Firefox e Microsoft Edge    | ALTA |
+|RNF-005| A Aplicação deve funcionar 7 dias por semana e em 24 horas     | ALTA |
+|RNF-006| O sistema deve permitir migrar para novas plataformas     | MÉDIA |
+|RNF-007| O sistema deve se recuperar de falhas no máximo em 2 segundos    | ALTA |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
+**Prioridade: Alta / Média / Baixa.
 
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
@@ -143,13 +148,4 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 
 ## Diagrama de Casos de Uso
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
-
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
-
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
+![casoDeUsoJobRefugio](https://github.com/user-attachments/assets/45bcfdca-26d5-479c-9c05-bcefa0b31464)
