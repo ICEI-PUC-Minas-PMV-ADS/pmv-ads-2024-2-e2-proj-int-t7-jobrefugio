@@ -1,25 +1,25 @@
-# TÍTULO DO PROJETO
+# JOBREFUGIO
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas - PUC Minas`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de uma Aplicação Interativa - 2024/2`
 
-`SEMESTRE`
+`Eixo 2`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Este projeto consiste de uma aplicação interativa que fornece vagas de emprego e informações adicionais sobre o mercado de trabalho brasileiro especificamente para cidadãos refugiados no Brasil.
 
 ## Integrantes
 
+* Bruno Monteiro Lima 
 * Graziela Nunes Caldeira 
 * Julia Guedes Pereira 
 * Lucas Rangel Pereira de Sousa 
 * Nizia Oliveira Santos
 * Rafael Ribeiro Bastos
-* Bruno Monteiro Lima 
 
 ## Orientador
 
-* Nome completo do professor 1
+* Bernardo Jeunon de Alencar
 
 ## Instruções de utilização
 
