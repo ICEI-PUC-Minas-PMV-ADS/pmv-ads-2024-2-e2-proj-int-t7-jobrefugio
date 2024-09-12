@@ -149,4 +149,5 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 
 ## Diagrama de Casos de Uso
 
-![casoDeUsoJobRefugio](https://github.com/user-attachments/assets/45bcfdca-26d5-479c-9c05-bcefa0b31464)
+![diagramaCasoDeUsoJobRefugio](https://github.com/user-attachments/assets/74d475c0-2c29-45be-8283-c187d67e8f35)
+
