@@ -52,13 +52,17 @@ A equipe utiliza metodologias ágeis, escolhendo o Scrum como base para o proces
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+A equipe está utilizando o GitHub para organização e estruturação das tarefas do projeto, com as seguintes listas:
+
+- **Product Backlog:** Recebe as tarefas a serem trabalhadas e representa o Backlog do produto. Todas as atividades identificadas no decorrer do projeto são adicionadas a esta lista.
+- **To Do:** Esta lista representa o Sprint Backlog que está sendo trabalhado.
+- **In progress:** Lista das tarefas iniciadas.
+- **Done:** Nesta lista são adicionadas as tarefas finalizadas e as que passaram pelos testes e controle de qualidade, prontas para serem entregues aos usuários.
+
+O quadro kanban no GitHub está disponível no link https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1333/views/1 e é apresentado, no estado atual, na figura abaixo:
+
+![QuadroKanbanJobRefugio](https://github.com/user-attachments/assets/b7d940f4-6fe6-4214-90bc-b829d28d4042)
+
 
 ### Ferramentas
 
