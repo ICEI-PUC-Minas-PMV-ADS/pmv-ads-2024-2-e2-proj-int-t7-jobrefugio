@@ -40,8 +40,8 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 ### Divisão de Papéis
 
 A equipe utiliza metodologias ágeis, escolhendo o Scrum como base para o processo de desenvolvimento. A equipe está organizada da seguinte maneira:
-- Scrum Master:
-- Product Owner:
+- Scrum Master: Julia Guedes Pereira
+- Product Owner: Bruno Monteiro Lima
 - Equipe de Desenvolvimento:
   - Bruno Monteiro Lima
   - Graziela Nunes Caldeira
