@@ -103,16 +103,18 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----|
 |RF-001| O site deve permitir gerenciar usuário  | ALTA | 
 |RF-002| Permitir fazer pesquisas de vagas disponíveis  | ALTA |
-|RF-003| Realizar a indicação de cursos   | ALTA |
-|RF-004| Permitir a criação de currículos com base no cadastro     | MÉDIA |
-|RF-005| Notificar usuário sobre novas vagas    | MÉDIA |
-|RF-006| Notificar usuário sobre entrevista     | MÉDIA |
-|RF-007| Permitir consultas de ONGS regulamentadas para capacitação    | ALTA |
-|RF-008| Permitir que a empresa cadastre vagas de emprego    | ALTA |
-|RF-009| Permitir a empresa filtrar candidatos     | ALTA |
+|RF-003| O site deve permitir que usuário gerencie seus dados cadastrados | ALTA |
+|RF-004| Permitir que o candidato crie currículo  | ALTA |
+|RF-005| Permitir que candidato edite informações do curriculo  | MÉDIA |
+|RF-006| O site deve permitir que usuário candidatar a vagas | ALTA |
+|RF-007| O site deve permitir que candidato visualize informações da vaga | MÉDIA |
+|RF-008| Permitir candidato visualize status da candidatura    | MÉDIA |
+|RF-009| Permitir que candidato visualize as vagas que inscreveu    | MÉDIA |
 |RF-010| Exibir lista de empresas parceiras do projeto    | MÉDIA |
-|RF-011| Permitir que a empresa exclua a vaga já preenchida    | ALTA |
+|RF-011| Permitir que a empresa cadastre vagas de emprego    | ALTA |
 |RF-012| Permitir que a empresa edite a vaga divulgada no sistema    | ALTA |
+|RF-013| Permitir que a empresa exclua a vaga já preenchida | ALTA |
+|RF-014| Permitir a empresa filtrar candidatos   | MÉDIA |
 
 **Prioridade: Alta / Média / Baixa.
 
@@ -124,9 +126,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-002| A aplicação deve ter visualização responsiva adequada em desktops, tablets e celulares  |  MÉDIA | 
 |RNF-003| Compatibilidade com sistemas operacionais (Windows, Linux, IOS e Android)   | ALTA |
 |RNF-004| O site deve ser compatível com os principais navegadores Google Chrome, Firefox e Microsoft Edge    | ALTA |
-|RNF-005| A Aplicação deve funcionar 7 dias por semana e em 24 horas     | ALTA |
-|RNF-006| O sistema deve permitir migrar para novas plataformas     | MÉDIA |
-|RNF-007| O sistema deve se recuperar de falhas no máximo em 2 segundos    | ALTA |
+|RNF-005| O sistema deve permitir migrar para novas plataformas     | MÉDIA |
 
 **Prioridade: Alta / Média / Baixa.
 
@@ -137,8 +137,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|01| O projeto deverá ser entregue no final do semestre letivo |
+|02| O aplicativo deve empregar as tecnologias básicas da Web tanto no Frontend e Backend. |
 
 
 
