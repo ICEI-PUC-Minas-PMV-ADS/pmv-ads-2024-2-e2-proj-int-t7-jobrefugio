@@ -22,33 +22,20 @@ Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
 
 - `documentation`: melhorias ou acréscimos à documentação
+- `project management`: atualizações de gerência do projeto
 - `bug`: uma funcionalidade encontra-se com problemas
+- `development`: desenvolvimento de funcionalidade
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
-
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
-
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
 
 ## Gerenciamento de Projeto
 
 ### Divisão de Papéis
 
 A equipe utiliza metodologias ágeis, escolhendo o Scrum como base para o processo de desenvolvimento. A equipe está organizada da seguinte maneira:
-- Scrum Master: Julia Guedes Pereira
-- Product Owner: Bruno Monteiro Lima
-- Equipe de Desenvolvimento:
-  - Bruno Monteiro Lima
-  - Graziela Nunes Caldeira
-  - Julia Guedes Pereira
-  - Lucas Rangel Pereira de Sousa
-  - Nizia Oliveira Santos
-  - Rafael Ribeiro Bastos
+- **Scrum Master:** Julia Guedes Pereira.
+- **Product Owner:** Bruno Monteiro Lima.
+- **Equipe de Desenvolvimento:** Bruno Monteiro Lima, Graziela Nunes Caldeira, Julia Guedes Pereira, Lucas Rangel Pereira de Sousa, Nizia Oliveira Santos, Rafael Ribeiro Bastos.
 
 ### Processo
 
