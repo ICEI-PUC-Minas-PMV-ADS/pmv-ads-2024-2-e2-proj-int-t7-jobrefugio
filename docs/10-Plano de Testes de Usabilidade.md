@@ -1,15 +1,41 @@
 # Plano de Testes de Usabilidade
+ 
+| **Caso de Teste** 	| **CT-01 – Segurança e Privacidade de dados ** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RNF-001 -O sistema deve garantir a segurança e privacidade dos dados dos usuários. |
+| Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Clicar em "Criar conta" <br> - Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular, CPF, senha, confirmação de senha) <br> - Aceitar os termos de uso <br> - Clicar em "Registrar" |
+|Critério de Êxito | - O cadastro foi realizado com sucesso. |
+|  	|  	|
 
-Os testes de usabilidade permitem avaliar a qualidade da interface com o usuário da aplicação interativa.
+| **Caso de Teste** 	| **CT-02 – Responsividade da pagina ** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RNF-002 - A aplicação deve ter visualização responsiva adequada em desktops, tablets e celulares. |
+| Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Clicar em "Criar conta" <br> - Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular, CPF, senha, confirmação de senha) <br> - Aceitar os termos de uso <br> - Clicar em "Registrar" |
+|Critério de Êxito | - O cadastro foi realizado com sucesso. |
+|  	|  	|
 
-Um plano de teste de usabilidade deverá conter: o detalhamento dos objetivos (ou cenários) em função dos requisitos levantados/implementados, dos critérios que serão utilizados para a seleção dos participantes, dos procedimentos a serem adotados pelos condutores de teste (por exemplo: os testes serão presenciais ou remotos? o método será observação direta, medição ou avaliação?), dos dados a serem coletados (quantidade de cliques, número de erros, tempo etc.), da ordem de execução das tarefas e das etapas da sessão de teste, recursos demandados, métricas coletadas etc.
+| **Caso de Teste** 	| **CT-03 – Compatibilidade** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RNF-003 -Compatibilidade com sistemas operacionais (Windows, Linux, IOS e Android). |
+| Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Clicar em "Criar conta" <br> - Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular, CPF, senha, confirmação de senha) <br> - Aceitar os termos de uso <br> - Clicar em "Registrar" |
+|Critério de Êxito | - O cadastro foi realizado com sucesso. |
+|  	|  	|
 
-Para cada voluntário do teste, é fundamental coletar e apresentar todos os dados/métricas previamente definidos, mas não se esqueça: atendendo à LGPD (Lei Geral de Proteção de Dados), nenhum dado sensível, que permita identificar o voluntário, deverá ser apresentado).
+| **Caso de Teste** 	| **CT-04 – Compatibilidade com navegadores** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RNF-004 - O site deve ser compatível com os principais navegadores Google Chrome, Firefox e Microsoft Edge. |
+| Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Clicar em "Criar conta" <br> - Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular, CPF, senha, confirmação de senha) <br> - Aceitar os termos de uso <br> - Clicar em "Registrar" |
+|Critério de Êxito | - O cadastro foi realizado com sucesso. |
+|  	|  	|
 
-As referências abaixo irão auxiliá-lo na geração do artefato "Plano de Testes de Usabilidade".
-
-> **Links Úteis**:
-> - [Teste De Usabilidade: O Que É e Como Fazer Passo a Passo (neilpatel.com)](https://neilpatel.com/br/blog/teste-de-usabilidade/)
-> - [Teste de usabilidade: tudo o que você precisa saber! | by Jon Vieira | Aela.io | Medium](https://medium.com/aela/teste-de-usabilidade-o-que-voc%C3%AA-precisa-saber-39a36343d9a6/)
-> - [Planejando testes de usabilidade: o que (e o que não) fazer | iMasters](https://imasters.com.br/design-ux/planejando-testes-de-usabilidade-o-que-e-o-que-nao-fazer/)
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+| **Caso de Teste** 	| **CT-05 –Gerenciamneto de usuarios ** 	|
+|:---:	|:---:	|
+|	Requisito Associado 	| RNF-005 - O site deve permitir gerenciar usuário. |
+| Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Clicar em "Criar conta" <br> - Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular, CPF, senha, confirmação de senha) <br> - Aceitar os termos de uso <br> - Clicar em "Registrar" |
+|Critério de Êxito | - O cadastro foi realizado com sucesso. |
+|  	|  	|
