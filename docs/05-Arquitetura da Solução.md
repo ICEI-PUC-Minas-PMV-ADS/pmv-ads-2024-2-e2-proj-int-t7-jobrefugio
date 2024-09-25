@@ -8,26 +8,30 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
-![Diagrama de classes (1)](https://github.com/user-attachments/assets/09be366c-0e72-4bb7-9878-c3d7098017f2)
+![Diagrama de Classe](https://github.com/user-attachments/assets/1bb6a63e-d612-4cac-b1b4-f49608d731a2)
 
 
-> - [Acesse esse diagrama no LucidChart](https://lucid.app/lucidchart/50a5acee-b50d-405d-9308-9005eb7c2c5c/edit?viewport_loc=-580%2C-1533%2C2208%2C1101%2C0_0&invitationId=inv_407dc452-685b-4c27-b3d3-549ef462135f)
+
+> - [Acesse esse diagrama no LucidChart](https://lucid.app/lucidchart/141f07c4-2890-4d94-9557-14f768f92d9d/edit?viewport_loc=-480%2C-94%2C666%2C2008%2C0_0&invitationId=inv_b4ae7e4c-6370-4286-ac57-ce82db47f3f6)
 
 ## Modelo ER (Projeto Conceitual)
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
-Sugestão de ferramentas para geração deste artefato: LucidChart e Draw.io.
+![Exemplo de diagrama ER2 (1)](https://github.com/user-attachments/assets/724de0be-2e47-4c3c-ac2e-a23492b96a39)
 
-A referência abaixo irá auxiliá-lo na geração do artefato “Modelo ER”.
 
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
+
+> - [Acesse esse diagrama no LucidChart](https://lucid.app/lucidchart/39fcd288-4154-4af5-ba36-ca169a180f85/edit?viewport_loc=-482%2C-257%2C1468%2C2994%2C0_0&invitationId=inv_7de2d0be-7c7e-4b16-ad9a-07f8266dfe5b)
 
 ## Projeto da Base de Dados
 
 O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
  
-Para mais informações, consulte o microfundamento "Modelagem de Dados".
+![Base Dados (1)](https://github.com/user-attachments/assets/6d551cc6-d4d0-4598-966a-0b9221a4bca1)
+
+
+> - [Acesse esse diagrama no LucidChart](https://lucid.app/lucidchart/d8da34d6-263e-401f-b06d-2341092ff27d/edit?viewport_loc=-1305%2C-1108%2C1088%2C2219%2C0_0&invitationId=inv_f84c5a0c-7091-47dd-9049-2bd22be0fc72)
 
 ## Tecnologias Utilizadas
 
