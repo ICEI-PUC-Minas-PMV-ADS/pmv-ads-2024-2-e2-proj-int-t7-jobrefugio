@@ -1,41 +1,66 @@
 # Plano de Testes de Usabilidade
+
+## 1. Objetivo do Teste
+
+O objetivo é avaliar a usabilidade do site, suas funcionalidades, layouts, facilitando a experiência do usuário no cadastro de vagas e busca por empregado. Oferecer uma plataforma acessível que conecte os refigiados a oportunidades de trabalho relevantes.
  
-| **Caso de Teste** 	| **CT-01 – Segurança e Privacidade de dados ** 	|
-|:---:	|:---:	|
-|	Requisito Associado 	| RNF-001 -O sistema deve garantir a segurança e privacidade dos dados dos usuários. |
-| Objetivo do Teste 	| Verificar a autenticação do usuario com as informações  de login em sua conta . |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Clicar em "Fazer login" <br> - Preencher os campos obrigatórios (e-mail, senha) <br> - |
-|Critério de Êxito | - entrar com sucesso no sistema com as informações corretas de login . <br> - não conseguir entrar com as informações corretas ou vazias de login |
-|  	|  	|
+## 2. Participantes
 
-| **Caso de Teste** 	| **CT-02 – Responsividade da pagina ** 	|
-|:---:	|:---:	|
-|	Requisito Associado 	| RNF-002 - A aplicação deve ter visualização responsiva adequada em desktops, tablets e celulares. |
-| Objetivo do Teste 	| Verificar se o site se adapta a diferentes dispositivos . |
-| Passos 	| - Acessar o navegador <br> - alterar o tamanho da janela do navegador para testar os tamnhos similares para desktop, tablets e celulares <br> - Verificar se os elementos da pagina se adaptam as mudanças de tamamho da tela   |
-|Critério de Êxito | - A interface deve se adaptar aos diferentes tamanhos de tela e que os elementos continuem visiveis e utilizáveis . |
-|  	|  	|
+Serão recrutados 20 participantes representativos do público-alvo, incluindo refugiados e empregadores para avaliar a navegabilidade do site. Serão divididos em dois grupos: 
+- Candidatos: irá avalidar as funcionalidades de inclusão de curriculos e candidatar a vagas.
+- Empregador: para avaliar as funcionalidades de cadastro de vagas e candidatos inscritos nas vagas divulgadas.
 
-| **Caso de Teste** 	| **CT-03 – Compatibilidade com Sistemas Operacionais ** 	|
-|:---:	|:---:	|
-|	Requisito Associado 	| RNF-003 -Compatibilidade com sistemas operacionais (Windows, Linux, IOS e Android). |
-| Objetivo do Teste 	| Verificar se o site consegue abrir em diferentes sistemas operacionais . |
-| Passos 	| - Acessar o sistema utilizando  (Windows, Linux, IOS e Android)  <br> - Verificar se todas as funcionalidades operam corretamente em cada sistema <br> -  |
-|Critério de Êxito | - Todas as funcionalidades do sistema , devem estar disponiveis e funcionar corretamente nos sistemas (Windows, Linux, IOS e Android) sem apresentar problemas de compatibilidade . |
-|  	|  	|
+## 3. Procedimentos:
+Os testes serão realizados através de vídeo chamada para avaliar o comportamento dos usuários durante a interação do site. Serão fornecidas instruções claras sobre as tarefas a serem realizadas e os participantes serão solicitados a registrar suas experiências e feedback de forma detalhada frente aos testes realizados. Deverão preencher formulários online ou ferramentas de feedback específicas. Esta abordagem permitirá uma coleta eficiente de dados, garantindo a participação de um número maior de usuários, mesmo em condições adversas.
 
-| **Caso de Teste** 	| **CT-04 – Compatibilidade com navegadores** 	|
-|:---:	|:---:	|
-|	Requisito Associado 	| RNF-004 - O site deve ser compatível com os principais navegadores Google Chrome, Firefox e Microsoft Edge. |
-| Objetivo do Teste 	| Verificar se o site consegue abrir em diferentes navegadores. |
-| Passos 	| - Acessar o sistema utilizando  os principais navegadores Google Chrome, Firefox e Microsoft Edge  <br> - Verificar se todas as funcionalidades operam corretamente em cada sistema <br> -  |
-|Critério de Êxito | -Todas as funcionalidades do sistema , devem estar disponiveis e funcionar corretamente nos sistemas  Google Chrome, Firefox e Microsoft Edge |
-|  	|  	|
+## 4. Recursos Demandados:
+- Formulário digital com as tarefas a serem testadas pelos participantes.
+- Pesquisa de satisfação após a realização dos teste.
+- Equipe resposável para acompanhar os testes e fazer as observações e avaliações do processo.
 
-| **Caso de Teste** 	| **CT-05 – Migração entre plataformas ** 	|
-|:---:	|:---:	|
-|	Requisito Associado 	| RNF-005 - O sistema deve permitir migrar para novas plataformas |
-| Objetivo do Teste 	| Validar que o sistema é capaz de migrar corretamente para novas plataformas. |
-| Passos 	|  - Acessar nova plataforma  <br> - testar se todas as funcionalidades estão em conformidade |
-|Critério de Êxito | - Todas as funcionalidades devem funcionar conforme o esperado. |
-|  	|  	|
+## 5. Tarefas a Serem Executadas:
+1. Realizar o cadastro no site.
+2. Fazer login na conta criada.
+3. Editar dados pessoais do candidato
+4. Fazer cadastro de curríclo.
+5. Editar os dados do curriculo.
+6. Candidato cadatrar em uma vaga.
+7. Candidato consultar as vagas inscritas
+8. Pesquisar as vagas disponíveis.
+9. Editar dados pessoais da empresa.
+10. Empregador fazer o cadastro de vagas.
+11. Empregador irá edita vagas
+12. Empregador irá excluir vagas.
+13. Pesquisar por candidatos inscritos.
+14. Finalizar vagas preenchidas.
+15. Consultar informações na guia do refugiado.
+
+## 6. Questionário de avaliação:
+- Você conseguiu encontrar facilmente onde criar seu perfil?
+- Como você avaliaria a quantidade de informações	fornecidas nas descrições das vagas?
+- Você teve dificuldades ao preencher a	candidatura? O que poderia ser melhorado?
+- Como você avaliaria a navegação geral do site? Foi intuitiva?
+- O que você mudaria no site para melhorar sua experiência?
+- Quais filtros você utilizou na busca de empregos? Eles foram eficazes?
+
+## 7. Métricas a Serem Coletadas:
+- Taxa de conclusão de tarefas.
+- Tempo gasto em cada tarefa.
+- Número de cliques e erros.
+- Satisfação do usuário.
+- Taxa de abandono.
+- Comentários qualitativos sobre a experiência geral do usuário.
+
+## 8. Ordem de Execução das Tarefas e Etapas da Sessão de Teste:
+- As tarefas serão apresentadas aos participantes na ordem listada no item 5.
+- Cada participante realizará as tarefas em sua própria velocidade, enquanto coletamos e registramos os resultados.
+- Apuração e análise dos resultados obtidos.
+
+## 9. Respeito à LGPD:
+Todos os dados coletados dos participantes serão anonimizados e tratados de acordo com as diretrizes da LGPD.
+
+## 10. Cronograma:
+Os testes de usabilidade serão durante 15 dias, com duas sessões por dia. Na primeira semana será avalidado os candidatos e na segunda o empregador.
+
+## 11. Relatório de Resultados:
+Um relatório detalhado será elaborado após a conclusão dos testes, incluindo análise quantitativa e qualitativa dos resultados, problemas identificados e recomendações de melhoria.
