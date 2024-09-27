@@ -46,7 +46,7 @@ A equipe está utilizando o GitHub para organização e estruturação das taref
 - **In progress:** Lista das tarefas iniciadas.
 - **Done:** Nesta lista são adicionadas as tarefas finalizadas e as que passaram pelos testes e controle de qualidade, prontas para serem entregues aos usuários.
 
-O quadro kanban no GitHub está disponível no link https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1333/views/1 e é apresentado, no estado atual, na figura abaixo:
+O quadro kanban no GitHub está disponível neste [link](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1333/views/1) e é apresentado, no estado atual, na figura abaixo:
 
 <figure> 
   <img src="/docs/img/kanban.png">
@@ -66,7 +66,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 | AMBIENTE | PLATAFORMA |LINK DE ACESSO                 |
 |--------------------|--------------------------------------------------------------------------------|----------------------------------------|
-|Documentos do projeto | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/tree/main/docs |
-|Repositório de código fonte  | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio  |
-|Projeto de interface e wireframes | MarvelApp | https://marvelapp.com/prototype/fda496i/screen/95488794 |
-|Gerenciamento do projeto  | GitHub | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1333 |
+|Documentos do projeto | GitHub | [link](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/tree/main/docs) |
+|Repositório de código fonte  | GitHub | [link](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio)  |
+|Projeto de interface e wireframes | MarvelApp | [link](https://marvelapp.com/prototype/fda496i/screen/95488794) |
+|Gerenciamento do projeto  | GitHub | [link](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1333) |
