@@ -1,29 +1,26 @@
 message: Please cite this software using these metadata.
-title:
+title: JobRefugio
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
+  - family-names: Monteiro Lima
+    given-names: Bruno
+  - family-names: Nunes Caldeira
+    given-names: Graziela
+  - family-names: Guedes Pereira
+    given-names: Julia
+  - family-names: Rangel Pereira de Sousa
+    given-names: Lucas
+  - family-names: Oliveira Santos
+    given-names: Nizia
+  - family-names: Ribeiro Bastos
+    given-names: Rafael
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
-  - name-suffix: Professor
-    affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Jeunon de Alencar
+    given-names: Bernardo
 keywords:
-  - 
-  - 
-repository-code: 
+  - Emprego
+  - Refugiados
+  - Inclusão
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio
 version: 1.0.0
-date-released: 2023-10-31
+date-released: 2024-09-28
