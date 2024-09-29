@@ -69,6 +69,10 @@ Tela para o candidato consultar vagas ofertadas
 
 <img src ="/docs/img/VAGAS.PNG">
 
+Tela com a descrição da vaga
+
+<img src ="/docs/img/DESCRICAO DA VAGA.PNG">
+
 Tela do candidato para consulta do status das vagas de sua candidatura
 
 <img src ="/docs/img/VAGAS INSCRITAS PELO CANDIDATO.PNG"> 
