@@ -13,6 +13,9 @@ O diagrama abaixo apresenta o fluxo de interação dos usuários com o sistema, 
 
 O wireframe do projeto foi desenvolvido pensando no design de interface de cada tela e as necessidades das histórias dos usuários.
 
+![Interface](https://github.com/user-attachments/assets/366e5afc-df78-4a34-8899-38a79717c84c)
+
+
 ### Tela - Home
 A tela Home da aplicação será onde os usuários poderão interagir com o site, a página foi dividida em cabeçalho, conteúdo e rodapé. No cabeçalho consta a logo no lado esquerdo, botões para remeter o usuario para outras paginas da aplicação e no lado direito tem a opção de fazer o cadastro ou login para os usuários.
 
