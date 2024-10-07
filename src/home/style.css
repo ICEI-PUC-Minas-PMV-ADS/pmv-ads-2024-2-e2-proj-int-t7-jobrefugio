@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 main{
-    height: 1800px;
+    height: 1400px;
 }
 #logo {
     width: 80px;
@@ -96,7 +96,7 @@ header{
   }
   .drop{
     display: none;
-    background-color: #58BF18;
+    background-color: #2CC4EA;
     padding: 1%;
     box-shadow: 0 10px 10px rgba(0,0,0,0.05);
 }
