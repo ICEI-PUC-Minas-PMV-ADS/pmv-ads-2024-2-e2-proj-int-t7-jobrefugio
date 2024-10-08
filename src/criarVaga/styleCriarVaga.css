@@ -1,0 +1,71 @@
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 50px ;
+}
+
+
+h1 {
+    text-align: left ;
+    margin-bottom: 3%;
+}    
+
+label {
+    margin-top: 2px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 7px 0 2px;
+    border: 1px solid #000000;
+    border-radius: 0px;
+    background-color: #efefef;
+    
+}
+
+button {
+    width: 25%;
+    padding: 10px;
+    background-color: #a6aba7;
+    color: rgb(82, 79, 79);
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-inline: 39%;
+}
+
+#local {
+    width: 60%;
+}
+
+#contratacao {
+    width: 39%;
+    margin-right:  0;
+}
+
+#regime{
+    width: 60%
+}
+
+#box{
+    width: 10%;
+}
+
+#labelbox{
+    width: 20%;
+}
