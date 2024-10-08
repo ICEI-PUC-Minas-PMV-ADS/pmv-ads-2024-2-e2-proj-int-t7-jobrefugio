@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JobRefugio</title>
     <link rel="stylesheet" href="../home/style.css">
+    <link rel="stylesheet" href="../perfilEmpregador/style_Perfil_Empregador.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
@@ -20,29 +21,51 @@
 <body>
     <header>
         <div class="nav">
-        <div class="logo">
-            <a href="index.html" ><img id="logo" src="Logo_.png" alt="logo JobRefugio"></a>
+            <div class="logo">
+                <a href="index.html" ><img id="logo" src="Logo_.png" alt="logo JobRefugio"></a>
+            </div>
+            <div class="menu">
+                <ul class="menu_horizontal">
+                    <li class="itemMenu"><a href="#" class="link-item-menu">Home</a></li>
+                    <li class="itemMenu"><a href="#" class="link-item-menu">Vagas</a></li>
+                    <li class="itemMenu"><a href="#" class="link-item-menu">Guia Refugiado</a></li>
+                    <li class="itemMenu"><a href="#" class="link-item-menu">Sobre</a></li>
+                </ul>
+            </div>
+            <div class="perfil">
+                <a href="#"><img id="logo_perfil" src="perfil.png" alt="imagem representa perfil"></a>
+                <ul>
+                    <li class="drop"><a id="link_login" href="#">Login/Cadastrar</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="menu">
-            <ul class="menu_horizontal">
-                <li class="itemMenu"><a href="#" class="link-item-menu">Home</a></li>
-                <li class="itemMenu"><a href="#" class="link-item-menu">Vagas</a></li>
-                <li class="itemMenu"><a href="#" class="link-item-menu">Guia Refugiado</a></li>
-                <li class="itemMenu"><a href="#" class="link-item-menu">Sobre</a></li>
-            </ul>
-        </div>
-        <div class="perfil">
-            <a href="#"><img id="logo_perfil" src="perfil.png" alt="imagem representa perfil"></a>
-            <ul>
-                <li class="drop"><a id="link_login" href="#">Login/Cadastrar</a></li>
-            </ul>
-        </div>
-    </div>
     </header>
 
-    <main>
-
-        
+    <main> 
+        <div class="content">
+            <!--banner-->
+            <section class="banner"></section>
+             <!--Menu Lateral-->   
+            <aside id="menuLateral" class="menuLateral">
+                    <h1 id="hi">Olá, </h1> <!--incluir nome do empregador criando um Id-->
+                    <a class="linksLateral" href="#">Home</a>
+                    <a class="linksLateral" href="#">Gerenciar vagas</a>
+                    <a class="linksLateral" href="#">Procurar candidatos</a>
+            </aside>
+             <!--Cards tipo botão para acessar currículos e vagas anunciadas-->       
+                <div class="card">
+                    <h1 class="linkCard">Anunciar uma vaga</h1>
+                </div>
+                    
+                <div class="card">
+                    <h1 class="linkCard">Gerenciar vagas</h1>
+                </div>
+                    
+                <div class="card">
+                    <h1 class="linkCard">Candidatos</h1>
+                </div>
+        </div>     
     </main>
+   
 </body>
 </html>
