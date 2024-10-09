@@ -23,7 +23,7 @@ body{
     width: 100%; /*usa o zero para não mostrar, AJUSTAR PARA FIXO*/
     margin-left: 4%;
     border-radius: 12px;
-    background-color: #2cc4ea; /*alterar a cor para o padrão do site*/
+    background-color:rgb(107, 140, 189); /*alterar a cor para o padrão do site*/
     padding-top: 60px;  
 }
 
@@ -68,6 +68,6 @@ body{
     height: 50%;
     border-radius: 12px;
     box-shadow: 4px 4px 12px #aaaa;
-    background-color: #2cc4ea;
+    background-color: #5b6aee;
     border: 1px solid #2c78ea    
 }
