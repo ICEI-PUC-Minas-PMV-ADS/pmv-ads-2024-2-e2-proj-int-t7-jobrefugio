@@ -1,71 +1,104 @@
-body {
+main{
+    display: flex;
+    justify-content: center;
+    background-color: #dfe0e6b4;
+}
+.form_criar_vaga{
+    margin-top: 4%;
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    background-color: #ffff;
+    border-radius: 10px;
+    box-shadow: 4px 4px 12px #aaaa;
+}
+.contentForm{
+    display: flex;
+    flex-direction: column;
+}
+.titulo_form{
     font-family: "Inter", sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
+    font-size: 40px;
+    font-weight: 400;
+    padding: 1% 0 1% 0;
+    margin-bottom: 6%;
+    margin-left: 5%;
 }
-
-.container {
-    max-width: 800px;
-    margin: auto;
-    background: white;
-    padding: 50px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin-top: 50px ;
+textarea{
+    font-family: "Inter", sans-serif;
+    width: 90%;
+    height: 80px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    transition: all 0.5s ease;
+    margin: 1% 0 1%;
+    border-radius: 6px;
+    outline: none;
 }
-
-
-h1 {
-    text-align: left ;
-    margin-bottom: 3%;
-}    
-
-label {
-    margin-top: 2px;
-    font-weight: bold;
+input{
+    width: 90%;
+    height: 50px;
+    padding: 0 15px;
+    border: 1px solid #ccc;
+    transition: all 0.5s ease;
+    margin: 1% 0 1%;
+    border-radius: 6px;
+    outline: none;
 }
-
-input {
-    width: 100%;
-    padding: 10px;
-    margin: 7px 0 2px;
-    border: 1px solid #000000;
-    border-radius: 0px;
-    background-color: #efefef;
-    
+input:active{
+    border: 1px solid #2CC4EA;
 }
-
-button {
-    width: 25%;
-    padding: 10px;
-    background-color: #a6aba7;
-    color: rgb(82, 79, 79);
-    border: none;
-    border-radius: 0px;
-    cursor: pointer;
-    font-weight: bold;
-    margin-top: 5%;
-    margin-inline: 39%;
-}
-
-#local {
+#local{
     width: 60%;
 }
-
-#contratacao {
-    width: 39%;
-    margin-right:  0;
+#metodoContra{
+    width: 29.5%;
 }
-
-#regime{
-    width: 60%
+#regimeTra{
+    width: 60%;
 }
-
-#box{
-    width: 10%;
+#ladoVagaEsp{
+    width: 30%;
 }
-
-#labelbox{
-    width: 20%;
+#vagaEspecial{
+    width: 6%;
+    height: 100%;
+}
+#labeVagaEspecial{
+    font-family: "Inter", sans-serif;
+    font-size: 100%;
+}
+.divBotao{
+    display: flex;
+    justify-content: center;
+}
+#botaosubmit{
+    margin-top: 2%;
+    padding: 2% 10% 2% 10%;
+    background-color: #60BB46;
+    font-size: 16px;
+    border: none;
+    color: #ffff;
+    border-radius: 6px;
+    font-family: "Inter", sans-serif;
+    transition: 0.5s ease;
+}
+#botaosubmit:hover{
+    transition: 0.5s ease;
+    padding: 2% 11% 2% 11%;
+    cursor: pointer;
+}
+.inlineLocal{
+    display: inline;
+}
+.inlineRegimeTrabEspecial{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#baseline{
+    text-align: center;
 }

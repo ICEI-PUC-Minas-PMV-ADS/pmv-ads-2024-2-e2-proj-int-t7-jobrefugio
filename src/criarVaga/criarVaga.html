@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JobRefugio</title>
     <link rel="stylesheet" href="../home/style.css">
-    <link rel="stylesheet" href="../criarVaga/styleCriarVaga.css">
+    <link rel="stylesheet" href="styleCriarVaga.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
@@ -43,40 +43,39 @@
 
     <main>
 
-        <div class="container">
-            <h1>Crie uma Vaga</h1>
-            <form action="#" method="POST">
-                <label for="cargo"></label>
-                <input type="text" id="cargo" name="cargo" placeholder="Nome do cargo" required>
-    
-                <label for="local"></label>
-                <input type="text" id="local" name="local" placeholder="Local" required>
-    
-                <label for="contratacao"></label>
-                <input type="text" id="contratacao" name="contratacao" placeholder="Metodo de contratação" required>
-    
-                <label for="regime"></label>
-                <input type="text" id="regime" name="regime" placeholder="Regime de trabalho">
-    
-                <input type="checkbox" id="box" name="tipovaga" value="sim">
-                <label id="labelbox">Vaga para PcD</label>
-    
-                <label for="sobreempresa"></label>
-                <input type="text" id="sobreempresa" name="sobreempresa" placeholder="Sobre Empresa" required style="height: 70px;">
-    
-                <label for="descricaovaga"></label>
-                <input type="text" id="descricao" name="descricaovaga" placeholder="Descrição da vaga" required style="height: 70px;">
-    
-                <label for="requisitosequalificacoes"></label>
-                <input type="text" id="requisitosequalificacoes" name="requisitosequalificacoes" placeholder="Requisitos e qualificações" required style="height: 60px;">
-    
-                <label for="infoadd"></label>
-                <input type="text" id="infoadd" name="infoadd" placeholder="Informações adicionais" required style="height: 50px;">
-    
-                
-                <button type="submit">Salvar</button>
+        <div class="form_criar_vaga">
+                <h1 class="titulo_form">Crie uma Vaga</h1>
+            <form class="contentForm">
+                <div id="baseline">
+        
+                    <input type="text" id="nomeCargo" name="nomeCargo" placeholder="Nome do Cargo" required>
+        
+                    <div id="inlineLocal">
+                        <input type="text" id="local" name="local" placeholder="Local" required>
+        
+                        <input type="text" id="metodoContra" name="metodoContra" placeholder="Método de Contratação" required>
+                    </div>
+
+                    <div class="inlineRegimeTrabEspecial">
+
+                        <input type="text" id="regimeTra" name="regimeTra" placeholder="Regime de Trabalho" required>
+                        <div id="ladoVagaEsp">
+                            <input type="radio" id="vagaEspecial" name="vagaEspecial" required>
+                            <label id="labeVagaEspecial" for="vagaEspecial">Vaga para PcD</label>
+                        </div>
+                    </div>
+                    
+                    <textarea id="sobreEmpresa" name="sobreEmpresa" placeholder="Sobre a Empresa" required></textarea>
+        
+                    <textarea id="descVaga" name="descVaga" placeholder="Descrição da Vaga" required></textarea>
+        
+                    <textarea id="ReqEQualif" name="ReqEQualif" placeholder="Requisitos e Qualificações" required></textarea>
+        
+                    <textarea id="infoAdd" name="infoAdd" placeholder="Informaçâo Adicional" required></textarea>
+        
+                    <div class="divBotao"><button id="botaosubmit" type="submit">Salvar</button></div>
+                </div>
             </form>
-            
         </div>
         
     </main>
