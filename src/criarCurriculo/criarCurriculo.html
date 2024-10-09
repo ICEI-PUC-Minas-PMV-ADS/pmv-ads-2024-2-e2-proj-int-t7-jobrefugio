@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JobRefugio</title>
     <link rel="stylesheet" href="../home/style.css">
+    <link rel="stylesheet" href="styleCriarCurriculo.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
@@ -41,7 +42,47 @@
     </header>
 
     <main>
+        <div class="form_criar_curriculo">
+                <h1 class="titulo_form">Crie seu Currículo</h1>
+            <form class="contentForm">
+                <div id="baseline">
+        
+                    <input type="text" id="nome" name="nome" placeholder="Nome" required>
+        
+                    <div id="inlineIdadeNacioCidade">
+                        <input type="text" id="idade" name="idade" placeholder="Idade" required>
+        
+                        <input type="text" id="nacionalidade" name="nacionalidade" placeholder="Nacionalidade" required>
+        
+                        <input type="text" id="cidade" name="cidade" placeholder="Cidade" required>
+                    </div>
 
+                    <div class="inlineTelEmail">
+                        <input type="text" id="telefone" name="telefone" placeholder="Telefone" required>
+        
+                        <input type="text" id="email" name="email" placeholder="E-mail" required>
+                    </div>
+
+                    <textarea id="objetivoProf" name="objetivoProf" placeholder="Objetivo Profissional" required></textarea>
+        
+                    <textarea id="resumoQualific" name="resumoQualific" placeholder="Resumo das Qualificações"
+                        required></textarea>
+        
+                    <textarea id="principaisRealiz" name="principaisRealiz" placeholder="Principais Realizações"
+                        required></textarea>
+        
+                    <input type="text" id="formAcademica" name="formAcademica" placeholder="Formação Acadêmica" required>
+        
+                    <textarea id="expProf" name="expProf" placeholder="Experiência Profissional" required></textarea>
+        
+                    <textarea id="cursosCompIdiomas" name="cursosCompIdiomas" placeholder="Cursos Complementares e Idiomas"
+                        required></textarea>
+        
+                    <div class="divBotao"><button id="botaosubmit" type="submit">Salvar</button></div>
+                </div>
+            </form>
+        
+        </div>
         
     </main>
 </body>

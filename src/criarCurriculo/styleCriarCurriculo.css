@@ -1,0 +1,96 @@
+main{
+    display: flex;
+    justify-content: center;
+    background-color: #dfe0e6b4;
+}
+.form_criar_curriculo{
+    margin-top: 4%;
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    background-color: #ffff;
+    border-radius: 10px;
+    box-shadow: 4px 4px 12px #aaaa;
+}
+.contentForm{
+    display: flex;
+    flex-direction: column;
+}
+.titulo_form{
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    padding: 1% 0 1% 0;
+    margin-bottom: 6%;
+    margin-left: 5%;
+}
+textarea{
+    font-family: "Inter", sans-serif;
+    width: 90%;
+    height: 80px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    transition: all 0.5s ease;
+    margin: 1% 0 1%;
+    border-radius: 6px;
+    outline: none;
+}
+input{
+    width: 90%;
+    height: 50px;
+    padding: 0 15px;
+    border: 1px solid #ccc;
+    transition: all 0.5s ease;
+    margin: 1% 0 1%;
+    border-radius: 6px;
+    outline: none;
+}
+input:active{
+    border: 1px solid #2CC4EA;
+}
+#idade{
+    width: 9%;
+}
+#nacionalidade{
+    width: 30%;
+}
+#cidade{
+    width: 50%;
+}
+#telefone{
+    width: 39.5%;
+}
+#email{
+    width: 50%;
+}
+.divBotao{
+    display: flex;
+    justify-content: center;
+}
+#botaosubmit{
+    margin-top: 2%;
+    padding: 2% 10% 2% 10%;
+    background-color: #60BB46;
+    font-size: 16px;
+    border: none;
+    color: #ffff;
+    border-radius: 6px;
+    font-family: "Inter", sans-serif;
+    transition: 0.5s ease;
+}
+#botaosubmit:hover{
+    transition: 0.5s ease;
+    padding: 2% 11% 2% 11%;
+    cursor: pointer;
+}
+.inlineIdadeNacioCidade{
+    display: inline;
+}
+.inlineTelEmail{
+    display: inline;
+}
+#baseline{
+    text-align: center;
+}
