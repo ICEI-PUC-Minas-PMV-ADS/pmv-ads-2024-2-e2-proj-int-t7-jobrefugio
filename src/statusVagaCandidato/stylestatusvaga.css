@@ -1,0 +1,126 @@
+*{
+    font-family: "Inter", sans-serif ;
+}
+
+.candidatar{
+    background-color: #60BB46;
+    padding: 2% 5% 2% 5%;
+    border: none;
+    font-size:16px;
+    color: white;
+    border-radius: 6px;
+    margin-top: 50px;
+    
+    
+
+   
+}
+#Datap{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+body{
+    height: 1000px;
+}
+    
+.conteudo{
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 50px;
+
+}
+    
+
+.req {
+    margin-top: 30px;
+    margin-left: 30px;
+   
+    
+}
+.date{
+    margin-bottom: 10px;
+}
+.titulo{
+    padding-top: 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#informacaoAdicional{
+    margin-top: 30px;
+}
+#sobreAEmpresa{
+    margin-top: 30px;
+}
+#descricaoDaVaga{
+    margin-top: 30px;
+}
+.resumo1{
+    display:inline;
+    list-style-type: none;
+   
+    
+    
+}
+.resumo2{
+    display: inline;
+    list-style-type: none;
+    margin-left: 6%;
+    
+}
+.resumo{
+    display:inline-flex;
+    padding: 2%;
+    width: 100%;
+    
+    
+   
+    
+}
+.barra-progresso {
+    display:inline-flex;
+    margin-inline: 400px;
+    width: 41%;
+    height: 40px;
+    background-color: #e0e0e0;
+    border-radius: 2px;
+    overflow: hidden;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    
+}
+
+.fase {
+    flex: 1;
+    background-color: #ddd;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+    transition: background-color 0.3s;
+}
+
+.fase.ativo {
+    background-color: #60BB46;
+    
+    color: white;
+}
+
+.fase:not(.ativo):hover {
+    background-color: #bbb;
+}
+.fase::after {
+    content: '';
+    position:absolute;
+    top: 50%;
+    right: 0;
+    width: 0;
+    height: 0;
+    left: 0%;
+    border-left: 20px solid #e0e0e0; 
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    transform: translateY(-50%);
+}
+
+.fase:last-child::after {
+    display: none; 
+}
