@@ -10,12 +10,6 @@ main {
     height: 100vh;
 }
 
-.banner>img {
-    width: 70%;
-    max-width: 30%;
-    display: flex;
-}
-
 nav {
     width: 400px;
     height: 600px;
