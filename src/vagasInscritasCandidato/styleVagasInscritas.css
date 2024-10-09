@@ -1,0 +1,83 @@
+main {
+    font-family: "Inter", sans-serif;
+}
+
+.layout {
+    display: flex;
+    height: 100vh;
+}
+
+nav {
+    width: 400px;
+    height: 600px;
+    background-color: #ffffff;
+    border: 1px solid #333;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0px;
+    margin: 20px;
+    text-align: left;
+
+
+}
+
+.itemMenu {
+    padding: 10%;
+    margin-bottom: 17%;
+    display: inline-block;
+    font-size: 23px;
+    transition: 0.5s ease;
+    margin-top: 15px;
+}
+
+.itemMenu:hover {
+    font-size: 17px;
+}
+
+.link-item-menu {
+    text-decoration: none;
+    color: #000000;
+}
+
+.caixa {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    background-color: #ffffff;
+    border: 1px solid #333;
+    padding: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0px;
+    margin: 20px;
+    text-align: center;
+
+}
+
+h2 {
+    margin-top: 10%;
+    margin-inline: 25;
+}
+
+.barra-externa {
+    width: 40%;
+    background-color: #e0e0e0;
+    overflow: hidden;
+    height: 10px;
+    margin: 30px auto;
+
+}
+
+.barra-interna {
+    height: 100%;
+    width: 0;
+    background-color: #4adaea;
+    transition: width 0.3s;
+
+}
+
+button {
+    background-color: #e5e5e5;
+    border: 1px solid black;
+    width: 100px;
+    height: 25px;
+    cursor: pointer;
+}
