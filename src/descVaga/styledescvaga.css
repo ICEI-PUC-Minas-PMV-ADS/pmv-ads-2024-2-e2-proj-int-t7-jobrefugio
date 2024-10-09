@@ -1,0 +1,70 @@
+*{
+    font-family: "Inter", sans-serif ;
+}
+
+.candidatar{
+    background-color: #60BB46;
+    padding: 2% 5% 2% 5%;
+    border: none;
+    font-size:16px;
+    color: white;
+    border-radius: 6px;
+    margin-top: 50px;
+    
+    
+
+   
+}
+#Datap{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+body{
+    height: 1000px;
+}
+    
+.conteudo{
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 50px;
+
+}
+    
+#Requisitos{
+    margin-top: 30px;
+}
+.titulo{
+    padding-top: 30px;
+    margin-top: 30px;
+}
+#informacaoAdicional{
+    margin-top: 30px;
+}
+#sobreAEmpresa{
+    margin-top: 30px;
+}
+#descricaoDaVaga{
+    margin-top: 30px;
+}
+.resumo1{
+    display:inline;
+    list-style-type: none;
+   
+    
+    
+}
+.resumo2{
+    display: inline;
+    list-style-type: none;
+    margin-left: 6%;
+    
+}
+.resumo{
+    display:inline-flex;
+    padding: 2%;
+    width: 100%;
+    
+    
+   
+    
+}
