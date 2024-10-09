@@ -1,8 +1,5 @@
 main {
     font-family: "Inter", sans-serif;
-    margin: 0px;
-    padding: 0px;
-
 }
 
 .layout {
@@ -80,4 +77,7 @@ h2 {
 button {
     background-color: #e5e5e5;
     border: 1px solid black;
+    width: 100px;
+    height: 25px;
+    cursor: pointer;
 }
