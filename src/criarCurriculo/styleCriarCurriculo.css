@@ -94,3 +94,28 @@ input:active{
 #baseline{
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    .form_criar_curriculo {
+        width: 100%;
+        height: 100%;
+    }
+    #idade{
+        width: 16%;
+    }
+    #nacionalidade{
+        width: 30%;
+    }
+    #cidade{
+        width: 43%;
+    }
+    #telefone{
+        width: 39.5%;
+    }
+    #email{
+        width: 50%;
+    }
+    main{
+        background-color: #ffff;
+    }
+}
