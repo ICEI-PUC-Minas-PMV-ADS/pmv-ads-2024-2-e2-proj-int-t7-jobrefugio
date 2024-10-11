@@ -5,6 +5,10 @@
     font-family: 'Inter', sans-serif;
 }
 
+main {
+    height: 100vh !important;
+}
+
 .containerForms {
     height: 100vh;
     width: 100%;
