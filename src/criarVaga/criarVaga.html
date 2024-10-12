@@ -6,6 +6,7 @@
     <title>JobRefugio</title>
     <link rel="stylesheet" href="../home/style.css">
     <link rel="stylesheet" href="styleCriarVaga.css">
+    <script defer src="scriptCriarVaga.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
@@ -20,6 +21,21 @@
 </head>
 <body>
     <header>
+        <!--Barra de navegação para dispositivos moveis-->
+        <nav class="navbar_mobile">
+            <div id="logo_mobile">Job Refugio</div>
+            <div class="menu-toggle" id="mobile-menu">
+                &#9776;
+            </div>
+            <ul class="nav-list" id="nav-list">
+                <li class="itemMenu"><a href="../home/index.html" class="link-item-menu">Home</a></li>
+                <li class="itemMenu"><a href="../vagas/vagas.html" class="link-item-menu">Vagas</a></li>
+                <li class="itemMenu"><a href="../guiaRefugiado/guiaRefugiado.html" class="link-item-menu">Guia Refugiado</a></li>
+                <li class="itemMenu"><a href="../sobre/sobre.html" class="link-item-menu">Sobre</a></li>
+            </ul>
+        </nav>
+
+        <!--Barra de navegação demais dispositivos-->
         <div class="nav">
         <div class="logo">
             <a href="index.html" ><img id="logo" src="Logo_.png" alt="logo JobRefugio"></a>
@@ -40,11 +56,14 @@
         </div>
     </div>
     </header>
+    <div class="bannertitulo">
+        <img id="imgbannertitulo" src="Crie_uma_vaga.png" alt="Banner crie seu curriculo">
+    </div>
 
     <main>
 
         <div class="form_criar_vaga">
-                <h1 class="titulo_form">Crie uma Vaga</h1>
+                
             <form class="contentForm">
                 <div id="baseline">
         
