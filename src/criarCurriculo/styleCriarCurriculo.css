@@ -1,10 +1,14 @@
 main{
+    margin-top: -4px;
     display: flex;
     justify-content: center;
-    background-color: #dfe0e6b4;
+    background-color: #ebeffe;
+}
+#imgbannertitulo{
+    width: 100%;
 }
 .form_criar_curriculo{
-    margin-top: 4%;
+    margin-top: -8%;
     width: 50%;
     height: 80%;
     display: flex;
@@ -15,6 +19,7 @@ main{
     box-shadow: 4px 4px 12px #aaaa;
 }
 .contentForm{
+    margin-top: 4%;
     display: flex;
     flex-direction: column;
 }
@@ -47,8 +52,11 @@ input{
     border-radius: 6px;
     outline: none;
 }
-input:active{
-    border: 1px solid #2CC4EA;
+input:focus-visible{
+    border: 1px solid #F99F15;
+}
+textarea:focus-visible{
+    border: 1px solid #F99F15;
 }
 #idade{
     width: 9%;
@@ -117,5 +125,80 @@ input:active{
     }
     main{
         background-color: #ffff;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .form_criar_curriculo {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* Estilo barra de navegação dispositivos moveis */
+.navbar_mobile {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F99F15;
+    padding: 10px 20px;
+    transition: 0.5s ease;
+}
+
+#logo_mobile {
+    font-family: "Inter", sans-serif;  
+    text-transform: uppercase;
+    color: #ffff;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    transition: 0.5s ease;
+}
+
+.nav-list li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;   
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 1.9em;
+    color: #ffff;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .nav{
+        display: none;
+    }
+    .navbar_mobile{
+        display: flex;
+        transition: 0.5s ease;
+    }
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: #f99e15e7;
+        width: 100%;
+        padding: 10px 0;   
+    }
+
+    .nav-list.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
     }
 }
