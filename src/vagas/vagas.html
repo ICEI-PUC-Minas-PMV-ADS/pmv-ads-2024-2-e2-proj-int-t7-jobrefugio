@@ -9,11 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="shortcut icon" type="imagex/png" href="icon_title.png">
     <script src="../home/script.js"></script>
@@ -22,7 +18,7 @@
     <header>
         <div class="nav">
         <div class="logo">
-            <a href="index.html" ><img id="logo" src="Logo_.png" alt="logo JobRefugio"></a>
+            <a href="../home/index.html" ><img id="logo" src="Logo_.png" alt="logo JobRefugio"></a>
         </div>
         <div class="menu">
             <ul class="menu_horizontal">
@@ -41,14 +37,43 @@
     </div>
     </header>
 
-    <main>
+    <main class= "vagas">
         <div class="search-box">
-            <input class="search-txt" type="text" name="" placeholder="Pesquisar">
-            <a class="search-btn" href="#"></a>
-            
-            
+            <span class=" search-icon material-symbols-outlined">search</span>
+            <input class="search-txt" type="search" name="" placeholder="Pesquisar">    
         </div>
 
+        <div class="filtros">
+            <div class="Locais">
+                <label for="Local">Local</label>
+                <select name="Local" id="Local">
+                    <option value="Local">Todos</option>
+                    <option value="Local">SP</option>
+                    <option value="Local">MG</option>
+                </select>
+            </div>
+
+            <div class="Tipos">
+                <label for="tipo">Tipo</label>
+                <select name="tipo" id="tipo">
+                    <option value="Local">Todos</option>
+                    <option value="Local">Home Office</option>
+                    <option value="Local">Híbrido</option>
+                    <option value="Local">Presencial</option>
+                </select>
+            </div>
+
+            <div class="Area">
+                <label for="areas">Áreas</label>
+                <select name="areas" id="areas">
+                    <option value="Local">Todos</option>
+                    <option value="Local">RH</option>
+                    <option value="Local">Financeiro</option>
+                    <option value="Local">TI</option>
+                </select>
+            </div>
+        </div>
+        
         <div class="grupoCards">
             <div class="section">
                 <div class="cards">
@@ -58,9 +83,15 @@
                     </div>
                     <div class="linha"></div>
                         <div class="descricao">
-                            <p>Local:</p>
-                            <p>Tipo:</p>
-                            <p>Data:</p>
+                            <p><span class="material-symbols-outlined">
+                                location_on
+                                </span></p>
+                            <p><span class="material-symbols-outlined">
+                                apartment
+                                </span></p>
+                            <p><span class="material-symbols-outlined">
+                                calendar_month
+                                </span></p>
                         </div>
                     
                         <div id="linhaBotao"><button type="button" class="btn">Visualizar Vaga</button></div>
@@ -76,152 +107,26 @@
                     </div>
                     <div class="linha"></div>
                         <div class="descricao">
-                            <p>Local:</p>
-                            <p>Tipo:</p>
-                            <p>Data:</p>
+                            <p><span class="material-symbols-outlined">
+                                location_on
+                                </span></p>
+                            <p><span class="material-symbols-outlined">
+                                apartment
+                                </span></p>
+                            <p><span class="material-symbols-outlined">
+                                calendar_month
+                                </span></p>
                         </div>
                     
                         <div id="linhaBotao"><button type="button" class="btn">Visualizar Vaga</button></div>
                     
                 </div>
             </div>
-        
-            <div class="section">
-                <div class="cards">
-                    <div class="texto">
-                        <h1 class="cabecalho">Nome da Vaga</h1>
-                        <h3>Empresa</h3>
-                    </div>
-                    <div class="linha"></div>
-                        <div class="descricao">
-                            <p>Local:</p>
-                            <p>Tipo:</p>
-                            <p>Data:</p>
-                        </div>
-                    
-                        <div id="linhaBotao"><button type="button" class="btn">Visualizar Vaga</button></div>
-                    
-                </div>
-            </div>
-
-            <div class="section">
-                <div class="cards">
-                    <div class="texto">
-                        <h1 class="cabecalho">Nome da Vaga</h1>
-                        <h3>Empresa</h3>
-                    </div>
-                    <div class="linha"></div>
-                        <div class="descricao">
-                            <p>Local:</p>
-                            <p>Tipo:</p>
-                            <p>Data:</p>
-                        </div>
-                    
-                        <div id="linhaBotao"><button type="button" class="btn">Visualizar Vaga</button></div>
-                    
-                </div>
-            </div>
-
-            <div class="section">
-                <div class="cards">
-                    <div class="texto">
-                        <h1 class="cabecalho">Nome da Vaga</h1>
-                        <h3>Empresa</h3>
-                    </div>
-                    <div class="linha"></div>
-                        <div class="descricao">
-                            <p>Local:</p>
-                            <p>Tipo:</p>
-                            <p>Data:</p>
-                        </div>
-                    
-                        <div id="linhaBotao"><button type="button" class="btn">Visualizar Vaga</button></div>
-                    
-                </div>
-            </div>
-
-
-            <div class="section">
-                <div class="cards">
-                    <div class="texto">
-                        <h1 class="cabecalho">Nome da Vaga</h1>
-                        <h3>Empresa</h3>
-                    </div>
-                    <div class="linha"></div>
-                        <div class="descricao">
-                            <p>Local:</p>
-                            <p>Tipo:</p>
-                            <p>Data:</p>
-                        </div>
-                    
-                        <div id="linhaBotao"><button type="button" class="btn">Visualizar Vaga</button></div>
-                    
-                </div>
-            </div>
-
-            <div class="section">
-                <div class="cards">
-                    <div class="texto">
-                        <h1 class="cabecalho">Nome da Vaga</h1>
-                        <h3>Empresa</h3>
-                    </div>
-                    <div class="linha"></div>
-                        <div class="descricao">
-                            <p>Local:</p>
-                            <p>Tipo:</p>
-                            <p>Data:</p>
-                        </div>
-                    
-                        <div id="linhaBotao"><button type="button" class="btn">Visualizar Vaga</button></div>
-                    
-                </div>
-            </div>
-
-            <div class="section">
-                <div class="cards">
-                    <div class="texto">
-                        <h1 class="cabecalho">Nome da Vaga</h1>
-                        <h3>Empresa</h3>
-                    </div>
-                    <div class="linha"></div>
-                        <div class="descricao">
-                            <p>Local:</p>
-                            <p>Tipo:</p>
-                            <p>Data:</p>
-                        </div>
-                    
-                        <div id="linhaBotao"><button type="button" class="btn">Visualizar Vaga</button></div>
-                    
-                </div>
-            </div>
-                
+                          
+                           
         </div>
-                
-
-
-
-
-        <!--<div class="card" style="width: 18rem;">
-            <div class="card-body">
-              <h5 class="card-title">Título do card</h5>
-              <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-              <a href="#" class="btn btn-primary">Visualizar Vaga</a>
-            </div>
-        </div>-->
-
-        
-<!--Cards vagas para visualizar descrição das vagas anunciadas-->       
-<!--<div class="cardVg">
-    <h1 class="linkCardVg">Cadastrar Currículo</h1>
-</div>
     
-<div class="cardVg">
-    <h1 class="linkCardVg">Minhas Candidaturas</h1>
-</div>
-    
-<div class="cardVg">
-    <h1 class="linkCardVg">Pesquisar Vagas</h1>
-</div>-->
+     
         
     </main>
 </body>
