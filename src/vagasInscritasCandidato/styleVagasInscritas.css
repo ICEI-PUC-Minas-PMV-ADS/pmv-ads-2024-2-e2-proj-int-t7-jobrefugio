@@ -8,7 +8,7 @@ main{
      grid-column: 2 / 5;
      grid-row: 1 / 2;
      margin-left: 2%;
-     background: url("../perfilCandidato/Candidato_v2.jpg") no-repeat center; /*alterar a imagem para a padrão do site*/
+     background: url("../vagasInscritasCandidato/banner.png") no-repeat center; /*alterar a imagem para a padrão do site*/
      background-size:100%;
      box-shadow: rgba(0, 0, 0, 0.25) 0.0625rem 0.0625rem 4px 0px;
  }
