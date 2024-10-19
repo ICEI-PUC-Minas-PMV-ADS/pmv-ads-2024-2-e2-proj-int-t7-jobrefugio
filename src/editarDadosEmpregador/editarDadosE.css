@@ -14,9 +14,13 @@ main {
     background: #fff;
 }
 
+h2 {
+    margin-top: 100px;
+}
+
 .container {
     width: 80%;
-    height: auto;
+    height: fit-content;
     display: flex;
     justify-content: center;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
@@ -24,6 +28,7 @@ main {
 
 .form {
     width: 80%;
+    height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,16 +42,6 @@ main {
     display: flex;
 }
 
-h2::after {
-    content: '';
-    display: block;
-    width: 5rem;
-    height: 0.3rem;
-    background: #ed5a4e;
-    margin: 0 auto;
-    position: absolute;
-    border-radius: 10px;
-}
 
 .inputGroup {
     display: flex;
@@ -55,13 +50,13 @@ h2::after {
     padding: 1rem 0;
 }
 
-.inputBox {
+.inputBox, textarea {
     display: flex;
     flex-direction: column;
     margin-bottom: .5rem;
 }
 
-.inputBox input {
+.inputBox input, textarea {
     margin: 0.6rem 0;
     padding: 0.8rem;
     border: none;
@@ -69,35 +64,32 @@ h2::after {
     box-shadow: 1px 1px 6px #0000001c;
 }
 
-.inputBox input:hover {
+.inputBox input:hover, textarea:hover {
     background-color: #eeeeee75;
 }
 
-.inputBox input:focus-visible {
-    outline: 1px solid #ed5a4e;
+.inputBox input:focus-visible, textarea:focus-visible {
+    outline: 1px solid #5ec7d6;
 }
 
-.inputBox label {
-    font-size: 0.75rem;
-    font-weight: 600;
+.inputBox input::placeholder, textarea::placeholder {
     color: #5f6d7a;
 }
 
-.inputBox input::placeholder {
-    color: #5f6d7a;
-}
-
-#bio {
-    display: block;
-    width: 500px;
-    text-align: justify;
+textarea {
+display: block;
+width: 500px;
+height: 80px;
+padding: 15px;
+margin: 1% 0 1%;
+border-radius: 6px;
 }
 
 .signupButton button {
     width: 100%;
     margin-top: 2.5rem;
     border: none;
-    background-color: #ed5a4e;
+    background-color: #5ec7d6;
     transition: all 0.3s ease;
     padding: 0.62rem;
     border-radius: 5px;
