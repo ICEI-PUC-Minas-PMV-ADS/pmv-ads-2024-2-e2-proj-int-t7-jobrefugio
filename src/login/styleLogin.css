@@ -10,12 +10,13 @@ main {
 }
 
 .containerForms {
-    height: 100vh;
+    margin-top: 5px;
+    height: 85vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #e3e3e3;
+    background-color: #fff;
 }
 
 .formLogin {
@@ -24,7 +25,7 @@ main {
     width: 100%;
     padding: 30px;
     border-radius: 6px;
-    background: #fff;
+    background: #d0f0f5;
 }
 
 h2 {
@@ -61,8 +62,16 @@ border-radius: 6px;
     border: 1px solid #e3e3e3;
 }
 
-.field input:focus {
-    border-bottom-width: 2px;
+.field input:hover {
+    background-color: #f8f8f8;
+}
+
+.field input:focus-visible {
+    outline: 1px solid #5ec7d6;
+}
+
+.field input::placeholder {
+    color: #5f6d7a;
 }
 
 .eyeIcons {
@@ -78,13 +87,13 @@ border-radius: 6px;
 
 .field button {
     color: #fff;
-    background-color: #ed5a4e;
+    background-color: #5ec7d6;
     transition: all 0.3s ease;
     cursor: pointer;
 }
 
 .field button:hover {
-    background-color: #ffa00e;
+    background-color: #3899a8;
 }
 
 .formLink{
@@ -93,19 +102,55 @@ border-radius: 6px;
 }
 
 .formLink span,
-.formLink a {
+.forgotPass {
     font-size: 14px;
     font-weight: 400;
     color:#5F6D7A;
 }
 
-.formLogin a{
-    color:#ed5a4e;
+.forgotPass {
+    color:#5ec7d6;
     text-decoration: none;
 }
 
-.formLogin a:hover {
+.forgotPass:hover {
     text-decoration: underline;
+}
+
+.cadastro {
+    margin-top: 50px;
+    max-width: 430px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 6px;
+    background: #fff;
+    border: 1px solid #5ec7d6;
+    text-align: center;
+    color: #5F6D7A;
+}
+
+.cadastro button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #5ec7d6;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.cadastro button:hover {
+    background-color: #3899a8;
+}
+
+.cadastro a {
+    color: #fff;
+    text-decoration: none;
 }
 
 @media screen and (max-width:400px){
