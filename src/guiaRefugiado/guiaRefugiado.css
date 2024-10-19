@@ -1,27 +1,46 @@
-section{
-    align-items: center;
+main{
+    font-family: "Inter",sans-serif;
 }
-
 #imgcurso{
-    width: 300px;
-    height: 150px;
+    width: 270px;
+    height: 220px;
     
 }
-.cards{
+
+h2,p{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+h2::after, h2::before {
+    content: '';
+    display: block;
+    width: 0.3rem;
+    height: 10rem ;
+    background-color: rgb(244, 114, 1);
+    margin: -2px;
+    position: absolute;
+    border-radius: 10px;
+    margin-left: -10px;
+    
+}
+
+.cards {
     width: calc(20% - 16px);
-    display: inline-block;
-    background-color: #ffffff;
+    background-color: hsl(28, 100%, 89%);
     padding: 12px;
     box-shadow: rgba(0, 0, 0, 0.25) 0.0625rem 0.0625rem 4px 0px;
     border-radius: 6px;
-    margin: 5%;
-    align-items: center;
+    margin: 3%;
     transition: 0.5s ease;
     text-align: left;
-    
+    display: inline-block;
+    padding: 25px;
+    align-items: center;
+    transition: 0.5s ease;
+    margin-left: 150px;
 
 }
-
 
 .cards:hover {
     box-shadow: 1px 1px 30px -12px rgba(0, 0, 0, 0.75);
