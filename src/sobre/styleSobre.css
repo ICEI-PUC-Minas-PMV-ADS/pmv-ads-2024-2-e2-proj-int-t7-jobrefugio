@@ -1,0 +1,27 @@
+h2 {
+    font-family: 'Bree Serif', serif;
+    font-size: 2em;
+    color: #333;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1em;
+    color: #666;
+}
+
+.info article p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.info article h2 {
+    margin-bottom: 10px;
+    font-size: 1.8em;
+}
+
+.info {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
