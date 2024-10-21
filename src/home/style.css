@@ -273,3 +273,49 @@ footer{
     width: 30px;
     margin: 4px;
 }
+
+/* -------------- Banner página home -------------- */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%; /* Para 3 imagens */
+}
+
+.carousel-item {
+    min-width: 100%;
+}
+
+#prev, #next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: none;
+    border: none;
+    cursor: pointer;
+    font-size: 2em;
+    padding: 10px;
+    z-index: 1;
+}
+
+.prev {
+    left: 10px;
+    background: none;
+    color: #ffff;
+}
+
+.next {
+    right: 10px;
+    background: none;
+    color: #ffff;
+}

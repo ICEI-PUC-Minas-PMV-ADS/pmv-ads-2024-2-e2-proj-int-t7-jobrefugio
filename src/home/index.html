@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="shortcut icon" type="imagex/png" href="icon_title.png">
-    <script src="../home/script.js"></script>
+    <script defer src="../home/script.js"></script>
 </head>
 <body>
     <header>
@@ -40,7 +40,19 @@
     </div>
     </header>
     <div class="banner-topo">
-        <img id="banner1" src="banner1.png" alt="banner informativo">
+        <div class="carousel">
+            <div class="carousel-inner">
+                <a href="#"><img src="b1.png" alt="Banner 1" class="carousel-item active"></a>
+                <a href="#"><img src="b2.png" alt="Banner 2" class="carousel-item"></a>
+            </div>
+            <button class="prev" id="prev"><span class="material-symbols-outlined" style="font-size: 44px;">
+                arrow_back_ios
+                </span></button>
+            <button class="next" id="next"><span class="material-symbols-outlined" style="font-size: 44px; font-weight: 100;">
+                arrow_forward_ios
+                </span></button>
+        </div>
+    
     </div>
 
     <main class="main_home">
