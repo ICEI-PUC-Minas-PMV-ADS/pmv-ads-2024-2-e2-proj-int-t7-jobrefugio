@@ -78,13 +78,13 @@ border-radius: 6px;
 
 .field button {
     color: #fff;
-    background-color: #ed5a4e;
+    background-color: #2CC4EA;
     transition: all 0.3s ease;
     cursor: pointer;
 }
 
 .field button:hover {
-    background-color: #ffa00e;
+    background-color: #1fb6ff;
 }
 
 .formLink{
@@ -100,7 +100,7 @@ border-radius: 6px;
 }
 
 .formLogin a{
-    color:#ed5a4e;
+    color:#1fb6ff;
     text-decoration: none;
 }
 
