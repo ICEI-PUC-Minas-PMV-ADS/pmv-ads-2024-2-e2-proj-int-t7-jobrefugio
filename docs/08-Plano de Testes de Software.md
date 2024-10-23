@@ -33,34 +33,34 @@
 |Critério de Êxito | - O currículo foi criado com sucesso. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-06 – Editar currículo** 	|
-|	Requisito Associado 	| RF-005 - Permitir que candidato edite informações do curriculo. |
+|	Requisito Associado 	| RF-005 - Permitir que o candidato edite informações do currículo. |
 | Objetivo do Teste 	| Verificar se o candidato consegue editar o currículo na aplicação. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Clicar no canto superior direito em "Perfil" <br> - Clicar no menu lateral esquerdo em "Editar currículo" <br> - Alterar as informações do currículo <br> - Clicar em "Salvar" |
 |Critério de Êxito | - O currículo foi editado com sucesso. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-07 – Candidatar a vaga** 	|
-|	Requisito Associado 	| RF-006 - O site deve permitir que usuário candidatar a vagas. |
+|	Requisito Associado 	| RF-006 - O site deve permitir que usuário se candidate a vagas. |
 | Objetivo do Teste 	| Verificar se o candidato consegue se candidatar a uma vaga na aplicação. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Clicar no menu superior em "Vagas" <br> - Selecionar a vaga de interesse <br> Clicar em "Visualizar vaga" <br> - Clicar em "Candidatar-se" |
 |Critério de Êxito | - A candidatura foi realizada com sucesso. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-08 – Visualizar vaga** 	|
-|	Requisito Associado 	| RF-007 - O site deve permitir que candidato visualize informações da vaga. |
+|	Requisito Associado 	| RF-007 - O site deve permitir que o candidato visualize informações da vaga. |
 | Objetivo do Teste 	| Verificar se o candidato consegue visualizar vagas na aplicação. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Clicar no menu superior em "Vagas" <br> - Selecionar a vaga de interesse <br> Clicar em "Visualizar vaga" <br> - Visualizar as informações da vaga |
 |Critério de Êxito | - As informações da vaga foram visualizadas com sucesso. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-09 – Visualizar status da candidatura** 	|
-|	Requisito Associado 	| RF-008 - Permitir candidato visualize status da candidatura. |
-| Objetivo do Teste 	| Verificar se o candidato consegue visualizar status das suas candidaturas na aplicação. |
+|	Requisito Associado 	| RF-008 - Permitir que o candidato visualize o status da candidatura. |
+| Objetivo do Teste 	| Verificar se o candidato consegue visualizar o status das suas candidaturas na aplicação. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Clicar no canto superior direito em "Perfil" <br> - Visualizar as vagas <br> Clicar em "Ver Status" |
 |Critério de Êxito | - O status foi visualizado com sucesso. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-10 – Visualizar vagas inscritas** 	|
-|	Requisito Associado 	| RF-009 - Permitir que candidato visualize as vagas que inscreveu. |
+|	Requisito Associado 	| RF-009 - Permitir que o candidato visualize as vagas que inscreveu. |
 | Objetivo do Teste 	| Verificar se o candidato consegue visualizar as vagas que se inscreveu na aplicação. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Clicar no canto superior direito em "Perfil" <br> - Visualizar as vagas inscritas |
-|Critério de Êxito | - O candidato visualize as vagas inscritas com sucesso. |
+|Critério de Êxito | - O candidato visualiza as vagas inscritas com sucesso. |
 |  	|  	|
 | **Caso de Teste** 	| **CT-11 – Visualizar empresas parceiras** 	|
 |	Requisito Associado 	| RF-010 - Exibir lista de empresas parceiras do projeto. |
