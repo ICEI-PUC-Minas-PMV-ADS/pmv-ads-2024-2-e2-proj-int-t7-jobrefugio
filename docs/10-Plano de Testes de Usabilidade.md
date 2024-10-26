@@ -2,12 +2,12 @@
 
 ## 1. Objetivo do Teste
 
-O objetivo é avaliar a usabilidade do site, suas funcionalidades, layouts, facilitando a experiência do usuário no cadastro de vagas e busca por empregado. Oferecer uma plataforma acessível que conecte os refigiados a oportunidades de trabalho relevantes.
+O objetivo é avaliar a usabilidade do site, suas funcionalidades, layouts, facilitando a experiência do usuário no cadastro de vagas e busca por empregado. Oferecer uma plataforma acessível que conecte os refugiados a oportunidades de trabalho relevantes.
  
 ## 2. Participantes
 
 Serão recrutados 20 participantes representativos do público-alvo, incluindo refugiados e empregadores para avaliar a navegabilidade do site. Serão divididos em dois grupos: 
-- Candidatos: irá avalidar as funcionalidades de inclusão de curriculos e candidatar a vagas.
+- Candidatos: irá avaliar as funcionalidades de inclusão de currículos e candidatar a vagas.
 - Empregador: para avaliar as funcionalidades de cadastro de vagas e candidatos inscritos nas vagas divulgadas.
 
 ## 3. Procedimentos
@@ -16,20 +16,20 @@ Os testes serão realizados através de vídeo chamada para avaliar o comportame
 ## 4. Recursos Demandados
 - Formulário digital com as tarefas a serem testadas pelos participantes.
 - Pesquisa de satisfação após a realização dos teste.
-- Equipe resposável para acompanhar os testes e fazer as observações e avaliações do processo.
+- Equipe responsável para acompanhar os testes e fazer as observações e avaliações do processo.
 
 ## 5. Tarefas a Serem Executadas
 1. Realizar o cadastro no site.
 2. Fazer login na conta criada.
 3. Editar dados pessoais do candidato
-4. Fazer cadastro de curríclo.
-5. Editar os dados do curriculo.
-6. Candidato cadatrar em uma vaga.
+4. Fazer cadastro de currículo.
+5. Editar os dados do currículo.
+6. Candidato cadastrar em uma vaga.
 7. Candidato consultar as vagas inscritas
 8. Pesquisar as vagas disponíveis.
 9. Editar dados pessoais da empresa.
 10. Empregador fazer o cadastro de vagas.
-11. Empregador irá edita vagas
+11. Empregador irá editar vagas
 12. Empregador irá excluir vagas.
 13. Pesquisar por candidatos inscritos.
 14. Finalizar vagas preenchidas.
@@ -60,7 +60,7 @@ Os testes serão realizados através de vídeo chamada para avaliar o comportame
 Todos os dados coletados dos participantes serão anonimizados e tratados de acordo com as diretrizes da LGPD.
 
 ## 10. Cronograma
-Os testes de usabilidade serão durante 15 dias, com duas sessões por dia. Na primeira semana será avalidado os candidatos e na segunda o empregador.
+Os testes de usabilidade serão durante 15 dias, com duas sessões por dia. Na primeira semana será avaliado os candidatos e na segunda o empregador.
 
 ## 11. Relatório de Resultados
 Um relatório detalhado será elaborado após a conclusão dos testes, incluindo análise quantitativa e qualitativa dos resultados, problemas identificados e recomendações de melhoria.
