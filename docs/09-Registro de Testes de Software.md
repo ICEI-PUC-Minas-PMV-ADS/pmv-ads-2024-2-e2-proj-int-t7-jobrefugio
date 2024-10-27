@@ -8,17 +8,17 @@
 | **Caso de Teste** 	| **CT-02 – Logar no Perfil** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-001 - O site deve permitir gerenciar usuário. |
-|Registro de evidência | www.teste.com.br/drive/ct-01 |
+|Registro de evidência |  |
 
 | **Caso de Teste** 	| **CT-03 – Pesquisar vagas disponíveis** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-002 -  Permitir fazer pesquisas de vagas disponíveis. |
-|Registro de evidência | www.teste.com.br/drive/ct-01 |
+|Registro de evidência |  |
 
 | **Caso de Teste** 	| **CT-04 – Editar dados cadastrados** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-003 - O site deve permitir que usuário gerencie seus dados cadastrados. |
-|Registro de evidência | www.teste.com.br/drive/ct-01 |
+|Registro de evidência |  |
 
 | **Caso de Teste** 	| **CT-05 – Criar currículo** 	|
 |:---:	|:---:	|
@@ -33,27 +33,27 @@
 | **Caso de Teste** 	| **CT-07 – Candidatar a vaga** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-006 - O site deve permitir que usuário se candidate a vagas. |
-|Registro de evidência | www.teste.com.br/drive/ct-01 |
+|Registro de evidência |  |
 
 | **Caso de Teste** 	| **CT-08 – Visualizar vaga** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-007 - O site deve permitir que o candidato visualize informações da vaga. |
-|Registro de evidência | www.teste.com.br/drive/ct-01 |
+|Registro de evidência |  |
 
 | **Caso de Teste** 	| **CT-09 – Visualizar status da candidatura** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-008 - Permitir que o candidato visualize o status da candidatura. |
-|Registro de evidência | www.teste.com.br/drive/ct-01 |
+|Registro de evidência |  |
 
 | **Caso de Teste** 	| **CT-10 – Visualizar vagas inscritas** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-009 - Permitir que o candidato visualize as vagas que inscreveu. |
-|Registro de evidência | www.teste.com.br/drive/ct-01 |
+|Registro de evidência |  |
 
 | **Caso de Teste** 	| **CT-11 – Visualizar empresas parceiras** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-010 - Exibir lista de empresas parceiras do projeto. |
-|Registro de evidência | www.teste.com.br/drive/ct-01 |
+|Registro de evidência |  |
 
 | **Caso de Teste** 	| **CT-12 – Cadastrar vagas** 	|
 |:---:	|:---:	|
