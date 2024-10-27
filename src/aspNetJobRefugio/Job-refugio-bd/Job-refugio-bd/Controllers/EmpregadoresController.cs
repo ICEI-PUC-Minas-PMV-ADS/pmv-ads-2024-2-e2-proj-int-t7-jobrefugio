@@ -75,7 +75,7 @@ namespace Job_refugio_bd.Controllers
 
         //----------------------------------------------------------------------------------
         //Retorna perfil empregador
-
+        [Authorize]
         public IActionResult PerfilEmpregador()
         {
             return View();

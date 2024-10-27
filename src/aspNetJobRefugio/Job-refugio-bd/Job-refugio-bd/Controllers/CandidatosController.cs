@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Job_refugio_bd.Models;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Job_refugio_bd.Controllers
 {
@@ -71,6 +72,14 @@ namespace Job_refugio_bd.Controllers
         }
 
         //----------------------------------------------------------------------------------
+        //Retorna perfil Candidato
+
+        [Authorize]
+        public IActionResult PerfilCandidato()
+        {
+            return View();
+        }
+
 
         // GET: Candidatos
         public async Task<IActionResult> Index()

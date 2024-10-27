@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
 
 namespace Job_refugio_bd.Models
 {
@@ -29,6 +31,16 @@ namespace Job_refugio_bd.Models
                 .HasOne(u => u.Empregador)
                 .WithOne()
                 .HasForeignKey<Usuario>(u => u.IdEmpregador);
+        }
+
+        internal async Task AddClaimAsync(object user, Claim claim)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal async Task CreateAsync(IdentityUser user, object password)
+        {
+            throw new NotImplementedException();
         }
     }
 }
