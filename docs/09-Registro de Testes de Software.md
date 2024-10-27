@@ -73,5 +73,5 @@
 | **Caso de Teste** 	| **CT-15 – Filtrar candidatos** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-014 - Permitir a empresa filtrar candidatos. |
-|Registro de evidência | www.teste.com.br/drive/ct-01 |
+|Registro de evidência |  |
 
