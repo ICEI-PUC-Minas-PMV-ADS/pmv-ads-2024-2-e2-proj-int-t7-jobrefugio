@@ -3,7 +3,7 @@
 | **Caso de Teste** 	| **CT-01 – Cadastrar perfil** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-001 - O site deve permitir gerenciar usuário. |
-|Registro de evidência | [CurriculoCreate.zip](https://github.com/user-attachments/files/17532570/CurriculoCreate.zip) |
+|Registro de evidência |  |
 
 | **Caso de Teste** 	| **CT-02 – Logar no Perfil** 	|
 |:---:	|:---:	|
@@ -23,12 +23,12 @@
 | **Caso de Teste** 	| **CT-05 – Criar currículo** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-004 - Permitir que o candidato crie currículo. |
-|Registro de evidência | www.teste.com.br/drive/ct-01 |
+|Registro de evidência | https://youtu.be/Kay9Co0OmhY |
 
 | **Caso de Teste** 	| **CT-06 – Editar currículo** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-005 - Permitir que o candidato edite informações do currículo. |
-|Registro de evidência | www.teste.com.br/drive/ct-01 |
+|Registro de evidência | https://youtu.be/5K-BZTmgN1I |
 
 | **Caso de Teste** 	| **CT-07 – Candidatar a vaga** 	|
 |:---:	|:---:	|
@@ -58,17 +58,17 @@
 | **Caso de Teste** 	| **CT-12 – Cadastrar vagas** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-011 - Permitir que a empresa cadastre vagas de emprego. |
-|Registro de evidência | www.teste.com.br/drive/ct-01 |
+|Registro de evidência | https://youtu.be/0Hx5Za7uTYg |
 
 | **Caso de Teste** 	| **CT-13 – Editar vagas** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-012 - Permitir que a empresa edite a vaga divulgada no sistema. |
-|Registro de evidência | www.teste.com.br/drive/ct-01 |
+|Registro de evidência | https://youtu.be/BtULN_1mA8I |
 
 | **Caso de Teste** 	| **CT-14 – Excluir vagas** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-013 - Permitir que a empresa exclua a vaga já preenchida. |
-|Registro de evidência |  |
+|Registro de evidência |  https://youtu.be/Mfj47lFD0MI |
 
 | **Caso de Teste** 	| **CT-15 – Filtrar candidatos** 	|
 |:---:	|:---:	|
