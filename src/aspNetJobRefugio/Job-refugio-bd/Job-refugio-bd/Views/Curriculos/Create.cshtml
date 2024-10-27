@@ -1,0 +1,66 @@
+﻿@model Job_refugio_bd.Models.Curriculo
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<link rel="stylesheet" href="~/css/styleCriarCurriculo.css">
+<div class="conteudo">
+<div class="bannertitulo">
+    <img id="imgbannertitulo" src="~/img/Crie_seu_curriculo.png" alt="Banner crie seu curriculo">
+</div>
+
+
+<div class="form_criar_curriculo">
+
+        <form asp-action="Create" class="contentForm">
+        
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div id="baseline">
+                
+                <input asp-for="NomeUsuario" id="nome" placeholder="Nome" />
+                <span asp-validation-for="NomeUsuario" class="text-danger"></span>
+            
+            
+                
+                <input asp-for="Cidade" id="cidade" placeholder="Cidade" />
+                <span asp-validation-for="Cidade" class="text-danger"></span>
+           
+                
+                <textarea asp-for="FormAcad" id="formAcademica" placeholder="Formação Acadêmica"></textarea>
+                <span asp-validation-for="FormAcad" class="text-danger"></span>
+            
+               
+                <textarea asp-for="ResumoQualific" id="resumoQualific" placeholder="Resumo das Qualificações"></textarea>
+                <span asp-validation-for="ResumoQualific" class="text-danger"></span>
+            
+                
+                <textarea asp-for="PrincRealiza" id="principaisRealiz" placeholder="Principais Realizações"></textarea>
+                <span asp-validation-for="PrincRealiza" class="text-danger"></span>
+            
+                
+                <textarea asp-for="ExpProf" id="expProf" placeholder="Experiência Profissional"></textarea>
+                <span asp-validation-for="ExpProf" class="text-danger"></span>
+            
+                
+                <textarea asp-for="ObjProf" id="objetivoProf" placeholder="Objetivo Profissional"></textarea>
+                <span asp-validation-for="ObjProf" class="text-danger"></span>
+            
+                
+                <textarea asp-for="CursosComplIdioma" id="cursosCompIdiomas" placeholder="Cursos Complementares e Idiomas"></textarea>
+                <span asp-validation-for="CursosComplIdioma" class="text-danger"></span>
+            
+                
+                <select asp-for="CandidatoId" asp-items="ViewBag.CandidatoId" style="display:none"></select>
+
+            <div class="divBotao">
+                <button type="submit" value="Create"  id="botaosubmit">Salvar</button>
+            </div>
+           </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,33 @@
+﻿@model Job_refugio_bd.Models.Empregador
+
+@{
+    ViewData["Title"] = "PerfilEmpregador";
+}
+<link rel="stylesheet" href="~/css/stylePerfilEmpregador.css" asp-append-version="true" />
+
+
+<main>
+    <div class="content">
+        <!--banner-->
+        <section class="banner"></section>
+        <!--Menu Lateral-->
+        <aside id="menuLateral" class="menuLateral">
+            <h1 id="hi">Olá, @User.Identity.Name</h1> <!--incluir nome do empregador criando um Id-->
+            <a class="linksLateral" asp-area="" asp-controller="Empregadores" asp-action="PerfilEmpregador">Home</a>
+            <a class="linksLateral" asp-area="" asp-controller="Vagas" asp-action="Index">Gerenciar vagas</a>
+            <a class="linksLateral" asp-area="" asp-controller="Empregadores" asp-action="PerfilEmpregador">Procurar candidatos</a>
+        </aside>
+        <!--Cards tipo botão para acessar currículos e vagas anunciadas-->
+        <div class="card">
+            <a class="linkCard" asp-area="" asp-controller="Vagas" asp-action="Create">Anunciar vaga</a>
+        </div>
+
+        <div class="card">
+            <a class="linkCard" asp-area="" asp-controller="Vagas" asp-action="Index">Gerenciar vagas</a>
+        </div>
+
+        <div class="card">
+            <a class="linkCard" asp-area="" asp-controller="Empregadores" asp-action="PerfilEmpregador">Candidatos</a>
+        </div>
+    </div>
+</main>
