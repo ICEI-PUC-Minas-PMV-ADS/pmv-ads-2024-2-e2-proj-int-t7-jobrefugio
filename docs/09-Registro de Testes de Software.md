@@ -3,12 +3,12 @@
 | **Caso de Teste** 	| **CT-01 – Cadastrar perfil** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-001 - O site deve permitir gerenciar usuário. |
-|Registro de evidência |  |
+|Registro de evidência | https://youtu.be/3vpWFcF7KcQ |
 
 | **Caso de Teste** 	| **CT-02 – Logar no Perfil** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-001 - O site deve permitir gerenciar usuário. |
-|Registro de evidência |  |
+|Registro de evidência | https://youtu.be/iAmOBRZ08PA |
 
 | **Caso de Teste** 	| **CT-03 – Pesquisar vagas disponíveis** 	|
 |:---:	|:---:	|
@@ -18,7 +18,7 @@
 | **Caso de Teste** 	| **CT-04 – Editar dados cadastrados** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-003 - O site deve permitir que usuário gerencie seus dados cadastrados. |
-|Registro de evidência |  |
+|Registro de evidência | https://youtu.be/rxqaZ1PHsSI |
 
 | **Caso de Teste** 	| **CT-05 – Criar currículo** 	|
 |:---:	|:---:	|
