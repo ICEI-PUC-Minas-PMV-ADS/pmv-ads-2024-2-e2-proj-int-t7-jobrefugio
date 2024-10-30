@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V10\\Job-refugio-bd\\Job-refugio-bd\\Job-refugio-bd.csproj": {}
+    "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V12\\Job-refugio-bd\\Job-refugio-bd\\Job-refugio-bd.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V10\\Job-refugio-bd\\Job-refugio-bd\\Job-refugio-bd.csproj": {
+    "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V12\\Job-refugio-bd\\Job-refugio-bd\\Job-refugio-bd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V10\\Job-refugio-bd\\Job-refugio-bd\\Job-refugio-bd.csproj",
+        "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V12\\Job-refugio-bd\\Job-refugio-bd\\Job-refugio-bd.csproj",
         "projectName": "Job-refugio-bd",
-        "projectPath": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V10\\Job-refugio-bd\\Job-refugio-bd\\Job-refugio-bd.csproj",
+        "projectPath": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V12\\Job-refugio-bd\\Job-refugio-bd\\Job-refugio-bd.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V10\\Job-refugio-bd\\Job-refugio-bd\\obj\\",
+        "outputPath": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V12\\Job-refugio-bd\\Job-refugio-bd\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",

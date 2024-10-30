@@ -38,5 +38,7 @@ namespace Job_refugio_bd.Models
 
         public List<Inscrito> Inscritos { get; set; }
 
+        public DateOnly DataPublicacao { get; set; }
+
     }
 }

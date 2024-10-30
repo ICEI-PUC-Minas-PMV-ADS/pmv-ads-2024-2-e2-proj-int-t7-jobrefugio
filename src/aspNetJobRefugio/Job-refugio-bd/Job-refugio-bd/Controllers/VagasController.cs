@@ -62,6 +62,9 @@ namespace Job_refugio_bd.Controllers
         {
             if (ModelState.IsValid)
             {
+                //Armazena data atual da publicação
+                vaga.DataPublicacao = DateOnly.FromDateTime(DateTime.Now);
+
                 _context.Add(vaga);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
