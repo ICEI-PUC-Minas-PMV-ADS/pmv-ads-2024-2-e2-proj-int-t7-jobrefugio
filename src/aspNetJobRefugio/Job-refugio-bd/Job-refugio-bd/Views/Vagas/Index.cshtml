@@ -1,0 +1,93 @@
+﻿@model IEnumerable<Job_refugio_bd.Models.Vaga>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+<div style="padding: 4% 4% 0 4%" >
+<h1>Gerenciar vagas</h1>
+
+    <a asp-area="" asp-controller="Vagas" asp-action="Create" class="btn btn-success">Anunciar vaga</a>
+
+</div>
+<div class="vagas_criadas">
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Empregador)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NomeCargo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Local)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MetodoContratacao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VagaPCD)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RegimeTrabalho)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SobreEmpresa)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DescVaga)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RequisitosQualificacao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.InfoAdicional)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Empregador.Cnpj)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NomeCargo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Local)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MetodoContratacao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VagaPCD)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RegimeTrabalho)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SobreEmpresa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DescVaga)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RequisitosQualificacao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.InfoAdicional)
+            </td>
+            <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-secondary">Editar</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-secondary">Detalhes</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Excluir</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</div>

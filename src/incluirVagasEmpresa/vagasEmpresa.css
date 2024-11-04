@@ -9,7 +9,7 @@ main {
     grid-column: 2 / 5;
     grid-row: 1 / 2;
     margin-left: 2%;
-    background: url("../incluirVagasEmpresa/banner.png") no-repeat center;
+    background: url("../incluirVagasEmpresa/WhatsApp\ Image\ 2024-10-25\ at\ 21.23.22_eeb80bcc.jpg") no-repeat center;
     /*alterar a imagem para a padrão do site*/
     background-size: 100%;
     box-shadow: rgba(0, 0, 0, 0.25) 0.0625rem 0.0625rem 4px 0px;
@@ -31,7 +31,7 @@ body {
     /*usa o zero para não mostrar, AJUSTAR PARA FIXO*/
     margin-left: 4%;
     border-radius: 6px;
-    background-color: #ccafff;
+    background-color: #557ca6;
     /*alterar a cor para o padrão do site*/
     padding-top: 60px;
 
@@ -44,7 +44,7 @@ body {
     padding: 20px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 254, 254);
     display: block;
     transition: 0.5s ease;
 }
@@ -62,7 +62,7 @@ body {
     column-gap: 18px;
     grid-template-rows: 200px 400px;
     grid-auto-flow: row;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .search-box {
@@ -86,7 +86,7 @@ body {
 .search-txt {
     font-size: 16px;
     font-family: "Inter", sans-serif;
-    color: #947dbd;
+    color: #557ca6;
     margin-left: var(--padding);
     outline: none;
     border: none;
@@ -118,7 +118,7 @@ body {
     display: flex;
     width: 300px;
     height: 320px;
-    background-color: #ccafff;
+    background-color: #557ca6;
     padding: 20px;
     box-shadow: rgba(0, 0, 0, 0.25) 0.0625rem 0.0625rem 4px 0px;
     border-radius: 6px;

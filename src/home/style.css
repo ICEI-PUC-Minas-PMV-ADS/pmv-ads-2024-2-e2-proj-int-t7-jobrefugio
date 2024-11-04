@@ -214,7 +214,8 @@ footer{
 }
 .drop{
     display: none;
-    background-color: #58BF18;
+    background-color: #2CC4EA;
+    border-radius: 10px;
     padding: 1%;
     box-shadow: 0 10px 10px rgba(0,0,0,0.05);
     transition: 0.2s ease;
@@ -228,7 +229,7 @@ footer{
 }
 #link_login{
     text-decoration: none;
-    color: #1A1A1A;
+    color: white;
     font-family: "Inter", sans-serif;
     font-size: 18px;
 }
@@ -272,4 +273,50 @@ footer{
 .logo_redes_sociais{
     width: 30px;
     margin: 4px;
+}
+
+/* -------------- Banner página home -------------- */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%; /* Para 3 imagens */
+}
+
+.carousel-item {
+    min-width: 100%;
+}
+
+#prev, #next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: none;
+    border: none;
+    cursor: pointer;
+    font-size: 2em;
+    padding: 10px;
+    z-index: 1;
+}
+
+.prev {
+    left: 10px;
+    background: none;
+    color: #ffff;
+}
+
+.next {
+    right: 10px;
+    background: none;
+    color: #ffff;
 }

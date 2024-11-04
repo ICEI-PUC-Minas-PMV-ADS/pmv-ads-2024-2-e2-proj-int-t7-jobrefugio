@@ -1,0 +1,254 @@
+﻿main {
+    margin-top: -4px;
+    display: flex;
+    justify-content: center;
+    background-color: #ebeffe;
+}
+
+.corpo{
+    display: flex;
+    justify-content: center;
+}
+
+#imgbannertitulo {
+    width: 100%;
+}
+
+.form_criar_curriculo {
+    margin-top: -8%;
+    width: 50%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    background-color: #ffff;
+    border-radius: 10px;
+    box-shadow: 4px 4px 12px #aaaa;
+}
+
+.contentForm {
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo_form {
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    padding: 1% 0 1% 0;
+    margin-bottom: 6%;
+    margin-left: 5%;
+}
+
+textarea {
+    font-family: "Inter", sans-serif;
+    width: 90%;
+    height: 80px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    transition: all 0.5s ease;
+    margin: 1% 0 1%;
+    border-radius: 6px;
+    outline: none;
+}
+
+input {
+    width: 90%;
+    height: 50px;
+    padding: 0 15px;
+    border: 1px solid #ccc;
+    transition: all 0.5s ease;
+    margin: 1% 0 1%;
+    border-radius: 6px;
+    outline: none;
+}
+
+select {
+    width: 90%;
+    height: 50px;
+    padding: 0 15px;
+    border: 1px solid #ccc;
+    transition: all 0.5s ease;
+    margin: 1% 0 1%;
+    border-radius: 6px;
+    outline: none;
+}
+
+    input:focus-visible {
+        border: 1px solid #F99F15;
+    }
+
+textarea:focus-visible {
+    border: 1px solid #F99F15;
+}
+
+#idade {
+    width: 9%;
+}
+
+#nacionalidade {
+    width: 30%;
+}
+
+#cidade {
+    width: 90%;
+}
+
+#telefone {
+    width: 39.5%;
+}
+
+#email {
+    width: 50%;
+}
+
+.divBotao {
+    display: flex;
+    justify-content: center;
+}
+
+#botaosubmit {
+    margin-top: 2%;
+    padding: 2% 10% 2% 10%;
+    background-color: #60BB46;
+    font-size: 16px;
+    border: none;
+    color: #ffff;
+    border-radius: 6px;
+    font-family: "Inter", sans-serif;
+    transition: 0.5s ease;
+}
+
+    #botaosubmit:hover {
+        transition: 0.5s ease;
+        padding: 2% 11% 2% 11%;
+        cursor: pointer;
+    }
+
+.inlineIdadeNacioCidade {
+    display: inline;
+}
+
+.inlineTelEmail {
+    display: inline;
+}
+
+#baseline {
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .form_criar_curriculo {
+        width: 100%;
+        height: 100%;
+    }
+
+    #idade {
+        width: 16%;
+    }
+
+    #nacionalidade {
+        width: 30%;
+    }
+
+    #cidade {
+        width: 43%;
+    }
+
+    #telefone {
+        width: 39.5%;
+    }
+
+    #email {
+        width: 50%;
+    }
+
+    main {
+        background-color: #ffff;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .form_criar_curriculo {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* Estilo barra de navegação dispositivos moveis */
+.navbar_mobile {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F99F15;
+    padding: 10px 20px;
+    transition: 0.5s ease;
+}
+
+#logo_mobile {
+    font-family: "Inter", sans-serif;
+    text-transform: uppercase;
+    color: #ffff;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    transition: 0.5s ease;
+}
+
+    .nav-list li a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        font-size: 16px;
+        font-family: "Inter", sans-serif;
+    }
+
+.menu-toggle {
+    display: none;
+    font-size: 1.9em;
+    color: #ffff;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .nav {
+        display: none;
+    }
+
+    .navbar_mobile {
+        display: flex;
+        transition: 0.5s ease;
+    }
+
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: #f99e15e7;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+        .nav-list.active {
+            display: flex;
+        }
+
+    .menu-toggle {
+        display: block;
+    }
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1600px;
+}

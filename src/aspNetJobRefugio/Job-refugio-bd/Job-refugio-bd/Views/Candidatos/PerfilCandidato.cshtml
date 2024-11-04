@@ -1,0 +1,35 @@
+﻿@using System.Security.Claims
+@model Job_refugio_bd.Models.Candidato
+
+@{
+    ViewData["Title"] = "PerfilCandidato";
+}
+
+<link rel="stylesheet" href="~/css/stylePerfilCandidato.css" asp-append-version="true" />
+@{
+    var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+}
+
+<div class="content">
+    <!--banner-->
+    <section class="banner"></section>
+    <!--Menu Lateral-->
+    <aside id="menuLateral" class="menuLateral">
+        <h1 id="hi">Olá, @User.Identity.Name</h1> <!--incluir nome do candidato criando um Id-->
+        <a class="linksLateral" asp-area="" asp-controller="Candidatos" asp-action="PerfilCandidato">Home</a>
+        <a class="linksLateral" asp-area="" asp-controller="Candidatos" asp-action="Edit" asp-route-id="@userId">Meus Dados</a>
+        <a class="linksLateral" asp-area="" asp-controller="Candidatos" asp-action="PerfilCandidatos">Minhas Candidaturas</a>
+    </aside>
+    <!--Cards tipo botão para acessar currículos e vagas anunciadas-->
+    <div class="card">
+        <a class="linkCard" asp-area="" asp-controller="Curriculos" asp-action="Create">Cadastrar Curriculo</a>
+    </div>
+
+    <div class="card">
+        <a class="linkCard" asp-area="" asp-controller="Candidatos" asp-action="PerfilCandidato">Minhas Candidaturas</a>
+    </div>
+
+    <div class="card">
+        <a class="linkCard" asp-area="" asp-controller="Candidatos" asp-action="PerfilCandidato">Pesquisar Vagas</a>
+    </div>
+</div>

@@ -8,6 +8,7 @@ window.addEventListener('scroll', function(){
     
     })
 
+//Slide Empresas parceiras
     new Swiper('.div_empresas', {
 
         loop: true,
@@ -39,3 +40,29 @@ window.addEventListener('scroll', function(){
         }
       
       });
+
+//Banner Página home
+      let currentIndex = 0;
+const items = document.querySelectorAll('.carousel-item');
+const totalItems = items.length;
+
+function showImage(index) {
+    const carouselInner = document.querySelector('.carousel-inner');
+    carouselInner.style.transform = `translateX(-${index * 100}%)`;
+}
+
+function showNextImage() {
+    currentIndex = (currentIndex + 1) % totalItems;
+    showImage(currentIndex);
+}
+
+function showPrevImage() {
+    currentIndex = (currentIndex - 1 + totalItems) % totalItems;
+    showImage(currentIndex);
+}
+
+// Inicializa o carrossel
+setInterval(showNextImage, 10000); // Troca a cada 10 segundos
+
+document.getElementById('next').addEventListener('click', showNextImage);
+document.getElementById('prev').addEventListener('click', showPrevImage);

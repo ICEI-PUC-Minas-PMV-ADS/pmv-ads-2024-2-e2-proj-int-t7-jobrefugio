@@ -1,0 +1,73 @@
+﻿@model Job_refugio_bd.Models.Vaga
+
+@{
+    ViewData["Title"] = "Create";
+}
+<link rel="stylesheet" href="~/css/styleCriarVaga.css">
+
+<div class="conteudo">
+    <div class="bannertitulo">
+        <img id="imgbannertitulo" src="~/img/Crie_uma_vaga.png" alt="Banner crie seu curriculo">
+    </div>
+
+<div class="form_criar_vaga">
+
+    <form asp-action="Create" class="contentForm">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div id="baseline">
+
+                <input asp-for="NomeCargo"  id="nomeCargo" placeholder="Nome do Cargo" />
+                <span asp-validation-for="NomeCargo" class="text-danger"></span>
+
+                <div id="inlineLocal">
+                    <input asp-for="Local"  id="local" placeholder="Local" />
+                    <span asp-validation-for="Local" class="text-danger"></span>
+
+
+                    <input asp-for="MetodoContratacao"  id="metodoContra" placeholder="Método de Contratação" />
+                    <span asp-validation-for="MetodoContratacao" class="text-danger"></span>
+                </div>
+
+                <div class="inlineRegimeTrabEspecial">
+
+                    <input asp-for="RegimeTrabalho" placeholder="Regime de Trabalho" id="regimeTra" />
+                    <span asp-validation-for="RegimeTrabalho" class="text-danger"></span>
+
+                        <div id="ladoVagaEsp">
+                            <label id="labeVagaEspecial">
+                            <input asp-for="VagaPCD" id="vagaEspecial" /> @Html.DisplayNameFor(model => model.VagaPCD)
+                        </label>
+                    </div>
+                </div>
+                
+                
+
+
+                <textarea asp-for="SobreEmpresa"  id="sobreEmpresa"></textarea>
+                <span asp-validation-for="SobreEmpresa" class="text-danger"></span>
+
+
+                <textarea asp-for="DescVaga"  id="descVaga" placeholder="Descrição da Vaga"></textarea>
+                <span asp-validation-for="DescVaga" class="text-danger"></span>
+
+
+                <textarea asp-for="RequisitosQualificacao"  id="ReqEQualif" placeholder="Requisitos e Qualificações"></textarea>
+                <span asp-validation-for="RequisitosQualificacao" class="text-danger"></span>
+
+
+                <textarea asp-for="InfoAdicional"  id="infoAdd" placeholder="Informaçâo Adicional"></textarea>
+                <span asp-validation-for="InfoAdicional" class="text-danger"></span>
+
+                <select asp-for="EmpregadorId" asp-items="ViewBag.EmpregadorId" style="display:none"></select>
+            
+            <div class="divBotao">
+                <button type="submit" value="Create" id="botaosubmit">Salvar</button>
+            </div>
+        </div>
+        </form>
+</div>
+</div> 
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

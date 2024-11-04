@@ -1,0 +1,24 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "AccessDenied";
+}
+<link rel="stylesheet" href="~/css/styleAcessoNegado.css" asp-append-version="true" />
+
+
+<main>
+    <div class="overlay">
+        <div class="dialog">
+            <h2>Acesso Negado</h2>
+            <p>Você não tem permissão para acessar esta página.</p>
+            <button onclick="closeDialog()">Voltar</button>
+        </div>
+    </div>
+
+    <script>
+        function closeDialog() {
+            window.location.href = '/'; // Redireciona para a página inicial
+        }
+    </script>
+</main>
