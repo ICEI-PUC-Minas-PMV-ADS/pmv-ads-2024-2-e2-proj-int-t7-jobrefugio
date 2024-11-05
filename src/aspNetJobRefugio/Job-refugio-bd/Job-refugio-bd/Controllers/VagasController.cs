@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Job_refugio_bd.Models;
 using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace Job_refugio_bd.Controllers
 {
@@ -18,6 +19,11 @@ namespace Job_refugio_bd.Controllers
         public VagasController(AppDbContext context)
         {
             _context = context;
+        }
+
+        private int GetUserId()
+        {
+            return int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value);
         }
 
         // GET: Vagas
@@ -71,6 +77,36 @@ namespace Job_refugio_bd.Controllers
             }
             ViewData["EmpregadorId"] = new SelectList(_context.Empregadores, "Id", "Cnpj", vaga.EmpregadorId);
             return View(vaga);
+        }
+
+        [BindProperty]
+        public int Id { get; set; }
+
+        [HttpPost]
+        public IActionResult CreateInscrito(Vaga oinscrito, Candidato ocandidato, int id)
+        {
+
+
+            int userId = GetUserId();
+            int vagaAtual = id;
+
+            if (!(vagaAtual == 0 && userId == 0))
+            {
+                Inscrito inscrito = new Inscrito();
+                inscrito.StatusInscricao = 1;
+                inscrito.CandidatoId = userId;
+                inscrito.VagaId = vagaAtual;
+                inscrito.DataInscricao = DateOnly.FromDateTime(DateTime.Now);
+
+                _context.Add(inscrito);
+                _context.SaveChangesAsync();
+                return RedirectToAction("Index", "Vagas");
+            }
+
+            return RedirectToAction("ErroPageInscrito", "Vagas");
+
+
+
         }
 
         // GET: Vagas/Edit/5

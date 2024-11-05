@@ -4,6 +4,7 @@ using Job_refugio_bd.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Job_refugio_bd.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241105012451_M09-AddRelacionamentoTabelas")]
+    partial class M09AddRelacionamentoTabelas
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -172,11 +175,12 @@ namespace Job_refugio_bd.Migrations
                     b.Property<int>("CandidatoId")
                         .HasColumnType("int");
 
-                    b.Property<DateOnly>("DataInscricao")
-                        .HasColumnType("date");
+                    b.Property<DateTime>("DataInscricao")
+                        .HasColumnType("datetime2");
 
-                    b.Property<int>("StatusInscricao")
-                        .HasColumnType("int");
+                    b.Property<string>("StatusInscricao")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("VagaId")
                         .HasColumnType("int");

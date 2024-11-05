@@ -37,7 +37,7 @@ namespace Job_refugio_bd.Models
 
         public Curriculo Curriculo { get; set; }
 
-        public List<Inscrito> Inscritos { get; set; }
+        public ICollection<Inscrito> Inscritos { get; set; }
 
     }
 }

@@ -11,16 +11,18 @@ namespace Job_refugio_bd.Models
 
         [Required(ErrorMessage = "Favor Informar a data")]
         [Display(Name = "Data Inscrição ")]
-        public DateTime DataInscricao { get; set; }
+        public DateOnly DataInscricao { get; set; }
 
         [Required(ErrorMessage = "Favor Informar a data")]
         [Display(Name = "Status Inscrição")]
-        public string StatusInscricao { get; set; }
+        public int StatusInscricao { get; set; }
 
+        [ForeignKey("Candidato")]
         public int CandidatoId { get; set; }
 
         public Candidato Candidato { get; set; }
-
+        
+        [ForeignKey("Vaga")]     
         public int VagaId { get; set; }
 
         public Vaga Vaga { get; set; }
