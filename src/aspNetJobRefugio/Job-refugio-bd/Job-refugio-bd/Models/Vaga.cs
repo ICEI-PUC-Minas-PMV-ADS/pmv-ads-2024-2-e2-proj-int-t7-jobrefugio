@@ -36,7 +36,7 @@ namespace Job_refugio_bd.Models
 
         public string InfoAdicional { get; set; }
 
-        public List<Inscrito> Inscritos { get; set; }
+        public ICollection<Inscrito> Inscritos { get; set; }
 
         public DateOnly DataPublicacao { get; set; }
 

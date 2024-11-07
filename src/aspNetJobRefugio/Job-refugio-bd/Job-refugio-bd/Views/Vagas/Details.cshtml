@@ -1,7 +1,19 @@
-﻿@model Job_refugio_bd.Models.Vaga
+﻿@using System.Security.Claims
+@model Job_refugio_bd.Models.Vaga
+@using (Html.BeginForm())
+
+{
+    <label hidden for="Id"></label>
+    <input hidden type="text" asp-for="Id" />
+
+}
 
 @{
     ViewData["Title"] = "Details";
+}
+
+@{
+    var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
 }
 
 <link rel="stylesheet" href="~/css/styleDescVaga.css" asp-append-version="true" />
@@ -59,13 +71,46 @@
         <h1 class="titulo">Informação Adicional </h1>
         <p id="informacaoAdicional">@Html.DisplayFor(model => model.InfoAdicional)</p>
 
+        <form asp-action="CreateInscrito" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div hidden class="form-group">
+                <input id="idVaga" asp-for="@Model.Id" class="form-control" name="meuValor" value="@Html.DisplayFor(model => model.Id)" />
+            </div>
+            <div hidden class="form-group">
+                <input id="idCandidato" asp-for="@userId" class="form-control" />
+            </div>
 
+            <button class="candidatar" type="submit" onclick="candidatar(idVaga)" asp-for="@Model.Id">Candidatar-se</button>
+        </form>
+        @if (ViewBag.ErrorMessage != null)
 
-        <button class="candidatar" type="submit">Candidatar-se</button>
-
-
-
+        {
+            <div class="alert alert-danger">
+                @ViewBag.ErrorMessage
+            </div>
+        }
 
     </div>
+
+    @section scripts {
+        <script defer>
+            function candidatar(idVaga) {
+                $.ajax({
+                    url: '/Vagas/CreateInscrito',
+                    type: 'POST',
+                    data: { id: @Model.Id },
+                    success: function (data) {
+                        console.log(data);
+                    }
+                });
+                document.getElementById('idVaga').value = idVaga;
+                console.log(idVaga.value);
+            }
+
+
+
+        </script>
+    }
+
 
 </main>
