@@ -7917,27 +7917,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rafae\\.nuget\\packages\\": {}
+    "/Users/juliaguedes/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rafae\\Desktop\\Job-refugio-bd\\Job-refugio-bd\\Job-refugio-bd.csproj",
+      "projectUniqueName": "/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Job-refugio-bd.csproj",
       "projectName": "Job-refugio-bd",
-      "projectPath": "C:\\Users\\rafae\\Desktop\\Job-refugio-bd\\Job-refugio-bd\\Job-refugio-bd.csproj",
-      "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rafae\\Desktop\\Job-refugio-bd\\Job-refugio-bd\\obj\\",
+      "projectPath": "/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Job-refugio-bd.csproj",
+      "packagesPath": "/Users/juliaguedes/.nuget/packages/",
+      "outputPath": "/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\rafae\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/juliaguedes/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -8011,8 +8008,16 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file /Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

@@ -1,0 +1,116 @@
+@using System.Security.Claims
+@model Job_refugio_bd.Models.Vaga
+@using (Html.BeginForm())
+
+{
+    <label hidden for="Id"></label>
+    <input hidden type="text" asp-for="Id" />
+
+}
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+@{
+    var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+}
+
+<link rel="stylesheet" href="~/css/styleDescVaga.css" asp-append-version="true" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+<main>
+    <div class="conteudo">
+        <h1 class="titulo">@Html.DisplayFor(model => model.NomeCargo)</h1>
+        <p id="Datap">Data da publicação @Html.DisplayFor(model => model.DataPublicacao)</p>
+        <hr>
+        <div class="resumo">
+
+            <ul class="resumo1">
+                <li class="item_info_vaga">
+                    <span class="material-symbols-outlined">
+                        location_on
+                    </span>@Html.DisplayFor(model => model.Local)
+                </li>
+                <li class="item_info_vaga">
+                    <span class="material-symbols-outlined">
+                        home_work
+                    </span>@Html.DisplayFor(model => model.RegimeTrabalho)
+                </li>
+            </ul>
+            <ul class="resumo2">
+                <li class="item_info_vaga">
+                    <span class="material-symbols-outlined">
+                        work
+                    </span>@Html.DisplayFor(model => model.MetodoContratacao)
+                </li>
+                <li class="item_info_vaga">
+                    <span class="material-symbols-outlined">
+                        accessible
+                    </span> Vagas tambem pra PCD @Html.DisplayFor(model => model.VagaPCD)
+                </li>
+            </ul>
+
+
+        </div>
+        <hr>
+
+        <h1 class="titulo">Sobre a Empresa</h1>
+        <p id="sobreAEmpresa">@Html.DisplayFor(model => model.SobreEmpresa)</p>
+
+
+        <h1 class="titulo">Descrição da Vaga</h1>
+        <p id="descricaoDaVaga">@Html.DisplayFor(model => model.DescVaga)</p>
+
+        <h1 class="titulo">Requisitos e Qualificações</h1>
+
+        <ul class="req">
+            <li>@Html.DisplayFor(model => model.RequisitosQualificacao)</li>
+        </ul>
+
+        <h1 class="titulo">Informação Adicional </h1>
+        <p id="informacaoAdicional">@Html.DisplayFor(model => model.InfoAdicional)</p>
+
+        <form asp-action="CreateInscrito" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div hidden class="form-group">
+                <input id="idVaga" asp-for="@Model.Id" class="form-control" name="meuValor" value="@Html.DisplayFor(model => model.Id)" />
+            </div>
+            <div hidden class="form-group">
+                <input id="idCandidato" asp-for="@userId" class="form-control" />
+            </div>
+
+            <button class="candidatar" type="submit" onclick="candidatar(idVaga)" asp-for="@Model.Id">Candidatar-se</button>
+        </form>
+        @if (ViewBag.ErrorMessage != null)
+
+        {
+            <div class="alert alert-danger">
+                @ViewBag.ErrorMessage
+            </div>
+        }
+
+    </div>
+
+    @section scripts {
+        <script defer>
+            function candidatar(idVaga) {
+                $.ajax({
+                    url: '/Vagas/CreateInscrito',
+                    type: 'POST',
+                    data: { id: @Model.Id },
+                    success: function (data) {
+                        console.log(data);
+                    }
+                });
+                document.getElementById('idVaga').value = idVaga;
+                console.log(idVaga.value);
+            }
+
+
+
+        </script>
+    }
+
+
+</main>

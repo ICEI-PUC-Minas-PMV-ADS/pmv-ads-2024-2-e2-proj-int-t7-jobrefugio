@@ -1,28 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rafae\\Desktop\\Job-refugio-bd\\Job-refugio-bd\\Job-refugio-bd.csproj": {}
+    "/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Job-refugio-bd.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rafae\\Desktop\\Job-refugio-bd\\Job-refugio-bd\\Job-refugio-bd.csproj": {
+    "/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Job-refugio-bd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rafae\\Desktop\\Job-refugio-bd\\Job-refugio-bd\\Job-refugio-bd.csproj",
+        "projectUniqueName": "/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Job-refugio-bd.csproj",
         "projectName": "Job-refugio-bd",
-        "projectPath": "C:\\Users\\rafae\\Desktop\\Job-refugio-bd\\Job-refugio-bd\\Job-refugio-bd.csproj",
-        "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rafae\\Desktop\\Job-refugio-bd\\Job-refugio-bd\\obj\\",
+        "projectPath": "/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Job-refugio-bd.csproj",
+        "packagesPath": "/Users/juliaguedes/.nuget/packages/",
+        "outputPath": "/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\rafae\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/juliaguedes/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -96,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

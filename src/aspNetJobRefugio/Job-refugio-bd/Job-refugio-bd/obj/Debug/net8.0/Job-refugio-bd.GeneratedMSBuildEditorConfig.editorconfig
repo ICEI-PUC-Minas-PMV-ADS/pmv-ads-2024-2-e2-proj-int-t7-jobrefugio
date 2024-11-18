@@ -17,187 +17,191 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Job_refugio_bd
 build_property.RootNamespace = Job_refugio_bd
-build_property.ProjectDir = C:\Users\rafae\Desktop\Job-refugio-bd\Job-refugio-bd\
+build_property.ProjectDir = /Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = C:\Users\rafae\Desktop\Job-refugio-bd\Job-refugio-bd
+build_property.MSBuildProjectDirectory = /Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/AcessoNegado/AccessDenied.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNlc3NvTmVnYWRvXEFjY2Vzc0RlbmllZC5jc2h0bWw=
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/AcessoNegado/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWNlc3NvTmVnYWRvL0FjY2Vzc0RlbmllZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/Candidatos/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRvc1xDcmVhdGUuY3NodG1s
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Candidatos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FuZGlkYXRvcy9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/Candidatos/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRvc1xEZWxldGUuY3NodG1s
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Candidatos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FuZGlkYXRvcy9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/Candidatos/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRvc1xEZXRhaWxzLmNzaHRtbA==
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Candidatos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FuZGlkYXRvcy9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/Candidatos/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRvc1xFZGl0LmNzaHRtbA==
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Candidatos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FuZGlkYXRvcy9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/Candidatos/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRvc1xJbmRleC5jc2h0bWw=
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Candidatos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FuZGlkYXRvcy9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/Candidatos/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRvc1xMb2dpbi5jc2h0bWw=
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Candidatos/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FuZGlkYXRvcy9Mb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/Candidatos/Logout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRvc1xMb2dvdXQuY3NodG1s
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Candidatos/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FuZGlkYXRvcy9Mb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/Candidatos/PerfilCandidato.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRvc1xQZXJmaWxDYW5kaWRhdG8uY3NodG1s
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Candidatos/PerfilCandidato.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FuZGlkYXRvcy9QZXJmaWxDYW5kaWRhdG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/Curriculos/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmljdWxvc1xDcmVhdGUuY3NodG1s
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Candidatos/StatusCandidatura.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FuZGlkYXRvcy9TdGF0dXNDYW5kaWRhdHVyYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/Curriculos/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmljdWxvc1xEZWxldGUuY3NodG1s
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Curriculos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VycmljdWxvcy9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/Curriculos/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmljdWxvc1xEZXRhaWxzLmNzaHRtbA==
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Curriculos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VycmljdWxvcy9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/Curriculos/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmljdWxvc1xFZGl0LmNzaHRtbA==
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Curriculos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VycmljdWxvcy9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/Curriculos/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmljdWxvc1xJbmRleC5jc2h0bWw=
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Curriculos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VycmljdWxvcy9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/Empregadores/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVnYWRvcmVzXENyZWF0ZS5jc2h0bWw=
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Curriculos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VycmljdWxvcy9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/Empregadores/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVnYWRvcmVzXERlbGV0ZS5jc2h0bWw=
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Empregadores/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wcmVnYWRvcmVzL0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/Empregadores/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVnYWRvcmVzXERldGFpbHMuY3NodG1s
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Empregadores/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wcmVnYWRvcmVzL0RlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/Empregadores/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVnYWRvcmVzXEVkaXQuY3NodG1s
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Empregadores/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wcmVnYWRvcmVzL0RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/Empregadores/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVnYWRvcmVzXEluZGV4LmNzaHRtbA==
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Empregadores/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wcmVnYWRvcmVzL0VkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/Empregadores/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVnYWRvcmVzXExvZ2luLmNzaHRtbA==
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Empregadores/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wcmVnYWRvcmVzL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/Empregadores/Logout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVnYWRvcmVzXExvZ291dC5jc2h0bWw=
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Empregadores/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wcmVnYWRvcmVzL0xvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/Empregadores/PerfilEmpregador.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVnYWRvcmVzXFBlcmZpbEVtcHJlZ2Fkb3IuY3NodG1s
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Empregadores/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wcmVnYWRvcmVzL0xvZ291dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/Guia/GuiaRefugiado.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3VpYVxHdWlhUmVmdWdpYWRvLmNzaHRtbA==
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Empregadores/PerfilEmpregador.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRW1wcmVnYWRvcmVzL1BlcmZpbEVtcHJlZ2Fkb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Guia/GuiaRefugiado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvR3VpYS9HdWlhUmVmdWdpYWRvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/OpcaoLogin/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BjYW9Mb2dpblxJbmRleC5jc2h0bWw=
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/OpcaoLogin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3BjYW9Mb2dpbi9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/Sobre/Sobre.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29icmVcU29icmUuY3NodG1s
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/Usuarios/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Sobre/Sobre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU29icmUvU29icmUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/Usuarios/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGVsZXRlLmNzaHRtbA==
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Usuarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpb3MvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/Usuarios/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGV0YWlscy5jc2h0bWw=
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Usuarios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpb3MvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/Usuarios/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Usuarios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpb3MvRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/Usuarios/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Usuarios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpb3MvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/Usuarios/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcTG9naW4uY3NodG1s
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Usuarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpb3MvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/Vagas/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFnYXNcQ3JlYXRlLmNzaHRtbA==
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Usuarios/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXN1YXJpb3MvTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/Vagas/CreateInscrito.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFnYXNcQ3JlYXRlSW5zY3JpdG8uY3NodG1s
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Vagas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmFnYXMvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/Vagas/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFnYXNcRGVsZXRlLmNzaHRtbA==
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Vagas/CreateInscrito.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmFnYXMvQ3JlYXRlSW5zY3JpdG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/Vagas/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFnYXNcRGV0YWlscy5jc2h0bWw=
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Vagas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmFnYXMvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/Vagas/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFnYXNcRWRpdC5jc2h0bWw=
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Vagas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmFnYXMvRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/Vagas/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFnYXNcSW5kZXguY3NodG1s
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Vagas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmFnYXMvRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Vagas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmFnYXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rafae/Desktop/Job-refugio-bd/Job-refugio-bd/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-uv7y97ojkq
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-9u0kz6vzla
