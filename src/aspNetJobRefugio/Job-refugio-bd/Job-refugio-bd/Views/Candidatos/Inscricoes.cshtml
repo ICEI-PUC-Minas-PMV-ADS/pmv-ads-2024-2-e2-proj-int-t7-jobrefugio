@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Job_refugio_bd.Models.Inscrito>
+
+@{
+    ViewData["Title"] = "Inscrições";
+}
+<link rel="stylesheet" href="~/css/styleinscricoes.css">
+<main>
+    <div class="content">
+        <!--banner-->
+        <section class="banner"></section>
+        <!--Menu Lateral-->
+        <aside id="menuLateral" class="menuLateral">
+            <a class="linksLateral" href="#">Inicio</a>
+            <a class="linksLateral" href="#">Meus Dados</a>
+            <a class="linksLateral" href="#">Minhas Candidaturas</a>
+            <a class="linksLateral" href="#">Criar/Editar curriculo</a>
+        </aside>
+        <div class="cards">
+            @foreach (var item in Model)
+            {
+                <div class="caixa">
+                    <h2>@Html.DisplayFor(modelItem => item.Vaga.NomeCargo)</h2>
+                    <div class="barra-externa">
+                        <div class="barra-interna" style="width: 40%;"></div>
+                    </div>
+                    <button type="button">Ver status</button>
+                </div>
+
+            }
+
+        </div>
+
+
+    </div>
+</main>
+
