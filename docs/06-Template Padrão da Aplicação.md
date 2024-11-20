@@ -14,31 +14,31 @@ O template criado está disponível no site GitHub e é composto pelos seguintes
 
 5. Tela de Criar Curriculo;
 
-6. Tela de Criar Vaga
+6. Tela de Criar Vaga;
 
-7. Tela descrição da vaga 
+7. Tela descrição da vaga; 
 
-8. Tela de Editar dados de candidato
+8. Tela de Editar dados de candidato;
 
-9. Tela de editar dados do empregador
+9. Tela de editar dados do empregador;
 
-10. Tela de Guia do refugiado 
+10. Tela de Guia do refugiado; 
 
-11. Tela Home
+11. Tela Home;
 
-12. Tela de incluir vagas da empresa
+12. Tela de incluir vagas da empresa;
 
-13. Tela de perfil candidato
+13. Tela de perfil candidato;
   
-14. Tela de Perfil empregador
+14. Tela de Perfil empregador;
  
-15. tela sobre
+15. tela sobre;
  
-16. tela status da vaga do candidato
+16. tela status da vaga do candidato;
  
-17. Tela vagas
+17. Tela vagas;
 
-18. Tela vagas inscritas candidato
+18. Tela vagas inscritas candidato;
 <Hr>
 
 1. **Tela de login**
@@ -47,16 +47,16 @@ O template criado está disponível no site GitHub e é composto pelos seguintes
 4. **Tela de cadastro Empregador**
 5. **Tela de Criar Curriculo**
 6. **Tela de Criar Vaga**
-7. ** Tela descrição da vaga **
+7. **Tela descrição da vaga**
 8. **Tela de Editar dados de candidato**
 9. **Tela de editar dados do empregador**
-10. **Tela de Guia do refugiado **
+10. **Tela de Guia do refugiado**
 11. **Tela Home**
-12. ** Tela de incluir vagas da empresa**
-13. ** Tela de perfil candidato**
+12. **Tela de incluir vagas da empresa**
+13. **Tela de perfil candidato**
 14. **Tela de Perfil empregador**
-15. **tela sobre**
+15. **Tela sobre**
 16. **tela status da vaga do candidato**
 17. **Tela vagas**
-18. ** Tela vagas inscritas candidato**
+18. **Tela vagas inscritas candidato**
                                  
