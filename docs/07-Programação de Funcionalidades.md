@@ -8,9 +8,20 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 
 |ID    | Descrição do Requisito  | Artefatos produzidos | Aluno(a) responsável |
 |------|-----------------------------------------|----|----|
-|RF-001| A aplicação deve permitir que o usuário avalie uma agência de intercâmbio com base na sua experiência|  |  |
-|RF-002| A aplicação deve permitir que o usuário inclua comentários ao fazer uma avaliação de uma agência de intercâmbio     |  |  |
-|RF-003| A aplicação deve permitir que o usuário consulte todas as agências de intercâmbio cadastradas ordenando-as com base em suas notas |  |  |
+|RF-001| O site deve permitir gerenciar usuário |  |  |
+|RF-002| Permitir fazer pesquisas de vagas disponíveis |  |  |
+|RF-003| O site deve permitir que usuário gerencie seus dados cadastrados |  |  |
+|RF-004| Permitir que o candidato crie currículo |  |  |
+|RF-005| Permitir que candidato edite informações do curriculo |  |  |
+|RF-006| O site deve permitir que usuário candidatar a vagas |  |  |
+|RF-007| O site deve permitir que candidato visualize informações da vaga |  |  |
+|RF-008| Permitir candidato visualize status da candidatura |  |  |
+|RF-009| Permitir que candidato visualize as vagas que inscreveu |  |  |
+|RF-010| Exibir lista de empresas parceiras do projeto |  |  |
+|RF-011| Permitir que a empresa cadastre vagas de emprego |  |  |
+|RF-012| Permitir que a empresa edite a vaga divulgada no sistema |  |  |
+|RF-013| Permitir que a empresa exclua a vaga já preenchida |  |  |
+|RF-014| Permitir a empresa filtrar candidatos |  |  |
 
 
 # Instruções de acesso
