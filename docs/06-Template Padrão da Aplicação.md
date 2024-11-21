@@ -100,9 +100,11 @@ A tela guia do refugiado contem dicas e orientações em links externos para aju
 
 13. **Tela de perfil candidato**
 <Hr>
+![PERFIL CADIDATO](https://github.com/user-attachments/assets/c65cef4f-840a-42b1-9e4f-b822e2ce4fe0)
 
 14. **Tela de Perfil empregador**
 <Hr>
+![PERFIL EMPREGADOR](https://github.com/user-attachments/assets/bfd7adff-abee-4a85-bce0-b46ac2dca887)
 
 15. **Tela sobre**
 
@@ -123,6 +125,7 @@ Apresenta uma barra com as etapas da candidatura :
 
 17. **Tela vagas**
 <Hr>
+![VAGAS](https://github.com/user-attachments/assets/6f0dfee1-cc60-41ae-bc45-247cfe1f8467)
 
 18. **Tela vagas inscritas candidato**
 
