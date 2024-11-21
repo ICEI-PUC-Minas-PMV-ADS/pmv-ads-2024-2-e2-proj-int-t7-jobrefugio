@@ -48,3 +48,19 @@ Após realizar os testes de usabilidade, obtém-se um relatório a partir das an
 |Erro na Funcionalidade |	Incluir os botões sugeridos de inclusão de novas informações|
 |Conclusões |	Tela de currículo simples, de fácil compreensão com as descrições dos campos|
 |Ações Recomendadas |	Adicionais os botões para facilitar a inclusão de informações|
+
+
+|Campos | Análise do Participante|
+|------------|--------------------|
+|Facilitador |	Equipe Job Refugio|
+|Pariticipante|	Daniel Alves|
+|Contexto do Teste|	Avaliação da tela de longin|
+|Observações|	Sem observações|
+|Primeiras Impressões|	Tela clean e fácil de entendimento|
+|Usabilidade|	É possível visualizar a senha digitada clicando no ícone e confere se o e-mail está digitado corretamente|
+|Feedback do Participante|	Sem sugestões|
+|Facilidade de Acesso|	Acesso rápido após inserir informações de login|
+|Desing e Layout|	Design simples e de fácil compreensão|
+|Erro na Funcionalidade|	Sem erros|
+|Conclusões	|Tela eficiente|
+|Ações Recomendadas|	Sem ações recomendadas|
