@@ -54,7 +54,11 @@ Apresenta uma tela com duas opções de cadastro, sendo uma para o candidato e o
 <Hr>
 
 3. **Tela de Cadastro Candidato**
-<Hr>
+
+Nesta tela o cadidado preencherá os dados para fazer seu cadastro no site.
+
+![Cadastro Candidato vf](https://github.com/user-attachments/assets/f8f7c76d-82ae-46ce-b662-07144da33c0a)
+
 
 4. **Tela de Cadastro Empregador**
 <Hr>
@@ -81,7 +85,10 @@ Apresenta a descrição da vaga a ser preenchida pelo usuário, com informaçõe
 <Hr>
 
 8. **Tela de Editar Dados de Candidato**
-<Hr>
+
+Nesta opção o cadidato poderá alterar seus dados pessoais.
+
+![Edit Cadastro Candidato vf](https://github.com/user-attachments/assets/2f4f9105-841c-4c15-8cb1-bfc2c6798f65)
 
 9. **Tela de Editar Dados do Empregador**
 <Hr>
@@ -113,7 +120,9 @@ A tela com o Perfil do Candidato possui menu com as seguintes opções: Gerencar
 
 15. **Tela Sobre**
 
-<Hr>
+Esta tela trás informações de quem somos, motivação e o que fazemos.
+
+![Sobre vf](https://github.com/user-attachments/assets/6167c37c-8322-4b3d-b761-b6979ab7db35)
 
 16. **Tela Status da Vaga do Candidato**
 
