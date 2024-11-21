@@ -218,5 +218,28 @@ namespace Job_refugio_bd.Controllers
         {
             return _context.Candidatos.Any(e => e.IdCandidato == id);
         }
+
+        // Vizualizar vagas inscritas
+
+        public async Task<IActionResult> Inscricoes(int? id)
+
+        {
+            if (id == null)
+                return NotFound();
+
+            var candidato = await _context.Candidatos.FindAsync(id);
+
+            if (candidato == null)
+                return NotFound();
+
+            var inscrito = await _context.Inscritos
+                .Where(c => c.CandidatoId == id)
+                .ToListAsync();
+
+            ViewBag.Inscritos = inscrito;
+
+            return View(inscrito);
+        }
+
     }
 }

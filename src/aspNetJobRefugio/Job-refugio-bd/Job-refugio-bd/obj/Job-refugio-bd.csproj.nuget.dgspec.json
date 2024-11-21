@@ -1,20 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Job-refugio-bd.csproj": {}
+    "C:\\Users\\nizia\\OneDrive\\Desktop\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\Job-refugio-bd.csproj": {}
   },
   "projects": {
-    "/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Job-refugio-bd.csproj": {
+    "C:\\Users\\nizia\\OneDrive\\Desktop\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\Job-refugio-bd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Job-refugio-bd.csproj",
+        "projectUniqueName": "C:\\Users\\nizia\\OneDrive\\Desktop\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\Job-refugio-bd.csproj",
         "projectName": "Job-refugio-bd",
-        "projectPath": "/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/Job-refugio-bd.csproj",
-        "packagesPath": "/Users/juliaguedes/.nuget/packages/",
-        "outputPath": "/Users/juliaguedes/Documents/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio/src/aspNetJobRefugio/Job-refugio-bd/Job-refugio-bd/obj/",
+        "projectPath": "C:\\Users\\nizia\\OneDrive\\Desktop\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\Job-refugio-bd.csproj",
+        "packagesPath": "C:\\Users\\nizia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nizia\\OneDrive\\Desktop\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/juliaguedes/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\nizia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
