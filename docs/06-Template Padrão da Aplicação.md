@@ -55,10 +55,13 @@ Apresenta uma tela com duas opções de cadastramento, sendo uma para o candidat
 
 3. **Tela de cadastro Candidato**
 <Hr>
+
 4. **Tela de cadastro Empregador**
 <Hr>
+
 5. **Tela de Criar Curriculo**
 <Hr>
+
 6. **Tela de Criar Vaga**
 
 <Hr>
@@ -81,21 +84,31 @@ Apresenta a descrição da vaga a ser preenchida pelo usuario , com informaçõe
 <Hr>
 9. **Tela de editar dados do empregador**
 <Hr>
-10. **Tela de Guia do refugiado**
+
+10. **Tela Guia do Refugiado**
+
+A tela guia do refugiado contem dicas e orientações em links externos para ajudar os candidatos a se preparem para entrevistas e links de cursos para adquirir mais qualificação.
+
+![guia do refugiado](https://github.com/user-attachments/assets/5ada4b02-6b2c-4575-8bcd-45040b18d7a6)
 <Hr>
+
 11. **Tela Home**
 <Hr>
+
 12. **Tela de incluir vagas da empresa**
 <Hr>
+
 13. **Tela de perfil candidato**
 <Hr>
+
 14. **Tela de Perfil empregador**
 <Hr>
+
 15. **Tela sobre**
 
 <Hr>
 
-16. **tela status da vaga do candidato**
+16. **Tela status da vaga do candidato**
 
 Apresenta uma barra com as etapas da candidatura :
     
@@ -110,5 +123,17 @@ Apresenta uma barra com as etapas da candidatura :
 
 17. **Tela vagas**
 <Hr>
+
 18. **Tela vagas inscritas candidato**
+
+Na tela de vagas inscritas o candidato consegue vizualizar em cards todas as vagas para o qual se candidatou com uma breve visualização do andamento da candidatura por meio de uma barra de status.
+Do lado esquerdo da tela o candidato tambem tera acesso a um menu que possibilita o mesmo a:
+
+- Voltar para a pagina home
+- Consultar os dados cadastrados
+- Consultar as candidaturas
+- Criar ou editar o curriculo
+
+![vagas inscritas](https://github.com/user-attachments/assets/64670c8e-82af-44d0-a872-1c1e076e8a84)
+
                                  
