@@ -14,86 +14,89 @@ main {
     background: #fff;
 }
 
-h2 {
-    margin-top: 100px;
-}
-
 .container {
-    width: 80%;
-    height: fit-content;
-    display: flex;
-    justify-content: center;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+    width: 60%;
+    background-color: #f5f5f5;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .form {
-    width: 80%;
-    height: fit-content;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: #fff;
-    padding: 3rem;
+    display: grid;
+    gap: 1rem;
+    width: 100%;
 }
+
 
 .formHeader {
-    margin-bottom: 1rem;
-    display: flex;
+    grid-column: span 2;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
 }
 
-
 .inputGroup {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 1rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
 }
 
 .inputBox, textarea {
     display: flex;
     flex-direction: column;
-    margin-bottom: .5rem;
 }
 
 .inputBox input, textarea {
-    margin: 0.6rem 0;
     padding: 0.8rem;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 1px 1px 6px #0000001c;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: none;
+    background-color: #fff;
 }
 
 .inputBox input:hover, textarea:hover {
-    background-color: #eeeeee75;
+    background-color: #eee;
 }
 
 .inputBox input:focus-visible, textarea:focus-visible {
-    outline: 1px solid #5ec7d6;
+    outline: 2px solid #2CC4EA;
 }
 
-.inputBox input::placeholder, textarea::placeholder {
+.inputBox label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 0.3rem;
+}
+
+.inputBox input::placeholder {
     color: #5f6d7a;
 }
 
-textarea {
-display: block;
-width: 500px;
-height: 80px;
-padding: 15px;
-margin: 1% 0 1%;
-border-radius: 6px;
+#bio {
+    display: block;
+    width: 500px;
+    text-align: justify;
+}
+
+.signupButton {
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
 }
 
 .signupButton button {
-    width: 100%;
-    margin-top: 2.5rem;
+    width: 50%;
+    padding: 0.75rem;
     border: none;
-    background-color: #5ec7d6;
-    transition: all 0.3s ease;
-    padding: 0.62rem;
+    background-color: #2CC4EA;
+    color: #fff;
+    font-size: 1rem;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .signupButton button:hover {
@@ -108,21 +111,15 @@ border-radius: 6px;
 }
 
 /* @media screen and (max-width: 1064px) {
-    .formImg {
-        display: none;
-    }
+@media screen and (max-width: 768px) {
     .container {
         width: 90%;
-        height: auto;
     }
-
     .form {
+        grid-template-columns: 1fr;
+    }
+    .signupButton button {
         width: 100%;
     }
-
-    .inputGroup {
-        flex-direction: column;
-        overflow-y: scroll;
-        flex-wrap: nowrap;
-    }
+}
 } */
