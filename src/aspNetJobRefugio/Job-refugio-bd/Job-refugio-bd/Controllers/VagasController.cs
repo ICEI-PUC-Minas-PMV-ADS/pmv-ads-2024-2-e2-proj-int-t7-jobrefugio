@@ -223,5 +223,20 @@ namespace Job_refugio_bd.Controllers
 
             return View(inscritos);
         }
+
+        // STATUS DA CANDIDATURA
+        public Task<ActionResult> StatusInscricao()
+        {
+            Inscrito progress = _context.Inscritos.FirstOrDefault();
+            return Task.FromResult<ActionResult>(View(progress));
+        }
+
+        [HttpGet]
+        public JsonResult GetCurrentPhase()
+        {
+            Inscrito inscrito = _context.Inscritos.FirstOrDefault();
+            Inscrito progress = inscrito;
+            return Json(progress?.StatusInscricao.ToString() ?? "INSCRITO");
+        }
     }
 }

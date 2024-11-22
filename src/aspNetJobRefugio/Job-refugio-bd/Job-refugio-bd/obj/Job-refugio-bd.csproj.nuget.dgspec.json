@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\Job-refugio-bd.csproj": {}
+    "C:\\Users\\julia\\OneDrive\\Documents\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\Job-refugio-bd.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\Job-refugio-bd.csproj": {
+    "C:\\Users\\julia\\OneDrive\\Documents\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\Job-refugio-bd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\Job-refugio-bd.csproj",
+        "projectUniqueName": "C:\\Users\\julia\\OneDrive\\Documents\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\Job-refugio-bd.csproj",
         "projectName": "Job-refugio-bd",
-        "projectPath": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\Job-refugio-bd.csproj",
-        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\obj\\",
+        "projectPath": "C:\\Users\\julia\\OneDrive\\Documents\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\Job-refugio-bd.csproj",
+        "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\julia\\OneDrive\\Documents\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,8 +42,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -96,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
