@@ -43,6 +43,10 @@ O template criado está disponível no site GitHub e é composto pelos seguintes
 
 1. **Tela de Login**
 
+Esta tela permite que o usuário entre em sua conta.
+
+![Login vf](https://github.com/user-attachments/assets/c9b58511-bd5a-41bf-9051-184152d3b4e1)
+
 <Hr>
 
 2. **Tela de Cadastro**
@@ -59,8 +63,14 @@ Nesta tela o cadidado preencherá os dados para fazer seu cadastro no site.
 
 ![Cadastro Candidato vf](https://github.com/user-attachments/assets/f8f7c76d-82ae-46ce-b662-07144da33c0a)
 
+<Hr>
 
 4. **Tela de Cadastro Empregador**
+
+Nesta tela o empregador preencherá os dados de sua empresa para fazer cadastro no site.
+
+![Cadastro Empregador vf](https://github.com/user-attachments/assets/fbdfe9d0-d148-4c07-aebf-60e98ae53e55)
+
 <Hr>
 
 5. **Tela de Criar Currículo**
@@ -95,6 +105,11 @@ Nesta opção o cadidato poderá alterar seus dados pessoais.
 ![Edit Cadastro Candidato vf](https://github.com/user-attachments/assets/2f4f9105-841c-4c15-8cb1-bfc2c6798f65)
 
 9. **Tela de Editar Dados do Empregador**
+
+Nesta opção o empregador poderá alterar seus dados.
+
+![Edit Cadastro Empregador vf](https://github.com/user-attachments/assets/c8f738a8-bb1d-4841-a783-a11c929ab0b2)
+
 <Hr>
 
 10. **Tela Guia do Refugiado**
