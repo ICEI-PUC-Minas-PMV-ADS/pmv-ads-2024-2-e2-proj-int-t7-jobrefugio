@@ -1,0 +1,61 @@
+﻿@model IEnumerable<Job_refugio_bd.Models.Inscrito>
+
+@{
+    ViewData["Title"] = "Inscritos";
+}
+
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+<div style="padding: 4% 4% 0 4%">
+</div>
+<div class="vagas_criadas">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.DataInscricao)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Candidato.NomeUsuario)
+                </th>
+                <th>
+                    Resumo Qualificações
+                </th>
+                <th>
+                    Objetivos Profissionais
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Candidato.Celular)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Candidato.Email)
+                </th>               
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DataInscricao)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Candidato.NomeUsuario)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Candidato.Curriculo.ResumoQualific)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Candidato.Curriculo.ObjProf)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Candidato.Celular)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Candidato.Email)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

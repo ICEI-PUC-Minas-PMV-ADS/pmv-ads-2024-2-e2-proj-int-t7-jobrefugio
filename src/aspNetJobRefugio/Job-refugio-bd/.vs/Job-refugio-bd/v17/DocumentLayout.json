@@ -1,18 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nizia\\OneDrive\\Desktop\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\",
+  "WorkspaceRootPath": "C:\\Users\\grazi\\Documents\\ADS\\2 PER\u00CDODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|c:\\users\\nizia\\onedrive\\desktop\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspnetjobrefugio\\job-refugio-bd\\job-refugio-bd\\controllers\\candidatoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|solutionrelative:job-refugio-bd\\controllers\\candidatoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|c:\\users\\grazi\\documents\\ads\\2 per\u00EDodo\\projeto jobrefugio\\novo bd\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspnetjobrefugio\\job-refugio-bd\\job-refugio-bd\\views\\vagas\\inscritos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|solutionrelative:job-refugio-bd\\views\\vagas\\inscritos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|c:\\users\\nizia\\onedrive\\desktop\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspnetjobrefugio\\job-refugio-bd\\job-refugio-bd\\views\\candidatos\\inscricoes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|solutionrelative:job-refugio-bd\\views\\candidatos\\inscricoes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Job_refugio_bd/True/SqlTable/dbo.Inscrito.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|c:\\users\\nizia\\onedrive\\desktop\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspnetjobrefugio\\job-refugio-bd\\job-refugio-bd\\wwwroot\\css\\styleinscricoes.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|solutionrelative:job-refugio-bd\\wwwroot\\css\\styleinscricoes.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|c:\\users\\grazi\\documents\\ads\\2 per\u00EDodo\\projeto jobrefugio\\novo bd\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspnetjobrefugio\\job-refugio-bd\\job-refugio-bd\\models\\inscrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|solutionrelative:job-refugio-bd\\models\\inscrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|c:\\users\\grazi\\documents\\ads\\2 per\u00EDodo\\projeto jobrefugio\\novo bd\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspnetjobrefugio\\job-refugio-bd\\job-refugio-bd\\controllers\\vagascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|solutionrelative:job-refugio-bd\\controllers\\vagascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|c:\\users\\grazi\\documents\\ads\\2 per\u00EDodo\\projeto jobrefugio\\novo bd\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspnetjobrefugio\\job-refugio-bd\\job-refugio-bd\\views\\vagas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D86FAFD8-851E-459D-8224-531B2D1BB54E}|Job-refugio-bd\\Job-refugio-bd.csproj|solutionrelative:job-refugio-bd\\views\\vagas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,57 +29,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "styleinscricoes.css",
-              "DocumentMoniker": "C:\\Users\\nizia\\OneDrive\\Desktop\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\css\\styleinscricoes.css",
-              "RelativeDocumentMoniker": "Job-refugio-bd\\wwwroot\\css\\styleinscricoes.css",
-              "ToolTip": "C:\\Users\\nizia\\OneDrive\\Desktop\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\css\\styleinscricoes.css",
-              "RelativeToolTip": "Job-refugio-bd\\wwwroot\\css\\styleinscricoes.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-20T04:15:18.804Z",
+              "DocumentIndex": 1,
+              "Title": "dbo.Inscrito [Dados]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Job_refugio_bd/True/SqlTable/dbo.Inscrito.sql",
+              "ToolTip": "dbo.Inscrito [Dados]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-22T00:26:30.964Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Inscricoes.cshtml",
-              "DocumentMoniker": "C:\\Users\\nizia\\OneDrive\\Desktop\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\Views\\Candidatos\\Inscricoes.cshtml",
-              "RelativeDocumentMoniker": "Job-refugio-bd\\Views\\Candidatos\\Inscricoes.cshtml",
-              "ToolTip": "C:\\Users\\nizia\\OneDrive\\Desktop\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\Views\\Candidatos\\Inscricoes.cshtml",
-              "RelativeToolTip": "Job-refugio-bd\\Views\\Candidatos\\Inscricoes.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Inscrito.cs",
+              "DocumentMoniker": "C:\\Users\\grazi\\Documents\\ADS\\2 PER\u00CDODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\Models\\Inscrito.cs",
+              "RelativeDocumentMoniker": "Job-refugio-bd\\Models\\Inscrito.cs",
+              "ToolTip": "C:\\Users\\grazi\\Documents\\ADS\\2 PER\u00CDODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\Models\\Inscrito.cs",
+              "RelativeToolTip": "Job-refugio-bd\\Models\\Inscrito.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T00:15:24.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\grazi\\Documents\\ADS\\2 PER\u00CDODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\Views\\Vagas\\Index.cshtml",
+              "RelativeDocumentMoniker": "Job-refugio-bd\\Views\\Vagas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\grazi\\Documents\\ADS\\2 PER\u00CDODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\Views\\Vagas\\Index.cshtml",
+              "RelativeToolTip": "Job-refugio-bd\\Views\\Vagas\\Index.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFYAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-20T04:14:27.857Z",
+              "WhenOpened": "2024-11-22T00:09:37.731Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CandidatosController.cs",
-              "DocumentMoniker": "C:\\Users\\nizia\\OneDrive\\Desktop\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\Controllers\\CandidatosController.cs",
-              "RelativeDocumentMoniker": "Job-refugio-bd\\Controllers\\CandidatosController.cs",
-              "ToolTip": "C:\\Users\\nizia\\OneDrive\\Desktop\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\Controllers\\CandidatosController.cs",
-              "RelativeToolTip": "Job-refugio-bd\\Controllers\\CandidatosController.cs",
-              "ViewState": "AgIAANkAAAAAAAAAAAAQwOcAAAAiAAAAAAAAAA==",
+              "Title": "Inscritos.cshtml",
+              "DocumentMoniker": "C:\\Users\\grazi\\Documents\\ADS\\2 PER\u00CDODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\Views\\Vagas\\Inscritos.cshtml",
+              "RelativeDocumentMoniker": "Job-refugio-bd\\Views\\Vagas\\Inscritos.cshtml",
+              "ToolTip": "C:\\Users\\grazi\\Documents\\ADS\\2 PER\u00CDODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\Views\\Vagas\\Inscritos.cshtml",
+              "RelativeToolTip": "Job-refugio-bd\\Views\\Vagas\\Inscritos.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-21T23:58:08.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VagasController.cs",
+              "DocumentMoniker": "C:\\Users\\grazi\\Documents\\ADS\\2 PER\u00CDODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\Controllers\\VagasController.cs",
+              "RelativeDocumentMoniker": "Job-refugio-bd\\Controllers\\VagasController.cs",
+              "ToolTip": "C:\\Users\\grazi\\Documents\\ADS\\2 PER\u00CDODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\Controllers\\VagasController.cs",
+              "RelativeToolTip": "Job-refugio-bd\\Controllers\\VagasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T04:14:11.07Z",
+              "WhenOpened": "2024-11-21T23:47:20.181Z",
               "EditorCaption": ""
             }
           ]

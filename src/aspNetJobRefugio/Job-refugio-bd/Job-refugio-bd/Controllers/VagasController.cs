@@ -200,5 +200,26 @@ namespace Job_refugio_bd.Controllers
         {
             return _context.Vagas.Any(e => e.Id == id);
         }
+        public async Task<IActionResult> Inscritos(int? id) //Grazi
+        {
+            if (id == null)
+                return NotFound();
+
+            var vaga = await _context.Vagas.FindAsync(id); 
+
+            if (vaga == null) 
+                return NotFound();
+
+            var inscritos = await _context.Inscritos 
+                .Include(v => v.Candidato)
+                .Include(v => v.Candidato.Curriculo)
+                .Where(c => c.VagaId == id) 
+                .OrderByDescending(c => c.DataInscricao) 
+                .ToListAsync(); 
+
+            ViewBag.Vaga = vaga; 
+
+            return View(inscritos);
+        }
     }
 }
