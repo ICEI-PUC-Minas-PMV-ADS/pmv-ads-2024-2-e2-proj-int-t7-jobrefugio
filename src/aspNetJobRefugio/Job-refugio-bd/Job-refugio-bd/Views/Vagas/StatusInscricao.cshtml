@@ -20,12 +20,14 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
 <main>
+
 <div class="barra-progresso">
     <div class="fase fase1 @(Model.StatusAtual >= StatusInscricaoEnum.INSCRITO ? "ativo" : "")">INSCRITO</div>
     <div class="fase fase2 @(Model.StatusAtual >= StatusInscricaoEnum.EM_ANALISE ? "ativo" : "")">EM ANÁLISE</div>
     <div class="fase fase3 @(Model.StatusAtual >= StatusInscricaoEnum.ENTREVISTA ? "ativo" : "")">ENTREVISTA</div>
     <div class="fase fase4 @(Model.StatusAtual >= StatusInscricaoEnum.ADMISSAO ? "ativo" : "")">ADMISSÃO</div>
 </div>
+
 
 
     <div class="conteudo">

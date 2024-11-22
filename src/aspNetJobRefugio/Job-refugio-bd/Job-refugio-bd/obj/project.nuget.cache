@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nSxZ4+tYcdk=",
+  "dgSpecHash": "e2e+shyLd3c=",
   "success": true,
   "projectFilePath": "C:\\Users\\julia\\OneDrive\\Documents\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\Job-refugio-bd.csproj",
   "expectedPackageFiles": [
@@ -57,6 +57,8 @@
     "C:\\Users\\julia\\.nuget\\packages\\humanizer.core.zh-cn\\2.14.1\\humanizer.core.zh-cn.2.14.1.nupkg.sha512",
     "C:\\Users\\julia\\.nuget\\packages\\humanizer.core.zh-hans\\2.14.1\\humanizer.core.zh-hans.2.14.1.nupkg.sha512",
     "C:\\Users\\julia\\.nuget\\packages\\humanizer.core.zh-hant\\2.14.1\\humanizer.core.zh-hant.2.14.1.nupkg.sha512",
+    "C:\\Users\\julia\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\6.0.0\\microsoft.aspnetcore.mvc.razor.extensions.6.0.0.nupkg.sha512",
+    "C:\\Users\\julia\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\8.0.0\\microsoft.aspnetcore.mvc.razor.runtimecompilation.8.0.0.nupkg.sha512",
     "C:\\Users\\julia\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.24\\microsoft.aspnetcore.razor.language.6.0.24.nupkg.sha512",
     "C:\\Users\\julia\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\julia\\.nuget\\packages\\microsoft.build\\17.10.4\\microsoft.build.17.10.4.nupkg.sha512",

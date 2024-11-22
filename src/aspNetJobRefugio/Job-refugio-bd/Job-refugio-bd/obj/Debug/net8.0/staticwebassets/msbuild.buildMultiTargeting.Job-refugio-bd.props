@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Job-refugio-bd.props" />
+</Project>
