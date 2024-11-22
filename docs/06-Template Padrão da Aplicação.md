@@ -64,11 +64,15 @@ Nesta tela o cadidado preencherá os dados para fazer seu cadastro no site.
 <Hr>
 
 5. **Tela de Criar Currículo**
-<Hr>
+
+Nesta tela o usuário poderá criar seu currículo preenchendo os dados do formulário.
+![Curriculo vf](https://github.com/user-attachments/assets/73f05498-75e1-45ef-93ba-41a5ea1156e2)
 
 6. **Tela de Criar Vaga**
 
-<Hr>
+Nesta tela o empregador poderá criar uma vaga preenchendo os dados do formulário.
+![Criar Vaga vf](https://github.com/user-attachments/assets/ae5bf622-7be9-426c-aa82-4517f500fa5d)
+
 
 7. **Tela Descrição da Vaga** 
 
