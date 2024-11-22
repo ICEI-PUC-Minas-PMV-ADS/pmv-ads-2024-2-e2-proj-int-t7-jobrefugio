@@ -1,4 +1,5 @@
-message: Please cite this software using these metadata.
+cff-version: 1.0.1
+message: Sistema de vagas de emprego para refugiados.
 title: JobRefugio
 authors:
   - family-names: Monteiro Lima
@@ -22,5 +23,6 @@ keywords:
   - Refugiados
   - Inclusão
 repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-2-e2-proj-int-t7-jobrefugio
+license: CC-BY-4.0
 version: 1.0.0
 date-released: 2024-09-28
