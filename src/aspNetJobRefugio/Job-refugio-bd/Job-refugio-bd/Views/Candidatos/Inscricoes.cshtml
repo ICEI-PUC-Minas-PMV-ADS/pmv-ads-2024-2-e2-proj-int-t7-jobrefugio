@@ -1,8 +1,14 @@
-﻿@model IEnumerable<Job_refugio_bd.Models.Inscrito>
+﻿@using System.Security.Claims
+@model IEnumerable<Job_refugio_bd.Models.Inscrito>
 
 @{
     ViewData["Title"] = "Inscrições";
 }
+
+@{
+    var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+}
+
 <link rel="stylesheet" href="~/css/styleinscricoes.css">
 <main>
     <div class="content">
@@ -10,10 +16,10 @@
         <section class="banner"></section>
         <!--Menu Lateral-->
         <aside id="menuLateral" class="menuLateral">
-            <a class="linksLateral" href="#">Inicio</a>
-            <a class="linksLateral" href="#">Meus Dados</a>
-            <a class="linksLateral" href="#">Minhas Candidaturas</a>
-            <a class="linksLateral" href="#">Criar/Editar curriculo</a>
+            <h1 id="hi">Olá, @User.Identity.Name</h1> <!--incluir nome do candidato criando um Id-->
+            <a class="linksLateral" asp-area="" asp-controller="Candidatos" asp-action="Details" asp-route-id="@userId">Home</a>
+            <a class="linksLateral" asp-area="" asp-controller="Candidatos" asp-action="Edit" asp-route-id="@userId">Meus Dados</a>
+            <a class="linksLateral" asp-area="" asp-controller="Candidatos" asp-action="Inscricoes" asp-route-id="@userId">Minhas Candidaturas</a>
         </aside>
         <div class="cards">
             @foreach (var item in Model)

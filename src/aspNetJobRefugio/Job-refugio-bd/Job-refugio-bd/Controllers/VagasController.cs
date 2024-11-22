@@ -33,6 +33,8 @@ namespace Job_refugio_bd.Controllers
             return View(await appDbContext.ToListAsync());
         }
 
+
+
         // GET: Vagas/Details/5
         public async Task<IActionResult> Details(int? id)
         {

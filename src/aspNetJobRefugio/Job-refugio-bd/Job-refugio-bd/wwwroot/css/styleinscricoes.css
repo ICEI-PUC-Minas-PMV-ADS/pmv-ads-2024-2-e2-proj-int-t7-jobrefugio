@@ -43,8 +43,7 @@ body {
 }
 
 .menuLateral a:hover {
-    color: rgb(0, 0, 0); /*alterar para cor padrão do site*/
-    font-size: 18px;
+    color: #2CC4EA;
 }
 
 .content {
@@ -86,7 +85,6 @@ body {
     }
 
 h2 {
-    margin-top: 10%;
     margin-inline: 25;
 }
 
@@ -95,8 +93,8 @@ h2 {
     background-color: #e0e0e0;
     overflow: hidden;
     height: 10px;
-    margin: 30px auto;
-    margin-top: 55%;
+    margin: 6px;
+    margin-top: 40%;
 }
 
 .barra-interna {
@@ -119,3 +117,7 @@ button {
         padding: 3% 8% 3% 8%;
         transition: 0.5s ease;
     }
+
+#hi {
+    margin-left: 8%;
+}

@@ -217,5 +217,24 @@ namespace Job_refugio_bd.Controllers
         {
             return _context.Empregadores.Any(e => e.Id == id);
         }
+
+        public async Task<IActionResult> GerenciarVagas(int? id)
+        {
+            if (id == null)
+                return NotFound();
+
+            var empregador = await _context.Empregadores.FindAsync(id);
+
+            if (empregador == null)
+                return NotFound();
+
+            var vagas = await _context.Vagas
+                .Where(c => c.Id == id)
+                .ToListAsync();
+
+
+            return View(vagas);
+        }
+
     }
 }

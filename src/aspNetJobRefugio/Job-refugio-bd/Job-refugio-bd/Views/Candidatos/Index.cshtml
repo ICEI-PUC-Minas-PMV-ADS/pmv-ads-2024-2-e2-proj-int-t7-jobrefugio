@@ -1,15 +1,20 @@
-﻿@model IEnumerable<Job_refugio_bd.Models.Candidato>
+﻿@using System.Security.Claims
+@model IEnumerable<Job_refugio_bd.Models.Candidato>
 
 @{
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+@{
+    var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+}
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
+<div style="padding: 1% 5% 0 5%;">
+
+
+<h1>Candidatos</h1>
+
+<table class="table" >
     <thead>
         <tr>
             <th>
@@ -21,19 +26,6 @@
             <th>
                 @Html.DisplayNameFor(model => model.Nacionalidade)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Endereco)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CPF)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Celular)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Email)
-            </th>
-            
             <th></th>
         </tr>
     </thead>
@@ -50,24 +42,14 @@
                 @Html.DisplayFor(modelItem => item.Nacionalidade)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Endereco)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CPF)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Celular)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Email)
-            </td>
-          
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.IdCandidato">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.IdCandidato">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdCandidato">Delete</a>
+                    <a asp-controller="Candidatos" asp-action="DetailsExibir" asp-route-id="@item.IdCandidato">Visualizar Dados</a> 
             </td>
         </tr>
 }
     </tbody>
 </table>
+    <div class="signupButton">
+        <a style="margin-right: 2%" asp-area="" asp-controller="Empregadores" asp-action="Details" asp-route-id="@userId" class="btn btn-outline-primary">Voltar</a>
+
+    </div>
+</div>

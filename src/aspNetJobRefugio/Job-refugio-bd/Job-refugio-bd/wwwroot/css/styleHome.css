@@ -257,7 +257,7 @@ footer {
 
 .drop {
     display: none;
-    background-color: #2CC4EA;
+
     padding: 1%;
     box-shadow: 0 10px 10px rgba(0,0,0,0.05);
     border-radius: 3px;
@@ -265,10 +265,13 @@ footer {
 }
 
 .perfil:hover {
-    .drop{
+    .drop
+{
     display: flex;
+    flex-direction: column;
     position: fixed;
     transition: 0.2s ease;
+    padding: 0.5% 2% 0.5% 2%;
 }
 
 }
@@ -396,4 +399,23 @@ footer {
     .menu-toggle {
         display: block;
     }
+}
+
+.menu_list {
+    display: flex;
+    flex-direction: column;
+}
+
+#nome_usuario_menu {
+    text-decoration: none;
+    color: #ffff;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+}
+
+.divisao {
+    height: 1px;
+    background-color: white;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
 }

@@ -1,62 +1,35 @@
-﻿@model Job_refugio_bd.Models.Candidato
+﻿@using System.Security.Claims
+@model Job_refugio_bd.Models.Candidato
 
 @{
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<link rel="stylesheet" href="~/css/stylePerfilCandidato.css" asp-append-version="true" />
+@{
+    var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+}
 
-<div>
-    <h4>Candidato</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.NomeUsuario)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.NomeUsuario)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.DataNascimento)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.DataNascimento)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Nacionalidade)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Nacionalidade)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Endereco)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Endereco)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CPF)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.CPF)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Celular)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Celular)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Email)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Email)
-        </dd>
-       
-        
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.IdCandidato">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+<div class="content">
+    <!--banner-->
+    <section class="banner"></section>
+    <!--Menu Lateral-->
+    <aside id="menuLateral" class="menuLateral">
+        <h1 id="hi">Olá, @User.Identity.Name</h1> <!--incluir nome do candidato criando um Id-->
+        <a class="linksLateral" asp-area="" asp-controller="Candidatos" asp-action="Details" asp-route-id="@userId">Home</a>
+        <a class="linksLateral" asp-area="" asp-controller="Candidatos" asp-action="Edit" asp-route-id="@userId">Meus Dados</a>
+        <a class="linksLateral" asp-area="" asp-controller="Candidatos" asp-action="Inscricoes" asp-route-id="@userId">Minhas Candidaturas</a>
+    </aside>
+    <!--Cards tipo botão para acessar currículos e vagas anunciadas-->
+    <div class="card">
+        <a class="linkCard" asp-area="" asp-controller="Curriculos" asp-action="Create">Cadastrar Curriculo</a>
+    </div>
+
+    <div class="card">
+        <a class="linkCard" asp-area="" asp-controller="Candidatos" asp-action="Inscricoes" asp-route-id="@userId">Minhas Candidaturas</a>
+    </div>
+
+    <div class="card">
+        <a class="linkCard" asp-area="" asp-controller="Vagas" asp-action="VagasDisponiveis">Pesquisar Vagas</a>
+    </div>
 </div>

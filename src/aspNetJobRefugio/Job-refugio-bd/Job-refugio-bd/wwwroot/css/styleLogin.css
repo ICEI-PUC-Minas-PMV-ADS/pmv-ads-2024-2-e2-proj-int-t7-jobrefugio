@@ -1,0 +1,115 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+main {
+    height: 100vh !important;
+}
+
+.containerForms {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e3e3e3;
+}
+
+.formLogin {
+    position: absolute;
+    max-width: 430px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 6px;
+    background: #fff;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #5F6D7A;
+    text-align: center;
+}
+
+form {
+    margin-top: 30px;
+}
+
+    form .field {
+        position: relative;
+        height: 50px;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+.field input,
+.field button {
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+}
+
+.field input {
+    outline: none;
+    padding: 0 15px;
+    border: 1px solid #e3e3e3;
+}
+
+    .field input:focus {
+        border-bottom-width: 2px;
+    }
+
+.eyeIcons {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #5F6D7A;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.field button {
+    color: #fff;
+    background-color: #2CC4EA;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+    .field button:hover {
+        background-color: #1fb6ff;
+    }
+
+.formLink {
+    text-align: center;
+    margin-top: 10px;
+}
+
+    .formLink span,
+    .formLink a {
+        font-size: 14px;
+        font-weight: 400;
+        color: #5F6D7A;
+    }
+
+.formLogin a {
+    color: #1fb6ff;
+    text-decoration: none;
+}
+
+    .formLogin a:hover {
+        text-decoration: underline;
+    }
+
+@media screen and (max-width:400px) {
+    .form {
+        padding: 15px 10px;
+    }
+}

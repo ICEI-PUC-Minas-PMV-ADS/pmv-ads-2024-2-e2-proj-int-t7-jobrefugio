@@ -1,0 +1,68 @@
+﻿@using System.Security.Claims
+@model Job_refugio_bd.Models.Candidato
+@{
+    ViewData["Title"] = "DetailsExibir";
+}
+
+@{
+    var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+}
+
+<div style="padding: 1% 5% 0 5%;">
+
+
+    <h1>Detalhes Candidato(a) @Html.DisplayFor(model => model.NomeUsuario)</h1>
+
+
+    <h4>Curriculo</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NomeUsuario)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NomeUsuario)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.DataNascimento)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DataNascimento)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Nacionalidade)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Nacionalidade)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Curriculo.ResumoQualific)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Curriculo.ResumoQualific)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Curriculo.FormAcad)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Curriculo.FormAcad)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Curriculo.ObjProf)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Curriculo.ObjProf)
+        </dd>
+        
+    </dl>
+    <div class="signupButton">
+        <a style="margin-right: 2%" asp-area="" asp-controller="Candidatos" asp-action="Index" class="btn btn-outline-primary">Voltar</a>
+        
+    </div>
+</div>

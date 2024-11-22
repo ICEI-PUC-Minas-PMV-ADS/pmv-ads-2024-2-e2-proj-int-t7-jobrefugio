@@ -29,6 +29,11 @@ namespace Job_refugio_bd.Controllers
             return View();
         }
 
+        private int GetUserId()
+        {
+            return int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value);
+        }
+
         [HttpPost]
         public async Task<IActionResult> Login(string email, string senha)
         {
@@ -96,6 +101,25 @@ namespace Job_refugio_bd.Controllers
             }
 
             var candidato = await _context.Candidatos
+                .FirstOrDefaultAsync(m => m.IdCandidato == id);
+            if (candidato == null)
+            {
+                return NotFound();
+            }
+
+            return View(candidato);
+        }
+
+        // GET: Candidatos Detalhes Visualização
+        public async Task<IActionResult> DetailsExibir(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var candidato = await _context.Candidatos
+                .Include(v => v.Curriculo)
                 .FirstOrDefaultAsync(m => m.IdCandidato == id);
             if (candidato == null)
             {
@@ -176,7 +200,10 @@ namespace Job_refugio_bd.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+
+
+                return RedirectToAction("Details", "Candidatos", new { id = GetUserId() });
+            
             }
             return View(candidato);
         }
@@ -233,6 +260,7 @@ namespace Job_refugio_bd.Controllers
                 return NotFound();
 
             var inscrito = await _context.Inscritos
+                .Include(v => v.Vaga)
                 .Where(c => c.CandidatoId == id)
                 .ToListAsync();
 

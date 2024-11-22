@@ -4,68 +4,70 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1 style="text-align: center; margin-top: 4%">Editar dados | Empregador</h1>
+<link rel="stylesheet" href="~/css/styleCadastroCandidato.css">
 
-<hr />
-<div style="display: flex; justify-content: center">
-    <div class="col-md-4">
+<div class="container">
+    <div class="form">
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Id" />
-            <div class="form-group">
-                <label asp-for="NomeEmpresa" class="control-label"></label>
-                <input asp-for="NomeEmpresa" class="form-control" />
+            <div class="formHeader">
+                <h2>Empregador, Edite seus dados</h2>
+            </div>
+            <div class="inputBox" style="margin-bottom: 2%;">
+                <input asp-for="NomeEmpresa" id="nomeEmpresa" placeholder="Nome da Empresa" />
                 <span asp-validation-for="NomeEmpresa" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Cnpj" class="control-label"></label>
-                <input asp-for="Cnpj" class="form-control" />
-                <span asp-validation-for="Cnpj" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="NomeFantasia" class="control-label"></label>
-                <input asp-for="NomeFantasia" class="form-control" />
-                <span asp-validation-for="NomeFantasia" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Descricao" class="control-label"></label>
-                <input asp-for="Descricao" class="form-control" />
-                <span asp-validation-for="Descricao" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Endereco" class="control-label"></label>
-                <input asp-for="Endereco" class="form-control" />
-                <span asp-validation-for="Endereco" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Cep" class="control-label"></label>
-                <input asp-for="Cep" class="form-control" />
-                <span asp-validation-for="Cep" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Telefone" class="control-label"></label>
-                <input asp-for="Telefone" class="form-control" />
-                <span asp-validation-for="Telefone" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Email" class="control-label"></label>
-                <input asp-for="Email" class="form-control" />
-                <span asp-validation-for="Email" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Senha" class="control-label"></label>
-                <input asp-for="Senha" class="form-control" />
-                <span asp-validation-for="Senha" class="text-danger"></span>
-            </div>
-            <div class="form-group" style="margin-top: 2%; text-align: center">
+            <div class="inputGroup">
+                
 
-                <!--<a asp-area="" asp-controller="Empregadores" asp-action="Login" class="btn btn-outline-primary">Voltar</a>-->
+                <div class="inputBox">
+                    <input asp-for="NomeFantasia" id="nomeFantasia" placeholder="Nome Fantasia"/>
+                    <span asp-validation-for="NomeFantasia" class="text-danger"></span>
+                </div>
+
+                <div class="inputBox">
+                    <input asp-for="Cnpj" id="cnpj"  placeholder="CNPJ"/>
+                    <span asp-validation-for="Cnpj" class="text-danger"></span>
+                </div>
+
+                <div class="inputBox">
+                    <input asp-for="Descricao" id="bio"  placeholder="Descrição da Empresa"/>
+                    <span asp-validation-for="Descricao" class="text-danger"></span>
+                </div>
+
+                <div class="inputBox">
+                    <input asp-for="Endereco" id="endereco"  placeholder="Endereço Completo" />
+                    <span asp-validation-for="Endereco" class="text-danger"></span>
+                </div>
+
+                <div class="inputBox">
+                    <input asp-for="Cep" id="cep"  placeholder="CEP" />
+                    <span asp-validation-for="Cep" class="text-danger"></span>
+                </div>
+
+                <div class="inputBox">
+                    <input asp-for="Email" id="email" placeholder="E-mail" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+
+                <div class="inputBox">
+                    <input asp-for="Telefone" id="telefone"  placeholder="(XX) X XXXX-XXXX" />
+                    <span asp-validation-for="Telefone" class="text-danger"></span>
+                </div>
+
+                <div class="inputBox">
+                    <input asp-for="Senha" id="password"  placeholder="Sua senha" />
+                    <span asp-validation-for="Senha" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="signupButton">
                 <input type="submit" value="Salvar" class="btn btn-primary" />
             </div>
         </form>
-        
     </div>
 </div>
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

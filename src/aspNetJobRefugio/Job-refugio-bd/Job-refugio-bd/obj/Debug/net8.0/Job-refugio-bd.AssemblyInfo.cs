@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Job-refugio-bd")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bf8746493b0c4929273ea0731308afb27d7f894")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Job-refugio-bd")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Job-refugio-bd")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

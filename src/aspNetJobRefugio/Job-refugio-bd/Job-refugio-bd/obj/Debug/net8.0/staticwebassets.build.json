@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "W8rbNoPOCVcapS5dAFKnEC3su+CM/wJ1WYPiDl0BC9k=",
+  "Hash": "+am/ZfRNkwK/ykKETIaZdj+zKTBB6XBlxnwoaxLO1To=",
   "Source": "Job-refugio-bd",
   "BasePath": "_content/Job-refugio-bd",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Job-refugio-bd\\wwwroot",
       "Source": "Job-refugio-bd",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Job-refugio-bd.styles.css",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Job-refugio-bd.styles.css",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "Job-refugio-bd.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Job-refugio-bd.styles.css"
+      "OriginalItemSpec": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Job-refugio-bd.styles.css"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Job-refugio-bd.bundle.scp.css",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Job-refugio-bd.bundle.scp.css",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "Job-refugio-bd.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Job-refugio-bd.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Job-refugio-bd.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\css\\site.css",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\css\\styleAcessoNegado.css",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\css\\styleAcessoNegado.css",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "css/styleAcessoNegado.css",
       "AssetKind": "All",
@@ -93,10 +93,29 @@
       "OriginalItemSpec": "wwwroot\\css\\styleAcessoNegado.css"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\css\\styleCriarCurriculo.css",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\css\\styleCadastroCandidato.css",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "BasePath": "_content/Job-refugio-bd",
+      "RelativePath": "css/styleCadastroCandidato.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styleCadastroCandidato.css"
+    },
+    {
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\css\\styleCriarCurriculo.css",
+      "SourceId": "Job-refugio-bd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "css/styleCriarCurriculo.css",
       "AssetKind": "All",
@@ -112,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\css\\styleCriarCurriculo.css"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\css\\styleCriarVaga.css",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\css\\styleCriarVaga.css",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "css/styleCriarVaga.css",
       "AssetKind": "All",
@@ -131,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\css\\styleCriarVaga.css"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\css\\styleDescVaga.css",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\css\\styleDescVaga.css",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "css/styleDescVaga.css",
       "AssetKind": "All",
@@ -150,10 +169,29 @@
       "OriginalItemSpec": "wwwroot\\css\\styleDescVaga.css"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\css\\styleGuiaRefugiado.css",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\css\\styleEditarDadosCandidato.css",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "BasePath": "_content/Job-refugio-bd",
+      "RelativePath": "css/styleEditarDadosCandidato.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styleEditarDadosCandidato.css"
+    },
+    {
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\css\\styleGuiaRefugiado.css",
+      "SourceId": "Job-refugio-bd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "css/styleGuiaRefugiado.css",
       "AssetKind": "All",
@@ -169,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\css\\styleGuiaRefugiado.css"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\css\\styleHome.css",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\css\\styleHome.css",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "css/styleHome.css",
       "AssetKind": "All",
@@ -188,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\css\\styleHome.css"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\css\\styleinscricoes.css",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\css\\styleinscricoes.css",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "css/styleinscricoes.css",
       "AssetKind": "All",
@@ -207,10 +245,29 @@
       "OriginalItemSpec": "wwwroot\\css\\styleinscricoes.css"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\css\\stylePerfilCandidato.css",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\css\\styleLogin.css",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "BasePath": "_content/Job-refugio-bd",
+      "RelativePath": "css/styleLogin.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styleLogin.css"
+    },
+    {
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\css\\stylePerfilCandidato.css",
+      "SourceId": "Job-refugio-bd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "css/stylePerfilCandidato.css",
       "AssetKind": "All",
@@ -226,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\css\\stylePerfilCandidato.css"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\css\\stylePerfilEmpregador.css",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\css\\stylePerfilEmpregador.css",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "css/stylePerfilEmpregador.css",
       "AssetKind": "All",
@@ -245,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\css\\stylePerfilEmpregador.css"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\css\\styleSobre.css",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\css\\styleSobre.css",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "css/styleSobre.css",
       "AssetKind": "All",
@@ -264,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\css\\styleSobre.css"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\favicon.ico",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -283,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\img\\banner1.png",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\img\\banner1.png",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "img/banner1.png",
       "AssetKind": "All",
@@ -302,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\img\\banner1.png"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\img\\Crie_seu_curriculo.png",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\img\\Crie_seu_curriculo.png",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "img/Crie_seu_curriculo.png",
       "AssetKind": "All",
@@ -321,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Crie_seu_curriculo.png"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\img\\Crie_uma_vaga.png",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\img\\Crie_uma_vaga.png",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "img/Crie_uma_vaga.png",
       "AssetKind": "All",
@@ -340,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Crie_uma_vaga.png"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\img\\exemplo_logo_empresa.png",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\img\\exemplo_logo_empresa.png",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "img/exemplo_logo_empresa.png",
       "AssetKind": "All",
@@ -359,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\img\\exemplo_logo_empresa.png"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\img\\icon_title.png",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\img\\icon_title.png",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "img/icon_title.png",
       "AssetKind": "All",
@@ -378,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\img\\icon_title.png"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\img\\Logo_.png",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\img\\Logo_.png",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "img/Logo_.png",
       "AssetKind": "All",
@@ -397,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Logo_.png"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\img\\OlaCandidato_v2.png",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\img\\OlaCandidato_v2.png",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "img/OlaCandidato_v2.png",
       "AssetKind": "All",
@@ -416,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\img\\OlaCandidato_v2.png"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\img\\OlaEmpregador_v2.png",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\img\\OlaEmpregador_v2.png",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "img/OlaEmpregador_v2.png",
       "AssetKind": "All",
@@ -435,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\img\\OlaEmpregador_v2.png"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\img\\perfil.png",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\img\\perfil.png",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "img/perfil.png",
       "AssetKind": "All",
@@ -454,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\img\\perfil.png"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\img\\vagasinscritas.jpg",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\img\\vagasinscritas.jpg",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "img/vagasinscritas.jpg",
       "AssetKind": "All",
@@ -473,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\img\\vagasinscritas.jpg"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\js\\scriptCriarVaga.js",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\js\\scriptCriarVaga.js",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "js/scriptCriarVaga.js",
       "AssetKind": "All",
@@ -492,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\js\\scriptCriarVaga.js"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\js\\site.js",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -511,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -530,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -549,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -568,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -587,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -606,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -625,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -644,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -663,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -682,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -701,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -720,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -739,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -758,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -777,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -796,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -815,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -834,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -853,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -872,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -891,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -910,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -929,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -948,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -967,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -986,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1005,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1024,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1043,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1062,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1081,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1100,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1119,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1138,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1157,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1176,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1195,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1214,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1233,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1252,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1271,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1290,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1309,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1328,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1347,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1366,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1385,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1404,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1423,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1442,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1461,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1480,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1499,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1518,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1537,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1556,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1575,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Job-refugio-bd",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\",
       "BasePath": "_content/Job-refugio-bd",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

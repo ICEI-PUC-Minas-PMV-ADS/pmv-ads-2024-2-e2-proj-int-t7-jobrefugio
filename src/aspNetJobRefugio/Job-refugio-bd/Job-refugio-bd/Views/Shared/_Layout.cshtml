@@ -1,5 +1,11 @@
-﻿<!DOCTYPE html>
+﻿@using System.Security.Claims
+<!DOCTYPE html>
 <html lang="pt-br">
+
+@{
+    var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+}
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -43,7 +49,12 @@
                 {
                     <a href="#"><img id="logo_perfil" src="~/img/perfil.png" alt="imagem representa perfil"></a>
                     <ul>
-                        <li class="drop"><a id="link_login" asp-area="" asp-controller="Candidatos" asp-action="Logout">Sair</a></li>
+                        <li class="drop">
+                            <a style="text-decoration: none;" asp-area="" asp-controller="Candidatos" asp-action="Details" asp-route-id="@userId"><span id="nome_usuario_menu">@User.Identity.Name</span></a>
+                            
+                            <div class="divisao"></div>
+                            <a id="link_login" asp-area="" asp-controller="Candidatos" asp-action="Logout">Sair</a>
+                        </li>
                     </ul>
                 }
                 else

@@ -1,70 +1,71 @@
-﻿@model Job_refugio_bd.Models.Candidato
+﻿@using System.Security.Claims
+@model Job_refugio_bd.Models.Candidato
 
 @{
     ViewData["Title"] = "Edit";
 }
 
-<h1 style="text-align: center; margin-top: 4%">Editar dados | Candidato</h1>
+@{
+    var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+}
 
-<hr />
-<div style="display: flex; justify-content: center">
-    <div class="col-md-4">
+
+<link rel="stylesheet" href="~/css/styleEditarDadosCandidato.css">
+
+<div class="container">
+          
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="IdCandidato" />
-            <div class="form-group">
-                <label asp-for="NomeUsuario" class="control-label"></label>
-                <input asp-for="NomeUsuario" class="form-control" />
-                <span asp-validation-for="NomeUsuario" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="DataNascimento" class="control-label"></label>
-                <input asp-for="DataNascimento" class="form-control" />
-                <span asp-validation-for="DataNascimento" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Nacionalidade" class="control-label"></label>
-                <input asp-for="Nacionalidade" class="form-control" />
-                <span asp-validation-for="Nacionalidade" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Endereco" class="control-label"></label>
-                <input asp-for="Endereco" class="form-control" />
-                <span asp-validation-for="Endereco" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="CPF" class="control-label"></label>
-                <input asp-for="CPF" class="form-control" />
-                <span asp-validation-for="CPF" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Celular" class="control-label"></label>
-                <input asp-for="Celular" class="form-control" />
-                <span asp-validation-for="Celular" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Email" class="control-label"></label>
-                <input asp-for="Email" class="form-control" />
-                <span asp-validation-for="Email" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Senha" class="control-label"></label>
-                <input asp-for="Senha" class="form-control" />
-                <span asp-validation-for="Senha" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="ConfirmPassword" class="control-label"></label>
-                <input asp-for="ConfirmPassword" class="form-control" />
-                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
-            </div>
-            <div class="form-group" style="margin-top: 2%; text-align: center">
-
-                <!--<a asp-area="" asp-controller="Empregadores" asp-action="Login" class="btn btn-outline-primary">Voltar</a>-->
-                <input type="submit" value="Salvar" class="btn btn-primary" />
-            </div>
+                    <input type="hidden" asp-for="IdCandidato" />   
+                    <div class="formHeader">
+                        <h2>Candidato, edite seus dados!</h2>
+                    </div>
+                      <div class="inputBox" style="margin-bottom: 2%">
+                        <input asp-for="NomeUsuario" id="nomeCandidato" placeholder="Digite seu nome completo" />
+                        <span asp-validation-for="NomeUsuario" class="text-danger"></span>
+                      </div>
+                    <div class="inputGroup">
+                        
+                        <div class="inputBox">
+                            <input asp-for="Nacionalidade" id="nacionalidade" placeholder="Nacionalidade"/>
+                            <span asp-validation-for="Nacionalidade" class="text-danger"></span>
+                        </div>
+                        <div class="inputBox">
+                            <input asp-for="Endereco" id="endereco" placeholder="Endereço" />
+                            <span asp-validation-for="Endereco" class="text-danger"></span>
+                        </div>
+                        <div class="inputBox">
+                            <input asp-for="Email" id="email" placeholder="Digite seu E-mail" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                        <div class="inputBox">
+                            <input asp-for="Celular" id="telefone" placeholder="Telefone" />
+                            <span asp-validation-for="Celular" class="text-danger"></span>
+                        </div>
+                        <div class="inputBox">
+                            <input asp-for="CPF" id="cpfOrPassport" placeholder="Digite seu CPF/Passaporte" />
+                            <span asp-validation-for="CPF" class="text-danger"></span>
+                        </div>
+                        <div class="inputBox">
+                            <input asp-for="DataNascimento" id="dataDeNascimento" placeholder="Data de Nascimento"/>
+                            <span asp-validation-for="DataNascimento" class="text-danger"></span>
+                        </div>
+                        <div class="inputBox">
+                            <input asp-for="Senha" id="password" placeholder="Digite sua senha" />
+                            <span asp-validation-for="Senha" class="text-danger"></span>
+                        </div>
+                        <div class="inputBox">
+                            <input asp-for="ConfirmPassword" id="confirmePassword" placeholder="Confirme sua senha"/>
+                            <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="signupButton" >
+                        <a style="margin-right: 2%" asp-area="" asp-controller="Candidatos" asp-action="Details" asp-route-id="@userId" class="btn btn-outline-primary">Voltar</a>
+                        <input type="submit" value="Salvar" class="btn btn-primary" />
+                    </div>
         </form>
-    </div>
-</div>
+        </div>
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

@@ -7917,24 +7917,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\grazi\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\lucas\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\Job-refugio-bd.csproj",
+      "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\Job-refugio-bd.csproj",
       "projectName": "Job-refugio-bd",
-      "projectPath": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\Job-refugio-bd.csproj",
-      "packagesPath": "C:\\Users\\grazi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\grazi\\Documents\\ADS\\2 PERÍODO\\PROJETO JOBREFUGIO\\NOVO BD\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\obj\\",
+      "projectPath": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\Job-refugio-bd.csproj",
+      "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lucas\\OneDrive\\Documentos\\Bkp-Projeto\\V19\\Job-refugio-bd\\Job-refugio-bd\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\grazi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8016,7 +8011,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -33,18 +33,7 @@
             <th>
                 @Html.DisplayNameFor(model => model.RegimeTrabalho)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.SobreEmpresa)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DescVaga)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.RequisitosQualificacao)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.InfoAdicional)
-            </th>
+            
             <th></th>
         </tr>
     </thead>
@@ -69,18 +58,7 @@
             <td>
                 @Html.DisplayFor(modelItem => item.RegimeTrabalho)
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.SobreEmpresa)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DescVaga)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.RequisitosQualificacao)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.InfoAdicional)
-            </td>
+            
             <td>
                     <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-secondary">Editar</a> |
                     <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-secondary">Detalhes</a> |
