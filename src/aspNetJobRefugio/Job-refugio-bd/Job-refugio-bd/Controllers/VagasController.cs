@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Job_refugio_bd.Models;
 using Microsoft.AspNetCore.Authorization;
 using System.Security.Claims;
+using static Job_refugio_bd.Models.Vaga;
 
 namespace Job_refugio_bd.Controllers
 {
@@ -224,19 +225,33 @@ namespace Job_refugio_bd.Controllers
             return View(inscritos);
         }
 
-        // STATUS DA CANDIDATURA
-        public Task<ActionResult> StatusInscricao()
+        public class InscricaoController : Controller
         {
-            Inscrito progress = _context.Inscritos.FirstOrDefault();
-            return Task.FromResult<ActionResult>(View(progress));
+            private readonly AppDbContext _context;
+
+            public InscricaoController(AppDbContext context)
+            {
+                _context = context;
+            }
+
+            public DbSet<StatusInscricao> Status { get; set; }
+
+            public ActionResult StatusInscricao()
+            {
+                var inscricao = _context.Vagas.FirstOrDefault(); // Busca a inscrição
+                if (inscricao == null)
+                {
+                    inscricao = new StatusInscricao { StatusAtual = StatusInscricaoEnum.INSCRITO }; // Valor padrão
+                }
+
+                if (inscricao != null)
+                {
+                    var status = inscricao.StatusAtual;  // Acessando a propriedade StatusAtual
+                }
+                return View(inscricao);
+            }
         }
 
-        [HttpGet]
-        public JsonResult GetCurrentPhase()
-        {
-            Inscrito inscrito = _context.Inscritos.FirstOrDefault();
-            Inscrito progress = inscrito;
-            return Json(progress?.StatusInscricao.ToString() ?? "INSCRITO");
-        }
+
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using static Job_refugio_bd.Models.Vaga;
 
 namespace Job_refugio_bd.Models
 {
@@ -39,6 +40,23 @@ namespace Job_refugio_bd.Models
         public ICollection<Inscrito> Inscritos { get; set; }
 
         public DateOnly DataPublicacao { get; set; }
+        public object StatusAtual { get; internal set; }
 
+        public static implicit operator Vaga(StatusInscricao v)
+        {
+            throw new NotImplementedException();
+        }
+        public enum StatusInscricaoEnum
+        {
+            INSCRITO = 1,
+            EM_ANALISE = 2,
+            ENTREVISTA = 3,
+            ADMISSAO = 4
+        }
+    }
+    public class StatusInscricao
+    {
+        public int Id { get; set; }
+        public StatusInscricaoEnum StatusAtual { get; set; }
     }
 }

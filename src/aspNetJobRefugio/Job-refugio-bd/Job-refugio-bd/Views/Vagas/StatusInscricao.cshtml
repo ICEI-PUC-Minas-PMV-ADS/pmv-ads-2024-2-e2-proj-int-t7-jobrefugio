@@ -20,55 +20,12 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
 <main>
-
-    @{
-        // Definir quais fases estão ativas com base na fase atual
-        string fase1Class = "fase fase1";
-        string fase2Class = "fase fase2";
-        string fase3Class = "fase fase3";
-        string fase4Class = "fase fase4";
-
-        if (Model.Inscritos != null && Model.Inscritos is ICollection<string> phases)
-        {
-            if (phases.Contains("INSCRITO"))
-            {
-                fase1Class += " ativo";
-            }
-            if (phases.Contains("EM ANALISE"))
-            {
-                fase1Class += " ativo";
-                fase2Class += " ativo";
-            }
-            if (phases.Contains("ENTREVISTA"))
-            {
-                fase1Class += " ativo";
-                fase2Class += " ativo";
-                fase3Class += " ativo";
-            }
-            if (phases.Contains("ADMISSÃO"))
-            {
-                fase1Class += " ativo";
-                fase2Class += " ativo";
-                fase3Class += " ativo";
-                fase4Class += " ativo";
-            }
-
-            else
-            {
-                <p>Nenhum inscrito encontrado.</p>
-            }
-        }
-    }
-
-
-
-    <div class="barra-progresso">
-        <div class="@fase1Class">INSCRITO</div>
-        <div class="@fase2Class">EM ANALISE</div>
-        <div class="@fase3Class">ENTREVISTA</div>
-        <div class="@fase4Class">ADMISSÃO</div>
-    </div>
-
+<div class="barra-progresso">
+    <div class="fase fase1 @(Model.StatusAtual >= StatusInscricaoEnum.INSCRITO ? "ativo" : "")">INSCRITO</div>
+    <div class="fase fase2 @(Model.StatusAtual >= StatusInscricaoEnum.EM_ANALISE ? "ativo" : "")">EM ANÁLISE</div>
+    <div class="fase fase3 @(Model.StatusAtual >= StatusInscricaoEnum.ENTREVISTA ? "ativo" : "")">ENTREVISTA</div>
+    <div class="fase fase4 @(Model.StatusAtual >= StatusInscricaoEnum.ADMISSAO ? "ativo" : "")">ADMISSÃO</div>
+</div>
 
 
     <div class="conteudo">
@@ -163,29 +120,6 @@
 
         </script>
 
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script>
-            setInterval(function () {
-                $.ajax({
-                    url: '@Url.Action("GetProgress", "Project")',
-                    type: 'GET',
-                    success: function (data) {
-                        $('.fase').removeClass('ativo'); // Remove o estado ativo de todas as fases
-
-                        // Adiciona a classe ativo com base na fase atual
-                        if (data.currentPhase === "INSCRITO") {
-                            $('.fase1').addClass('ativo');
-                        } else if (data.currentPhase === "EM ANALISE") {
-                            $('.fase1, .fase2').addClass('ativo');
-                        } else if (data.currentPhase === "ENTREVISTA") {
-                            $('.fase1, .fase2, .fase3').addClass('ativo');
-                        } else if (data.currentPhase === "ADMISSÃO") {
-                            $('.fase1, .fase2, .fase3, .fase4').addClass('ativo');
-                        }
-                    }
-                });
-            }, 5000); // Atualiza a cada 5 segundos
-        </script>
     }
 
 
