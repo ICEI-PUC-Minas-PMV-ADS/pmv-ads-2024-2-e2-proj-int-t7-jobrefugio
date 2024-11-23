@@ -4,27 +4,27 @@
 
 O template criado está disponível no site GitHub e é composto pelos seguintes layouts:
 
-1. Tela de login;  
+1. Tela Home;
+  
+2. Tela de Login;  
 
-2. Tela de Cadastro;
+3. Tela de Cadastro;
 
-3. Tela de Cadastro Candidato; 
+4. Tela de Cadastro Candidato; 
 
-4. Tela de Cadastro Empregador;
+5. Tela de Cadastro Empregador;
 
-5. Tela de Criar Currículo;
+6. Tela de Criar Currículo;
 
-6. Tela de Criar Vaga;
+7. Tela de Criar Vaga;
 
-7. Tela Descrição da Vaga; 
+8. Tela Descrição da Vaga; 
 
-8. Tela de Editar Dados de Candidato;
+9. Tela de Editar Dados de Candidato;
 
-9. Tela de Editar Dados do Empregador;
+10. Tela de Editar Dados do Empregador;
 
-10. Tela de Guia do Refugiado; 
-
-11. Tela Home;
+11. Tela de Guia do Refugiado; 
 
 12. Tela Inclusão Vagas da Empresa;
 
@@ -41,11 +41,9 @@ O template criado está disponível no site GitHub e é composto pelos seguintes
 18. Tela Vagas Inscritas Candidato;
 <Hr>
 
-1. **Tela de Login**
+01. **Tela Home**
 
-Esta tela permite que o usuário entre em sua conta.
-
-![Login vf](https://github.com/user-attachments/assets/c9b58511-bd5a-41bf-9051-184152d3b4e1)
+![Home vf](https://github.com/user-attachments/assets/e017c8af-8cc2-4d44-bf80-c6296a13e753)
 
 <Hr>
 
@@ -57,7 +55,15 @@ Apresenta uma tela com duas opções de cadastro, sendo uma para o candidato e o
    
 <Hr>
 
-3. **Tela de Cadastro Candidato**
+3. **Tela de Login**
+
+Esta tela permite que o usuário entre em sua conta.
+
+![Login vf](https://github.com/user-attachments/assets/c9b58511-bd5a-41bf-9051-184152d3b4e1)
+
+<Hr>
+
+4. **Tela de Cadastro Candidato**
 
 Nesta tela o cadidado preencherá os dados para fazer seu cadastro no site.
 
@@ -65,7 +71,7 @@ Nesta tela o cadidado preencherá os dados para fazer seu cadastro no site.
 
 <Hr>
 
-4. **Tela de Cadastro Empregador**
+5. **Tela de Cadastro Empregador**
 
 Nesta tela o empregador preencherá os dados de sua empresa para fazer cadastro no site.
 
@@ -73,18 +79,23 @@ Nesta tela o empregador preencherá os dados de sua empresa para fazer cadastro 
 
 <Hr>
 
-5. **Tela de Criar Currículo**
+6. **Tela de Criar Currículo**
 
 Nesta tela o usuário poderá criar seu currículo preenchendo os dados do formulário.
-![Curriculo vf](https://github.com/user-attachments/assets/73f05498-75e1-45ef-93ba-41a5ea1156e2)
+![CurriculoVF](https://github.com/user-attachments/assets/8bb7d4e4-2eef-4692-b5c7-63ef4b61621f)
 
-6. **Tela de Criar Vaga**
+
+<Hr>
+
+7. **Tela de Criar Vaga**
 
 Nesta tela o empregador poderá criar uma vaga preenchendo os dados do formulário.
-![Criar Vaga vf](https://github.com/user-attachments/assets/ae5bf622-7be9-426c-aa82-4517f500fa5d)
+![CriarVagaVF](https://github.com/user-attachments/assets/87092040-f170-41ea-b5b4-4fba22b4384b)
 
 
-7. **Tela Descrição da Vaga** 
+<Hr>
+
+8. **Tela Descrição da Vaga** 
 
 Apresenta a descrição da vaga a ser preenchida pelo usuário, com informações de:
 
@@ -98,13 +109,13 @@ Apresenta a descrição da vaga a ser preenchida pelo usuário, com informaçõe
 
 <Hr>
 
-8. **Tela de Editar Dados de Candidato**
+9. **Tela de Editar Dados de Candidato**
 
 Nesta opção o cadidato poderá alterar seus dados pessoais.
 
 ![Edit Cadastro Candidato vf](https://github.com/user-attachments/assets/2f4f9105-841c-4c15-8cb1-bfc2c6798f65)
 
-9. **Tela de Editar Dados do Empregador**
+10. **Tela de Editar Dados do Empregador**
 
 Nesta opção o empregador poderá alterar seus dados.
 
@@ -112,17 +123,14 @@ Nesta opção o empregador poderá alterar seus dados.
 
 <Hr>
 
-10. **Tela Guia do Refugiado**
+11. **Tela Guia do Refugiado**
 
 A tela guia do refugiado contém dicas e orientações em links externos para ajudar os candidatos a se preparem para entrevistas e links de cursos para adquirir mais qualificação.
 
 ![guia do refugiado](https://github.com/user-attachments/assets/5ada4b02-6b2c-4575-8bcd-45040b18d7a6)
 <Hr>
 
-11. **Tela Home**
-<Hr>
-
-12. **Tela Incluisão Vagas da Empresa**
+12. **Tela Inclusão Vagas da Empresa**
 <Hr>
 
 13. **Tela de Perfil Candidato**
@@ -130,18 +138,22 @@ A tela guia do refugiado contém dicas e orientações em links externos para aj
 A tela com o Perfil do Candidato possui menu com as seguintes opções: Minhas Candidaturas; Meus Dados; Cadastrar Currículo; Pesquisar Vagas.
 ![PERFIL CADIDATO vf](https://github.com/user-attachments/assets/65803e22-faf2-434b-ae4c-d25549902683)
 
+<Hr>
 
-15. **Tela de Perfil Empregador**
+14. **Tela de Perfil Empregador**
 
 A tela com o Perfil do Candidato possui menu com as seguintes opções: Gerencar Vagas; Procurar Candidatos; Anunciar uma Vaga.
 ![PERFIL EMPREGADOR vf](https://github.com/user-attachments/assets/48c6c04d-f6fe-4636-b707-3597ef451858)
 
+<Hr>
 
 15. **Tela Sobre**
 
 Esta tela trás informações de quem somos, motivação e o que fazemos.
 
 ![Sobre vf](https://github.com/user-attachments/assets/6167c37c-8322-4b3d-b761-b6979ab7db35)
+
+<Hr>
 
 16. **Tela Status da Vaga do Candidato**
 
@@ -161,6 +173,7 @@ Apresenta uma barra com as etapas da candidatura:
 Na tela de vagas possui um filtro para pesquisa das vagas por nome e filtros do local da vaga, tipo e áreas.
 ![VAGAS vf](https://github.com/user-attachments/assets/7f1cb2ed-6439-4729-811d-79bab50ddf57)
 
+<Hr>
 
 18. **Tela Vagas Inscritas Candidato**
 
