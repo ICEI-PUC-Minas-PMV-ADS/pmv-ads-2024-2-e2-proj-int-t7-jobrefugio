@@ -26,24 +26,21 @@ O Modelo ER representa através de um diagrama como as entidades (coisas, objeto
 
 O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
  
-![Base Dados (1)](https://github.com/user-attachments/assets/6d551cc6-d4d0-4598-966a-0b9221a4bca1)
+![Base Dados](https://github.com/user-attachments/assets/5047d557-43c0-4e80-9907-b2a5375e3789)
+
 
 
 > - [Acesse esse diagrama no LucidChart](https://lucid.app/lucidchart/d8da34d6-263e-401f-b06d-2341092ff27d/edit?viewport_loc=-1305%2C-1108%2C1088%2C2219%2C0_0&invitationId=inv_f84c5a0c-7091-47dd-9049-2bd22be0fc72)
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+Foram utilizados os sistemas abaixo para desenvolvimento dos códigos e banco de dados:
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+- Visual Studio Code: desenvolvimento dos códigos do front-end em HTML, CSS, JS;
+- Visua Studio Community: desenvolvimento do back-end com o framwork para o banco de dados da aplicação. Usado linguagem C#;
+- GitHub com a documentação, quadro kanban com o backlog das entregas e arquivos com os códigos desenvolvidos.
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+A hospedagem será criada na 5º etapa
 
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
