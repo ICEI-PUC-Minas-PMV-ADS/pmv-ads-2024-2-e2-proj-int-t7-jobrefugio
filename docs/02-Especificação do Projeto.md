@@ -81,11 +81,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--------------------|------------------------------------|----------------------------------------|
 |Refugiado          |Criar um perfil no sistema   | Para me candidatar as vagas |
 |Refugiado          |Encontrar vagas de emprego  | Candidatar a vagas disponíveis|
-|Refugiado          |Me inscrever em cursos de idioma oferecidos pelo sistema  | Melhorar minhas habilidades linguísticas e facilitar minha integração |
+|Refugiado          |Me inscrever em cursos de idioma indicado na página  | Melhorar minhas habilidades linguísticas e facilitar minha integração |
 |Refugiado          |Criar e editar meu currículo  | Para atualizar minhas informações |
-|Refugiado          |Receber notificações de novas vagas de emprego | Para aproveitar oportunidades recém cadastradas |
-|Refugiado          |Receber alerta de entrevista | Saber quando a empresa confirmar entrevista |
-|Refugiado          |Consultar as Ongs disponíveis para suporte das minhas dificuldades | Receber auxilio nos problemas enfrentados no país |
+|Refugiado          |Consultar as Ongs disponíveis para suporte das minhas dificuldades | Receber auxílio nos problemas enfrentados no país |
 |Empregador   |Publicar vagas de emprego na plataforma  | Contratar novos profissionais |
 |Empregador   |Filtrar candidatos com base em habilidades e experiências | Realizar uma melhor escolha do candidato que melhor se encaixe na vaga   |
 |Empregador   |Fazer parte das empresas parceiras do projeto | Ajudar na redução das desigualdades no mercado de trabalho |
@@ -105,8 +103,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-002| Permitir fazer pesquisas de vagas disponíveis  | ALTA |
 |RF-003| O site deve permitir que usuário gerencie seus dados cadastrados | ALTA |
 |RF-004| Permitir que o candidato crie currículo  | ALTA |
-|RF-005| Permitir que candidato edite informações do curriculo  | MÉDIA |
-|RF-006| O site deve permitir que usuário candidatar a vagas | ALTA |
+|RF-005| Permitir que candidato edite informações do currículo  | MÉDIA |
+|RF-006| O site deve permitir usuários se candidatar a vagas | ALTA |
 |RF-007| O site deve permitir que candidato visualize informações da vaga | MÉDIA |
 |RF-008| Permitir candidato visualize status da candidatura    | MÉDIA |
 |RF-009| Permitir que candidato visualize as vagas que inscreveu    | MÉDIA |
@@ -114,7 +112,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-011| Permitir que a empresa cadastre vagas de emprego    | ALTA |
 |RF-012| Permitir que a empresa edite a vaga divulgada no sistema    | ALTA |
 |RF-013| Permitir que a empresa exclua a vaga já preenchida | ALTA |
-|RF-014| Permitir a empresa filtrar candidatos   | MÉDIA |
+|RF-014| Permitir a empresa pesquisar candidatos   | MÉDIA |
 
 **Prioridade: Alta / Média / Baixa.
 
@@ -145,5 +143,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Diagrama de Casos de Uso
 
-![diagramaCasoDeUsoJobRefugio](https://github.com/user-attachments/assets/74d475c0-2c29-45be-8283-c187d67e8f35)
+O driagrama de casos de uso pode ser consultado no [link](https://lucid.app/lucidchart/036389ad-9939-4fde-b6ae-b5ea6a9f9cb4/edit?view_items=RBcuq1Kn5E6G&invitationId=inv_5cba4ad2-fb89-40ca-a820-6f09e64b3acf)
+
+![Blank diagram (2)](https://github.com/user-attachments/assets/1c936732-9371-4d91-884f-10793163fd2b)
+
 
