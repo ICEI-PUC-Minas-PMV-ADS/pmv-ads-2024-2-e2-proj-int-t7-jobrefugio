@@ -57,7 +57,7 @@
 |	Requisito Associado 	| RF-013 - Permitir que a empresa exclua a vaga já preenchida. |
 |Registro de evidência |  https://youtu.be/ZoYEH7ThysQ |
 |   |   |
-| **Caso de Teste** 	| **CT-15 – Filtrar candidatos** 	|
+| **Caso de Teste** 	| **CT-15 – Pesquisar candidatos** 	|
 |	Requisito Associado 	| RF-014 - Permitir a empresa filtrar candidatos. |
 |Registro de evidência | https://youtu.be/DUYPPxV6pXM |
 
