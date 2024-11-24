@@ -50,8 +50,7 @@
                 <textarea asp-for="CursosComplIdioma" id="cursosCompIdiomas" placeholder="Cursos Complementares e Idiomas"></textarea>
                 <span asp-validation-for="CursosComplIdioma" class="text-danger"></span>
 
-                <label asp-for="CandidatoId" class="control-label"></label>
-                <select asp-for="CandidatoId" class="form-control" asp-items="ViewBag.CandidatoId"></select>
+                <select hidden asp-for="CandidatoId" class="form-control" asp-items="ViewBag.CandidatoId"></select>
 
                 <div class="divBotao">
                     <button type="submit" value="Create" class="btn btn-primary" id="botaosubmit">Salvar</button>

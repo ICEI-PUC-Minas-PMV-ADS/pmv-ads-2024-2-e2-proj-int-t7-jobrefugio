@@ -70,7 +70,7 @@
 
         <h1 class="titulo">Informação Adicional </h1>
         <p id="informacaoAdicional">@Html.DisplayFor(model => model.InfoAdicional)</p>
-
+        <div class="botao-cad">
         <form asp-action="CreateInscrito" method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div hidden class="form-group">
@@ -82,6 +82,7 @@
 
             <button class="candidatar" type="submit" onclick="candidatar(idVaga)" asp-for="@Model.Id">Candidatar-se</button>
         </form>
+        </div>
         @if (ViewBag.ErrorMessage != null)
 
         {

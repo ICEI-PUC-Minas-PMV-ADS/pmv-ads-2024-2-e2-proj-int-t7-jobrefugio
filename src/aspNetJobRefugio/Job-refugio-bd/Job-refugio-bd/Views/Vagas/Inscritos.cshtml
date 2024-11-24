@@ -1,7 +1,12 @@
-﻿@model IEnumerable<Job_refugio_bd.Models.Inscrito>
+﻿@using System.Security.Claims
+@model IEnumerable<Job_refugio_bd.Models.Inscrito>
 
 @{
     ViewData["Title"] = "Inscritos";
+}
+
+@{
+    var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
 }
 
 <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
@@ -57,5 +62,7 @@
             }
         </tbody>
     </table>
+    
 </div>
 
+<a style="margin-left: 4%" asp-area="" asp-controller="Empregadores" asp-action="GerenciarVagas" asp-route-id="@userId" class="btn btn-outline-primary">Voltar</a>

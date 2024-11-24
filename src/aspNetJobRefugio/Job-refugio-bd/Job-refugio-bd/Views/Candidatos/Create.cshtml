@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="~/css/styleCadastroCandidato.css">
 
 <div class="container">
-
+    <div class="form">
     <form asp-action="Create">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
         <div class="formHeader">
@@ -55,10 +55,12 @@
             </div>
         </div>
         <div class="signupButton">
+                <a style="margin-right: 2%" asp-area="" asp-controller="Candidatos" asp-action="Login" class="btn btn-outline-primary">Voltar</a>
             <input type="submit" value="Criar" class="btn btn-primary" />
         </div>
 
     </form>
+    </div>
 </div>
 
 

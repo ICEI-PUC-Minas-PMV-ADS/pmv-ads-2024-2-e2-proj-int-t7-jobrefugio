@@ -64,6 +64,7 @@ body {
 
 .caixa {
     display: flex;
+    justify-content: space-between;
     width: 300px;
     height: 320px;
     background-color: #557ca6;
@@ -75,6 +76,9 @@ body {
     flex-direction: column;
     align-items: center;
     transition: 0.5s ease;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
     .caixa:hover {
@@ -104,13 +108,14 @@ h2 {
     transition: width 0.3s;
 }
 
-button {
+.btnVer {
     background-color: #d7e5e7;
     border: none;
     cursor: pointer;
     border-radius: 3px;
     padding: 3% 6% 3% 6%;
     transition: 0.5s ease;
+    margin-top: 2%;
 }
 
     button:hover {

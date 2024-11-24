@@ -8,53 +8,80 @@
     var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
 }
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="~/css/styleDetailsExibir.css" asp-append-version="true" />
+
 <div style="padding: 1% 5% 0 5%;">
 
 
-    <h1>Detalhes Candidato(a) @Html.DisplayFor(model => model.NomeUsuario)</h1>
+    <h1 class="Titulo-detalhes">Detalhes Candidato(a) @Html.DisplayFor(model => model.NomeUsuario)</h1>
 
 
-    <h4>Curriculo</h4>
-    <hr />
-    <dl class="row">
+    <dl class="row" id="ExibeCurriculo" >
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.NomeUsuario)
+            Nome: 
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.NomeUsuario)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Email)
+            E-mail:
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Email)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.DataNascimento)
+            Data de Nascimento: 
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.DataNascimento)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Nacionalidade)
+            Cidade:
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Nacionalidade)
+            @Html.DisplayFor(model => model.Curriculo.Cidade)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Curriculo.ResumoQualific)
+            Endereco
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Curriculo.ResumoQualific)
+            @Html.DisplayFor(model => model.Endereco)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Curriculo.FormAcad)
+            Formação Acadêmica:
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Curriculo.FormAcad)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Curriculo.ObjProf)
+            Resumo das Qualificações:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Curriculo.ResumoQualific)
+        </dd>
+        <dt class="col-sm-2">
+            Principais Realizações:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Curriculo.PrincRealiza)
+        </dd>
+        <dt class="col-sm-2">
+            Experiência Profissional:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Curriculo.ExpProf)
+        </dd>
+        <dt class="col-sm-2">
+            Cursos Complementares e Idiomas:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Curriculo.CursosComplIdioma)
+        </dd>
+        <dt class="col-sm-2">
+            Objetivo Profissional:
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Curriculo.ObjProf)

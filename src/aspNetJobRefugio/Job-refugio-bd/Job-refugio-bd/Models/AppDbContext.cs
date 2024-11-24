@@ -19,7 +19,6 @@ namespace Job_refugio_bd.Models
         public DbSet<Inscrito> Inscritos { get; set; }
 
         public DbSet<Usuario> Usuarios { get; set; }
-        public object StatusInscricao { get; internal set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

@@ -109,7 +109,7 @@ namespace Job_refugio_bd.Controllers
 
             return View(candidato);
         }
-
+        
         // GET: Candidatos Detalhes Visualização
         public async Task<IActionResult> DetailsExibir(int? id)
         {

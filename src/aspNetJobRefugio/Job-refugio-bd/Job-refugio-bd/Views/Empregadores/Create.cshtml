@@ -20,37 +20,37 @@
             </div>
             <div class="inputGroup">
                 <div class="inputBox">
-                    <input asp-for="Cnpj" id="cnpj" placeholder="CNPJ" />
+                    <input asp-for="Cnpj"  placeholder="CNPJ" />
                     <span asp-validation-for="Cnpj" class="text-danger"></span>
                 </div>
 
                 <div class="inputBox">
-                    <input asp-for="NomeFantasia" id="nomeFantasia" placeholder="Nome Fantasia" />
+                    <input asp-for="NomeFantasia" placeholder="Nome Fantasia" />
                     <span asp-validation-for="NomeFantasia" class="text-danger"></span>
                 </div>
 
                 
 
                 <div class="inputBox">
-                    <input asp-for="Descricao" id="bio" placeholder="Descrição da Empresa" />
+                    <input asp-for="Descricao"  placeholder="Descrição da Empresa" />
                     <span asp-validation-for="Descricao" class="text-danger"></span>
                 </div>
 
                 <div class="inputBox">
-                    <input asp-for="Endereco" id="endereco" placeholder="Endereço Completo" />
+                    <input asp-for="Endereco"  placeholder="Endereço Completo" />
                     <span asp-validation-for="Endereco" class="text-danger"></span>
                 </div>
 
                 <div class="inputBox">
-                    <input asp-for="Cep" id="cep" placeholder="CEP" />
+                    <input asp-for="Cep"  placeholder="CEP" />
                     <span asp-validation-for="Cep" class="text-danger"></span>
                 </div>
                 <div class="inputBox">
-                    <input asp-for="Telefone" id="telefone" placeholder="(XX) X XXXX-XXXX" />
+                    <input asp-for="Telefone"  placeholder="(XX) X XXXX-XXXX" />
                     <span asp-validation-for="Telefone" class="text-danger"></span>
                 </div>
                 <div class="inputBox">
-                    <input asp-for="Email" id="email" placeholder="E-mail" />
+                    <input asp-for="Email"  placeholder="E-mail" />
                     <span asp-validation-for="Email" class="text-danger"></span>
                 </div>
 
@@ -62,6 +62,7 @@
                 </div>
             </div>
             <div class="signupButton">
+                <a style="margin-right: 2%" asp-area="" asp-controller="Empregadores" asp-action="Login" class="btn btn-outline-primary">Voltar</a>
                 <input type="submit" value="Criar" class="btn btn-primary" />
             </div>
         </form>

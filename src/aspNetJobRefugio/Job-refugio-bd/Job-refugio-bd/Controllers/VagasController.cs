@@ -8,7 +8,6 @@ using Microsoft.EntityFrameworkCore;
 using Job_refugio_bd.Models;
 using Microsoft.AspNetCore.Authorization;
 using System.Security.Claims;
-using static Job_refugio_bd.Models.Vaga;
 
 namespace Job_refugio_bd.Controllers
 {
@@ -76,7 +75,7 @@ namespace Job_refugio_bd.Controllers
 
                 _context.Add(vaga);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("GerenciarVagas", "Empregadores", new { id = GetUserId() });
             }
             ViewData["EmpregadorId"] = new SelectList(_context.Empregadores, "Id", "Cnpj", vaga.EmpregadorId);
             return View(vaga);
@@ -103,7 +102,7 @@ namespace Job_refugio_bd.Controllers
 
                 _context.Add(inscrito);
                 _context.SaveChangesAsync();
-                return RedirectToAction("Index", "Vagas");
+                return RedirectToAction("VagasDisponiveis", "Vagas");
             }
 
             return RedirectToAction("ErroPageInscrito", "Vagas");
@@ -159,7 +158,7 @@ namespace Job_refugio_bd.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("GerenciarVagas", "Empregadores", new { id = GetUserId() });
             }
             ViewData["EmpregadorId"] = new SelectList(_context.Empregadores, "Id", "Cnpj", vaga.EmpregadorId);
             return View(vaga);
@@ -196,7 +195,7 @@ namespace Job_refugio_bd.Controllers
             }
 
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction("GerenciarVagas", "Empregadores", new { id = GetUserId() });
         }
 
         private bool VagaExists(int id)
@@ -225,33 +224,12 @@ namespace Job_refugio_bd.Controllers
             return View(inscritos);
         }
 
-        public class InscricaoController : Controller
+        // GET: Vagas Dispopniveis
+        [AllowAnonymous]
+        public async Task<IActionResult> VagasDisponiveis()
         {
-            private readonly AppDbContext _context;
-
-            public InscricaoController(AppDbContext context)
-            {
-                _context = context;
-            }
-
-            public DbSet<StatusInscricao> Status { get; set; }
-
-            public ActionResult StatusInscricao()
-            {
-                var inscricao = _context.Vagas.FirstOrDefault(); // Busca a inscrição
-                if (inscricao == null)
-                {
-                    inscricao = new StatusInscricao { StatusAtual = StatusInscricaoEnum.INSCRITO }; // Valor padrão
-                }
-
-                if (inscricao != null)
-                {
-                    var status = inscricao.StatusAtual;  // Acessando a propriedade StatusAtual
-                }
-                return View(inscricao);
-            }
+            var appDbContext = _context.Vagas.Include(v => v.Empregador);
+            return View(await appDbContext.ToListAsync());
         }
-
-
     }
 }

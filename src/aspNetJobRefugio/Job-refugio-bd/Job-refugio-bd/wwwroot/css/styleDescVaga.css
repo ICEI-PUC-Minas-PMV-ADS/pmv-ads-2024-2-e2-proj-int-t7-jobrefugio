@@ -4,17 +4,18 @@
 
 .candidatar {
     background-color: #2CC4EA;
-    padding: 2% 5% 2% 5%;
+    padding: 4% 6% 4% 6%;
     border: none;
     font-size: 16px;
     color: white;
     border-radius: 6px;
-    margin-top: 50px;
+    margin-top: 40%
 }
     .candidatar:hover {
         background-color: #19bfe9;
         box-shadow: rgba(0, 0, 0, 0.25) 0.0625rem 0.0625rem 4px 0px;
     }
+
 
 .req {
     margin-top: 30px;
@@ -41,8 +42,10 @@ body {
 }
 
 .titulo {
+    font-size: 24px;
     padding-top: 30px;
     margin-top: 30px;
+    font-weight: 600;
 }
 
 #informacaoAdicional {
@@ -78,6 +81,7 @@ body {
     width: 100%;
 }
 .item_info_vaga {
+    font-size: 18px;
     display: flex;
     flex-direction: row;
     align-items: center;

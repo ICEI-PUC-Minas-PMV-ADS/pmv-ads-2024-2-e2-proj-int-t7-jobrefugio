@@ -31,6 +31,12 @@ namespace Job_refugio_bd.Controllers
             return View();
         }
 
+        private int GetUserId()
+        {
+            return int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value);
+        }
+
+
         [HttpPost]
         public async Task<IActionResult> Login(string email, string senha)
         {
@@ -175,7 +181,7 @@ namespace Job_refugio_bd.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Details", "Empregadores", new { id = GetUserId() });
             }
             return View(empregador);
         }
@@ -229,7 +235,7 @@ namespace Job_refugio_bd.Controllers
                 return NotFound();
 
             var vagas = await _context.Vagas
-                .Where(c => c.Id == id)
+                .Where(c => c.EmpregadorId == id)
                 .ToListAsync();
 
 

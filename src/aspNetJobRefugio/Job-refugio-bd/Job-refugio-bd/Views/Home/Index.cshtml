@@ -2,7 +2,233 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobRefugio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="shortcut icon" type="imagex/png" href="icon_title.png">
+</head>
+<body>
+   
+    <div class="banner-topo">
+        <div class="carousel">
+            <div class="carousel">
+        <div class="carousel-images">
+            <img src="~/img/b1.png" alt="Imagem 1">
+            <img src="~/img/b2.png" alt="Imagem 2">
+        </div>
+        <button class="prev-btn"><span class="material-symbols-outlined" style="font-size: 44px;">
+                arrow_back_ios
+                </span></button>
+        <button class="next-btn"><span class="material-symbols-outlined" style="font-size: 44px; font-weight: 100;">
+                arrow_forward_ios
+                </span></button>
+    </div>
+            
+
+    </div>
+
+    <main class="main_home">
+
+
+
+
+        <div class="cards">
+            <div class="card1">
+
+                <div class="bloco_txt_card">
+                    Explore projetos que oferecem acolhimento, aulas de português e orientações úteis para refugiados que buscam se adaptar ao novo país. Encontre recursos essenciais para uma integração mais tranquila e segura.
+                </div>
+                    <a class="btn_saibamais" asp-area="" asp-controller="Guia" asp-action="GuiaRefugiado" >VER MAIS</a>
+            </div>
+            <div class="card3">
+                <div class="bloco_txt_card">
+                    Empregador: Divulgue suas vagas e apoie refugiados na inserção ao mercado. Conecte-se com profissionais motivados para recomeçar e contribuir com sua empresa.
+                </div>
+                    <a class="btn_saibamais" asp-area="" asp-controller="Guia" asp-action="GuiaRefugiado" >VER MAIS</a>
+            </div>
+            <div class="card2">
+                <div class="bloco_txt_card">
+                    Encontre oportunidades de emprego criadas para refugiados e conecte-se com empresas que apoiam sua trajetória. Descubra vagas que promovem inclusão e impulsionam sua nova vida profissional.
+                </div>
+                    <a class="btn_saibamais" asp-area="" asp-controller="Vagas" asp-action="VagasDisponiveis" >VER VAGAS</a>
+            </div>
+
+        </div>
+        <div class="barra"></div>
+        <div class="introducao">
+            <div class="map_fundo">
+                <div class="bloco_texto">
+                    <p class="texto_introducao_titulo">
+                        O projeto Job Refúgio nasceu com o objetivo de oferecer uma nova oportunidade para refugiados que buscam uma vida digna e segura em um novo país.
+                    </p>
+                    <p class="texto_introducao">
+                        Através de uma plataforma de conexão entre candidatos e empregadores, o Job Refúgio facilita o acesso a vagas de emprego que estão disponíveis para esses profissionais, promovendo a inclusão no mercado de trabalho e ajudando a reduzir a taxa de desemprego entre refugiados. O projeto não apenas oferece uma chance de emprego, mas também uma esperança de reconstrução e independência, contribuindo para a melhoria da qualidade de vida dessas pessoas e fortalecendo uma importante causa humanitária.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        <div class="barra"></div>
+
+        <div class="parceiros swiper">
+            <h1 id="titulo_parceiros">Parceiros</h1>
+            <div class="div_empresas">
+                <ul class="card-list swiper-wrapper">
+                    <li class="card-item swiper-slide">
+                        <img class="logo_empresa" src="~/img/exemplo_logo_empresa.png" alt="logo empresa">
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <img class="logo_empresa" src="~/img/exemplo_logo_empresa.png" alt="logo empresa">
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <img class="logo_empresa" src="~/img/exemplo_logo_empresa.png" alt="logo empresa">
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <img class="logo_empresa" src="~/img/exemplo_logo_empresa.png" alt="logo empresa">
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <img class="logo_empresa" src="~/img/exemplo_logo_empresa.png" alt="logo empresa">
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <img class="logo_empresa" src="~/img/exemplo_logo_empresa.png" alt="logo empresa">
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <img class="logo_empresa" src="~/img/exemplo_logo_empresa.png" alt="logo empresa">
+                    </li>
+                </ul>
+
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+
+
+    </main>
+    <div class="barra"></div>
+    <footer>
+        <div class="links_footer">
+            <p class="titulo_nav_footer">Navegue pelo site</p>
+                <a class="links_pag_footer" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                <a class="links_pag_footer" asp-area="" asp-controller="Sobre" asp-action="">Sobre o projeto</a>
+                <a class="links_pag_footer" asp-area="" asp-controller="Guia" asp-action="GuiaRefugiado">Guia para refugiados</a>
+                <a class="links_pag_footer" asp-area="" asp-controller="Vagas" asp-action="VagasDisponiveis">Vagas</a>
+        </div>
+        <div class="barra_vertical"></div>
+        <div class="links_contato">
+            <p class="titulo_nav_footer">Acompanhe nossas redes sociais</p>
+            <div class="icones_redes_sociais">
+
+                <svg class="svg_social" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 412 512" data-fa-i2svg="" height="28" width="50"><path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
+
+                <svg class="svg_social" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin" role="img" xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 0 14 14" width="30">
+                    <path fill="currentColor" d="M11 0a1 1 0 01.993.883L12 1v10a1 1 0 01-.883.993L11 12H1a1 1 0 01-.993-.883L0 11V1A1 1 0 01.883.007L1 0h10zm0 1H1v10h10V1zM7.742 4.63c1.502 0 1.78.988 1.78 2.273L9.52 9.52H8.04L8.037 7c-.01-.51-.098-1.065-.769-1.065-.723 0-.872.53-.888 1.109L6.378 9.52H4.897V4.75h1.422v.65h.02a1.56 1.56 0 011.403-.771zm-3.776.119V9.52H2.482V4.749h1.484zm-.741-2.372a.86.86 0 110 1.72.86.86 0 010-1.72z" />
+                </svg>
+
+                <svg width="38" height="26" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="svg_social">
+                    <rect width="38" height="38" fill="white" fill-opacity="0.01" />
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.11111 46C2.94518 46 2 45.0496 2 43.8773V4.12274C2 2.95038 2.94518 2 4.11111 2H43.8889C45.0548 2 46 2.95038 46 4.12274V43.8773C46 45.0496 45.0548 46 43.8889 46C42.4815 46 29.2222 46 4.11111 46Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M38.6615 17.887H34.3074H33.7929C32.4429 17.887 31.3485 18.9814 31.3485 20.3314V25.2218H38.6615L37.5904 32.5526H31.3485V46H23.3065V32.5526H16.6667V25.2218H23.2207L23.3065 18.2634L23.2825 15.7694C23.2487 12.2477 26.0762 9.36546 29.5978 9.33164C29.6182 9.33144 29.6386 9.33134 29.6591 9.33134H38.6615V17.887Z" fill="white" />
+                </svg>
+
+                <svg id="icon_footer_youtube" version="1.1" viewBox="0 0 524 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" class="svg_social">
+                <path d="M260.4,449c-57.1-1.8-111.4-3.2-165.7-5.3c-11.7-0.5-23.6-2.3-35-5c-21.4-5-36.2-17.9-43.8-39c-6.1-17-8.3-34.5-9.9-52.3   C2.5,305.6,2.5,263.8,4.2,222c1-23.6,1.6-47.4,7.9-70.3c3.8-13.7,8.4-27.1,19.5-37c11.7-10.5,25.4-16.8,41-17.5   c42.8-2.1,85.5-4.7,128.3-5.1c57.6-0.6,115.3,0.2,172.9,1.3c24.9,0.5,50,1.8,74.7,5c22.6,3,39.5,15.6,48.5,37.6   c6.9,16.9,9.5,34.6,11,52.6c3.9,45.1,4,90.2,1.8,135.3c-1.1,22.9-2.2,45.9-8.7,68.2c-7.4,25.6-23.1,42.5-49.3,48.3   c-10.2,2.2-20.8,3-31.2,3.4C366.2,445.7,311.9,447.4,260.4,449z M205.1,335.3c45.6-23.6,90.7-47,136.7-70.9   c-45.9-24-91-47.5-136.7-71.4C205.1,240.7,205.1,287.6,205.1,335.3z" fill="white" />
+                </svg>
+
+            </div>
+
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    @section Scripts {
+        <script>
+
+            //Slide Empresas parceiras
+            new Swiper('.div_empresas', {
+
+                loop: true,
+                spaceBetween: 30,
+
+                // If we need pagination
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                    dynamicBullets: true
+                },
+
+                // Navigation arrows
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+
+                breakpoints: {
+                    0: {
+                        slidesPerView: 1
+                    },
+                    768: {
+                        slidesPerView: 3
+                    },
+                    1024: {
+                        slidesPerView: 4
+                    },
+                }
+
+            });
+
+                const carouselImages = document.querySelector('.carousel-images');
+    const images = document.querySelectorAll('.carousel-images img');
+    const prevBtn = document.querySelector('.prev-btn');
+    const nextBtn = document.querySelector('.next-btn');
+
+    let currentIndex = 0;
+    const intervalTime = 8000; // 8 segundos
+
+    function showImage(index) {
+        const offset = -index * 100; // Calcular a posição correta
+        carouselImages.style.transform = `translateX(${offset}%)`;
+    }
+
+    function nextImage() {
+        currentIndex = (currentIndex + 1) % images.length;
+        showImage(currentIndex);
+    }
+
+    function prevImage() {
+        currentIndex = (currentIndex - 1 + images.length) % images.length;
+        showImage(currentIndex);
+    }
+
+    // Eventos dos botões
+    nextBtn.addEventListener('click', nextImage);
+    prevBtn.addEventListener('click', prevImage);
+
+    // Troca automática de imagens
+    let autoSlide = setInterval(nextImage, intervalTime);
+
+    // Pausar o carrossel ao interagir com os botões
+    [nextBtn, prevBtn].forEach(button => {
+        button.addEventListener('click', () => {
+            clearInterval(autoSlide);
+            autoSlide = setInterval(nextImage, intervalTime);
+        });
+    });
+
+        </script>
+    }
+</body>
+</html>

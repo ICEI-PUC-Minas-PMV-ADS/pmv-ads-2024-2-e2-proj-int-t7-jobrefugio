@@ -1,44 +1,61 @@
-﻿@model IEnumerable<Job_refugio_bd.Models.Vaga>
+﻿@using System.Security.Claims
+@model IEnumerable<Job_refugio_bd.Models.Vaga>
 
 @{
     ViewData["Title"] = "GerenciarVagas";
 }
 
-<h1>Gerenciar Vagas</h1>
+@{
+    var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+}
 
-<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-<div style="padding: 4% 4% 0 4%">
-</div>
-<div class="vagas_criadas">
-    <table class="table">
-        <thead>
-            <tr>
-                <th>
-                    @Html.DisplayNameFor(model => model.NomeCargo)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.DataPublicacao)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Local)
-                </th>
-            </tr>
-        </thead>
-        <tbody>
+<link rel="stylesheet" href="~/css/styleGerenciarVagas.css" asp-append-version="true" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0" />
+
+<main>
+    <div class="content">
+        <!--banner-->
+        <section class="banner"></section>
+
+        <!--Menu Lateral-->
+        <aside id="menuLateral" class="menuLateral">
+            <h1 id="hi">Olá, @User.Identity.Name</h1> <!--incluir nome do empregador criando um Id-->
+            <a class="linksLateral" asp-area="" asp-controller="Empregadores" asp-action="Details" asp-route-id="@userId">Home</a>
+            <a class="linksLateral" asp-area="" asp-controller="Empregadores" asp-action="Edit" asp-route-id="@userId">Meus Dados</a>
+            <a class="linksLateral" asp-controller="Candidatos" asp-action="index" class="btn btn-secondary">Procurar Candidatos</a>
+        </aside>
+
+        
+        <div class="pesquisa">
+            <a asp-area="" asp-controller="Vagas" asp-action="Create" class="btn btn-success" style="margin: 2%;">Nova Vaga</a>
+            <div class="search-box">
+                <span class=" search-icon material-symbols-outlined">search</span>
+                <input class="search-txt" id="searchbar" type="search" name="" placeholder="Pesquisar" onkeyup="search()">
+            </div>
+        </div>
+
+        <div class="cards">
             @foreach (var item in Model)
             {
-                <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.NomeCargo)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.DataPublicacao)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Local)
-                    </td>
-                </tr>
+                <div class="caixa">
+                    <div>
+                        <h2>@Html.DisplayFor(modelItem => item.NomeCargo)</h2>
+                        <div>
+                            <a asp-controller="Vagas" asp-action="Delete" asp-route-id="@item.Id" style="color:#F2594B"><span class="material-symbols-outlined" style="font-size: 28px">delete</span></a>
+                            <a asp-controller="Vagas" asp-action="Edit" asp-route-id="@item.Id" style="color:white"><span class="material-symbols-outlined" style="font-size: 28px">border_color</span></a>
+                        </div>
+                    </div>
+                    <a asp-controller="Vagas" asp-action="Inscritos" asp-route-id="@item.Id" class="botaoConsulta" >Consultar candidatos</a>
+            </div>
             }
-        </tbody>
-    </table>
-</div>
+          
+
+        </div>
+
+
+    </div>
+
+
+</main>
+
+<script src="~/js/scriptGerenciarVagas.js" asp-append-version="true"></script>

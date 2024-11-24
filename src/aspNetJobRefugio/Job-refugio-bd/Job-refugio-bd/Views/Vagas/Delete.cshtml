@@ -1,14 +1,22 @@
-﻿@model Job_refugio_bd.Models.Vaga
+﻿@using System.Security.Claims
+@model Job_refugio_bd.Models.Vaga
 
 @{
     ViewData["Title"] = "Delete";
 }
 
-<h1>Delete</h1>
+@{
+    var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+}
+<div style="padding: 3%; background-color: #f5f5f5 ">
+<div style="margin-top: 2%">
+<h1>Excluir Vaga</h1>
 
-<h3>Are you sure you want to delete this?</h3>
+<h3>Tem certeza de que deseja excluir a vaga @Html.DisplayFor(model => model.NomeCargo) ?</h3>
+</div>
+
 <div>
-    <h4>Vaga</h4>
+
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -76,6 +84,7 @@
     <form asp-action="Delete">
         <input type="hidden" asp-for="Id" />
         <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
+        <a asp-area="" asp-controller="Empregadores" asp-action="Details" asp-route-id="@userId" class="btn btn-outline-primary">Voltar</a>
     </form>
+</div>
 </div>

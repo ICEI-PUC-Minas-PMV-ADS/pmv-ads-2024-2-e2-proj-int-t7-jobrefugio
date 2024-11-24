@@ -1,0 +1,86 @@
+﻿@model IEnumerable<Job_refugio_bd.Models.Vaga>
+
+@{
+    ViewData["Title"] = "VagasDisponiveis";
+}
+
+<link rel="stylesheet" href="~/css/styleVagasDisponiveis.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+<main class="vagas">
+    <div class="search-box">
+        <span class=" search-icon material-symbols-outlined">search</span>
+        <input class="search-txt" id="searchbar" type="search" name="" placeholder="Pesquisar" onkeyup="search()">
+    </div>
+
+    <div class="filtros">
+        <div class="Locais">
+            <label for="Local">Local</label>
+            <select name="Local" id="Local">
+                <option value="Local">Todos</option>
+                <option value="Local">SP</option>
+                <option value="Local">MG</option>
+            </select>
+        </div>
+
+        <div class="Tipos">
+            <label for="tipo">Tipo</label>
+            <select name="tipo" id="tipo">
+                <option value="Local">Todos</option>
+                <option value="Local">Home Office</option>
+                <option value="Local">Híbrido</option>
+                <option value="Local">Presencial</option>
+            </select>
+        </div>
+
+    </div>
+
+    <div class="grupoCards">
+
+        @foreach (var item in Model)
+        {
+            <div class="section">
+
+                <div class="cards">
+                    <div class="texto">
+                        <h1 class="cabecalho">@Html.DisplayFor(modelItem => item.NomeCargo)</h1>
+                        <h3 class="nome_empresa">@Html.DisplayFor(modelItem => item.Empregador.NomeFantasia)</h3>
+                    </div>
+                    <div class="linha"></div>
+                    <div class="descricao">
+                        <p>
+                            <span class="material-symbols-outlined">
+                                location_on
+                            </span> @Html.DisplayFor(modelItem => item.Local)
+                        </p>
+                        <p>
+                            <span class="material-symbols-outlined">
+                                apartment
+                            </span> @Html.DisplayFor(modelItem => item.RegimeTrabalho)
+                        </p>
+                        <p>
+                            <span class="material-symbols-outlined">
+                                calendar_month
+                            </span> @Html.DisplayFor(modelItem => item.DataPublicacao)
+                        </p>
+                    </div>
+
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn">Visualizar</a>
+
+
+                </div>
+
+            </div>
+
+
+        }
+
+    </div>
+
+</main>
+
+<script src="~/js/scriptVagasDisponiveis.js" asp-append-version="true"></script>

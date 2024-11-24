@@ -60,7 +60,7 @@
                 <textarea asp-for="InfoAdicional" id="infoAdd" placeholder="Informaçâo Adicional"></textarea>
                 <span asp-validation-for="InfoAdicional" class="text-danger"></span>
 
-                <select asp-for="EmpregadorId" asp-items="ViewBag.EmpregadorId"></select>
+                <select hidden asp-for="EmpregadorId" asp-items="ViewBag.EmpregadorId"></select>
 
                 <div class="divBotao">
                     <button type="submit" value="Create" id="botaosubmit">Salvar</button>

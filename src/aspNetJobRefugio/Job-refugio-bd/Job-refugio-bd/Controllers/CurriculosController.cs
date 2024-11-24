@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Job_refugio_bd.Models;
 using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace Job_refugio_bd.Controllers
 {
@@ -19,6 +20,12 @@ namespace Job_refugio_bd.Controllers
         {
             _context = context;
         }
+
+        private int GetUserId()
+        {
+            return int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value);
+        }
+
 
         // GET: Curriculos
         public async Task<IActionResult> Index()
@@ -64,7 +71,7 @@ namespace Job_refugio_bd.Controllers
             {
                 _context.Add(curriculo);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Details", "Candidatos", new { id = GetUserId() });
             }
             
            
@@ -119,7 +126,7 @@ namespace Job_refugio_bd.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Details", "Candidatos", new { id = GetUserId() });
             }
             ViewData["CandidatoId"] = new SelectList(_context.Candidatos, "IdCandidato", "Email", curriculo.CandidatoId);
             return View(curriculo);

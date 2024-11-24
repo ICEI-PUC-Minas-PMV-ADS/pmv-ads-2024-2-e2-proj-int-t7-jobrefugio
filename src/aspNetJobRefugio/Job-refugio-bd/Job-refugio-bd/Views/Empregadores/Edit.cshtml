@@ -1,7 +1,12 @@
-﻿@model Job_refugio_bd.Models.Empregador
+﻿@using System.Security.Claims
+@model Job_refugio_bd.Models.Empregador
 
 @{
     ViewData["Title"] = "Edit";
+}
+
+@{
+    var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
 }
 
 <link rel="stylesheet" href="~/css/styleCadastroCandidato.css">
@@ -62,6 +67,8 @@
                 </div>
             </div>
             <div class="signupButton">
+                <a style="margin-right: 2%" asp-area="" asp-controller="Empregadores" asp-action="Details" asp-route-id="@userId" class="btn btn-outline-primary">Voltar</a>
+
                 <input type="submit" value="Salvar" class="btn btn-primary" />
             </div>
         </form>
