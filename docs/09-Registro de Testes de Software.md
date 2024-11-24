@@ -23,12 +23,12 @@
 | **Caso de Teste** 	| **CT-05 – Criar currículo** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-004 - Permitir que o candidato crie currículo. |
-|Registro de evidência | https://youtu.be/i8C5OPT9qyo |
+|Registro de evidência | https://youtu.be/kH1dVJab4UE |
 
 | **Caso de Teste** 	| **CT-06 – Editar currículo** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-005 - Permitir que o candidato edite informações do currículo. |
-|Registro de evidência | https://youtu.be/tniM9NFc8Yg |
+|Registro de evidência | https://youtu.be/D2kXiiPqzwg |
 
 | **Caso de Teste** 	| **CT-07 – Candidatar a vaga** 	|
 |:---:	|:---:	|
@@ -58,17 +58,17 @@
 | **Caso de Teste** 	| **CT-12 – Cadastrar vagas** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-011 - Permitir que a empresa cadastre vagas de emprego. |
-|Registro de evidência | https://youtu.be/vWRXbEmOfKk |
+|Registro de evidência | https://youtu.be/ZoYEH7ThysQ |
 
 | **Caso de Teste** 	| **CT-13 – Editar vagas** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-012 - Permitir que a empresa edite a vaga divulgada no sistema. |
-|Registro de evidência | https://youtu.be/pf2kpsoMRLI |
+|Registro de evidência | https://youtu.be/TmJafE8tDsA |
 
 | **Caso de Teste** 	| **CT-14 – Excluir vagas** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-013 - Permitir que a empresa exclua a vaga já preenchida. |
-|Registro de evidência |  https://youtu.be/rTGcvKqh0qI |
+|Registro de evidência |  https://youtu.be/ZoYEH7ThysQ |
 
 | **Caso de Teste** 	| **CT-15 – Filtrar candidatos** 	|
 |:---:	|:---:	|
