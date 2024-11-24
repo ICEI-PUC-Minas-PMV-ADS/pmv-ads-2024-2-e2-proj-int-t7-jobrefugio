@@ -33,8 +33,8 @@ etiquetas:
 ### Divisão de Papéis
 
 A equipe utiliza metodologias ágeis, escolhendo o Scrum como base para o processo de desenvolvimento. A equipe está organizada da seguinte maneira:
-- **Scrum Master:** Julia Guedes Pereira.
-- **Product Owner:** Bruno Monteiro Lima.
+- **Scrum Master:** Lucas Rangel Pereira de Sousa.
+- **Product Owner:** Graziela Nunes Caldeira.
 - **Equipe de Desenvolvimento:** Bruno Monteiro Lima, Graziela Nunes Caldeira, Julia Guedes Pereira, Lucas Rangel Pereira de Sousa, Nizia Oliveira Santos, Rafael Ribeiro Bastos.
 
 ### Processo
@@ -48,9 +48,7 @@ A equipe está utilizando o GitHub para organização e estruturação das taref
 
 O quadro kanban no GitHub está disponível neste [link](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1333/views/1) e é apresentado, no estado atual, na figura abaixo:
 
-<figure> 
-  <img src="/docs/img/kanban.png">
-</figure> 
+![Kanban241124](https://github.com/user-attachments/assets/1fe1f849-7c8d-43d8-abad-685a557ebc10)
 
 ### Ferramentas
 
