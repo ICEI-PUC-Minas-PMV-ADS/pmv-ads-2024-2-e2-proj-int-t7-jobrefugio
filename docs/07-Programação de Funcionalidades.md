@@ -21,7 +21,7 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 |RF-011| Permitir que a empresa cadastre vagas de emprego |  |  |
 |RF-012| Permitir que a empresa edite a vaga divulgada no sistema |  |  |
 |RF-013| Permitir que a empresa exclua a vaga já preenchida |  |  |
-|RF-014| Permitir a empresa filtrar candidatos |  |  |
+|RF-014| Permitir a empresa pesquisar candidatos |  |  |
 
 
 # Instruções de acesso
