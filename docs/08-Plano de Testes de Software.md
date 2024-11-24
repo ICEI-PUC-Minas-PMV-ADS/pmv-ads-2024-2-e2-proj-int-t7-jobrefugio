@@ -86,9 +86,9 @@
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Clicar no canto superior direito em "Perfil" <br> - Clicar em "Excluir Vaga" <br> - Clicar em "Confirmar" |
 |Critério de Êxito | - A vaga foi excluída com sucesso. |
 |  	|  	|
-| **Caso de Teste** 	| **CT-15 – Filtrar candidatos** 	|
-|	Requisito Associado 	| RF-014 - Permitir a empresa filtrar candidatos. |
-| Objetivo do Teste 	| Verificar se o empregador consegue filtrar os candidatos na aplicação. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Clicar no canto superior direito em "Perfil" <br> - Clicar no menu lateral esquerdo em "Procurar candidato" <br> - Digitar informações para filtrar os candidatos |
-|Critério de Êxito | - Os candidatos foram filtrados pelo empregador com sucesso. |
+| **Caso de Teste** 	| **CT-15 – Pesquisar candidatos** 	|
+|	Requisito Associado 	| RF-014 - Permitir a empresa pesquisar candidatos. |
+| Objetivo do Teste 	| Verificar se o empregador consegue pesquisar os candidatos na aplicação. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site <br> - Clicar no canto superior direito em "Perfil" <br> - Clicar no menu lateral esquerdo em "Procurar candidato" <br> - Digitar informações para pesquisar os candidatos |
+|Critério de Êxito | - Os candidatos foram pesquisados pelo empregador com sucesso. |
 |  	|  	|
