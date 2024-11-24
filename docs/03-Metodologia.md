@@ -55,6 +55,7 @@ O quadro kanban no GitHub está disponível neste [link](https://github.com/orgs
 As ferramentas empregadas no projeto são:
 
 - `Editor de código:` Visual Studio Code
+- `Framework:`Visual Studio Community
 - `Ferramentas de comunicação:` WhatsApp e Teams
 - `Ferramentas de desenho de tela: ` Marvelapp
 - `Arquitetura e diagramas: ` LucidChart
