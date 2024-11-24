@@ -188,7 +188,7 @@ A tela guia do refugiado irá conter orientações e dicas para ajudar o candida
 
 <img src ="/docs/img/GUIA REFUGIADO.PNG">
 
-### Tela Relatório candidatos inscritos na vaga
+### Tela relatório candidatos inscritos na vaga
 
 Nesta tela o empregador poderá consultar os candidatos inscritos em uma vaga.
 
