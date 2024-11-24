@@ -131,6 +131,19 @@ A tela guia do refugiado contém dicas e orientações em links externos para aj
 <Hr>
 
 12. **Tela Inclusão Vagas da Empresa**
+    
+Na tela de vagas o usuário cadastrado como empresa pode incluir, editar ou excluir uma vaga. E também poderá consultar os candidatos que se cadidataram para a vaga.
+A tela conta com um menu lateral, uma barra de pesquisa para o usuario poder pesquisar e gerenciar suas vaga e com botes para funcionalidades em cada card de vaga.
+
+- O botão Nova Vaga permite que o usuário inclua uma nova vaga no site.
+
+- O botão Editar Vaga posicionado na lateral direita do nome da vaga permite que o usuário edite as informaçoes cadastradas da vaga.
+
+- O botão Excluir Vaga posicionado na lateral direita do nome da vaga permite que o usuário exclua a vaga cadastrada.
+
+- O botão Consultar Candidatos posicionado na parte inferior do card da vaga, permite que o usuário consulte candidatos inscritos na vaga.
+    ![tela](https://github.com/user-attachments/assets/2330a0e9-2b15-4fa5-b87c-676b672a72ff)
+    
 <Hr>
 
 13. **Tela de Perfil Candidato**
