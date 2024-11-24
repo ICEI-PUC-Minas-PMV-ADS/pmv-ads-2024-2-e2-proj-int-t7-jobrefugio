@@ -187,3 +187,10 @@ No tela status da vaga inscrita é apresentado ao candidato um resumo do andamen
 A tela guia do refugiado irá conter orientações e dicas para ajudar o candidato a se preparar para entrevistas e alguns links de cursos para o candidato adquirir mais qualificação para as vagas.
 
 <img src ="/docs/img/GUIA REFUGIADO.PNG">
+
+### Tela Relatório candidatos inscritos na vaga
+
+Nesta tela o empregador poderá consultar os candidatos inscritos em uma vaga.
+
+![RelatórioInscritos](https://github.com/user-attachments/assets/4941a5d5-7c66-47bb-9d17-e1d280fcf233)
+
