@@ -3,7 +3,7 @@
 | **Caso de Teste** 	| **CT-01 – Cadastrar perfil** 	|
 |:---:	|:---:	|
 |	Requisito Associado 	| RF-001 - O site deve permitir gerenciar usuário. |
-|Registro de evidência | https://youtu.be/ySX6p_gaJVQ |
+|Registro de evidência | https://github.com/user-attachments/assets/dcd33dae-073e-4dcd-9d48-0c6490535ad9 |
 
 | **Caso de Teste** 	| **CT-02 – Logar no Perfil** 	|
 |:---:	|:---:	|
