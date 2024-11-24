@@ -23,7 +23,7 @@ No corpo da página, temos um banner que irá trazer os destaques do site e logo
 
 No rodapé irá conter informações de contato e rede social do projeto.
 
-<img src ="/docs/img/HOME.PNG">
+![homeprototipo](https://github.com/user-attachments/assets/60ccc295-b77d-4d03-b93f-8bd5c9dc420f)
 
 ### Tela - Sobre nós
 A tela Sobre nós da aplicação irá descrever um pouco sobre os criadores da aplicação. Na lateral direita traz um figura representando o projeto.
