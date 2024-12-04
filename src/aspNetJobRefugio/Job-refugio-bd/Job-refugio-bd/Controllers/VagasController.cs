@@ -207,19 +207,19 @@ namespace Job_refugio_bd.Controllers
             if (id == null)
                 return NotFound();
 
-            var vaga = await _context.Vagas.FindAsync(id); 
+            var vaga = await _context.Vagas.FindAsync(id);
 
-            if (vaga == null) 
+            if (vaga == null)
                 return NotFound();
 
-            var inscritos = await _context.Inscritos 
+            var inscritos = await _context.Inscritos
                 .Include(v => v.Candidato)
                 .Include(v => v.Candidato.Curriculo)
-                .Where(c => c.VagaId == id) 
-                .OrderByDescending(c => c.DataInscricao) 
-                .ToListAsync(); 
+                .Where(c => c.VagaId == id)
+                .OrderByDescending(c => c.DataInscricao)
+                .ToListAsync();
 
-            ViewBag.Vaga = vaga; 
+            ViewBag.Vaga = vaga;
 
             return View(inscritos);
         }
@@ -231,5 +231,28 @@ namespace Job_refugio_bd.Controllers
             var appDbContext = _context.Vagas.Include(v => v.Empregador);
             return View(await appDbContext.ToListAsync());
         }
+
+
+        // GET: Status Inscricao
+        public ActionResult StatusInscricao(int inscritoId)
+        {
+            // Buscar o Inscrito pelo ID
+            Inscrito inscrito = _context.Inscritos.FirstOrDefault(i => i.Idinscricao == inscritoId);
+            if (inscrito == null)
+            {
+                return NotFound();
+            }
+
+            // Criar o ViewModel
+            var viewModel = new StatusInscricaoViewModel
+            {
+                Inscrito = inscrito,
+                 StatusInscricao = inscrito.StatusInscricao
+            };
+
+            return View(viewModel);
+        }
+
+
     }
 }

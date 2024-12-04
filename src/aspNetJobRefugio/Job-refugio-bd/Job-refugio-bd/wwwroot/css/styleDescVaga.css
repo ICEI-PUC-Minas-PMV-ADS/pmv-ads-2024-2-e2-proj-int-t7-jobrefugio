@@ -90,3 +90,54 @@ body {
     width: 100%
    
 }
+
+/*BARRA DE STATUS DE INSCRICAO*/
+
+  .barra-progresso {
+    display:inline-flex;
+    margin-inline: 400px;
+    width: 41%;
+    height: 40px;
+    background-color: #e0e0e0;
+    border-radius: 2px;
+    overflow: hidden;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    
+}
+
+.fase {
+    flex: 1;
+    background-color: #ddd;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+    transition: background-color 0.3s;
+}
+
+.fase.ativo {
+    background-color: #60BB46;
+    color: white;
+}
+
+.fase:not(.ativo):hover {
+    background-color: #bbb;
+}
+
+.fase::after {
+    content: '';
+    position:absolute;
+    top: 50%;
+    right: 0;
+    width: 0;
+    height: 0;
+    left: 0%;
+    border-left: 20px solid #e0e0e0; 
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    transform: translateY(-50%);
+}
+
+.fase:last-child::after {
+    display: none; 
+}
