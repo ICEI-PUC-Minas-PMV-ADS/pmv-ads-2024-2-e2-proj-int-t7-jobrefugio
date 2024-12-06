@@ -29,7 +29,7 @@
                     <div class="barra-externa">
                         <div class="barra-interna" style="width: 40%;"></div>
                     </div>
-                    <button class="btnVer" type="button">Ver status</button>
+                    <a class="btnVer" type="button" asp-area="" asp-controller="Vagas" asp-action="StatusInscricao" asp-route-inscritoId="@item.Idinscricao">Ver status</a>
                 </div>
 
             }

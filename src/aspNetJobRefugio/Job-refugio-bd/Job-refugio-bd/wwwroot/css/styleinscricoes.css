@@ -89,7 +89,7 @@ body {
     }
 
 h2 {
-    margin-inline: 25;
+    margin-inline: 25px;
 }
 
 .barra-externa {
@@ -110,6 +110,8 @@ h2 {
 
 .btnVer {
     background-color: #d7e5e7;
+    color: #000;
+    text-decoration: none;
     border: none;
     cursor: pointer;
     border-radius: 3px;
@@ -118,9 +120,9 @@ h2 {
     margin-top: 2%;
 }
 
-    button:hover {
-        padding: 3% 8% 3% 8%;
-        transition: 0.5s ease;
+  button:hover {
+     padding: 3% 8% 3% 8%;
+     transition: 0.5s ease;
     }
 
 #hi {

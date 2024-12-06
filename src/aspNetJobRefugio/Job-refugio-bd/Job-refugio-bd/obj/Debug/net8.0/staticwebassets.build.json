@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "woIfb6lZRwPWFR+hpAA/dXQDHzWTiTvpkLVqghHHFLs=",
+  "Hash": "t1uyIFI65X/0J0Ez54k6qrDvBBN3fAm0krzfl5dID20=",
   "Source": "Job-refugio-bd",
   "BasePath": "_content/Job-refugio-bd",
   "Mode": "Default",
@@ -325,8 +325,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "bnxy09g54v",
-      "Integrity": "KR2fi8hBZfjEhSBWkYHj2ZJyULeASrsO63Agdt3gnYI=",
+      "Fingerprint": "dz9lfca70d",
+      "Integrity": "yaSd/e83NUBpAx6/AMNF412A2+NJ2UcrcMFGJLLjkBg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\styleinscricoes.css"
@@ -3124,51 +3124,6 @@
       ]
     },
     {
-      "Route": "css/styleinscricoes.bnxy09g54v.css",
-      "AssetFile": "C:\\Users\\julia\\OneDrive\\Documents\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\css\\styleinscricoes.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2861"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"KR2fi8hBZfjEhSBWkYHj2ZJyULeASrsO63Agdt3gnYI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 01 Dec 2024 18:44:32 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "bnxy09g54v"
-        },
-        {
-          "Name": "label",
-          "Value": "css/styleinscricoes.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-KR2fi8hBZfjEhSBWkYHj2ZJyULeASrsO63Agdt3gnYI="
-        }
-      ]
-    },
-    {
       "Route": "css/styleinscricoes.css",
       "AssetFile": "C:\\Users\\julia\\OneDrive\\Documents\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\css\\styleinscricoes.css",
       "Selectors": [],
@@ -3179,7 +3134,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2861"
+          "Value": "2901"
         },
         {
           "Name": "Content-Type",
@@ -3187,11 +3142,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KR2fi8hBZfjEhSBWkYHj2ZJyULeASrsO63Agdt3gnYI=\""
+          "Value": "\"yaSd/e83NUBpAx6/AMNF412A2+NJ2UcrcMFGJLLjkBg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 01 Dec 2024 18:44:32 GMT"
+          "Value": "Thu, 05 Dec 2024 15:11:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3201,7 +3156,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KR2fi8hBZfjEhSBWkYHj2ZJyULeASrsO63Agdt3gnYI="
+          "Value": "sha256-yaSd/e83NUBpAx6/AMNF412A2+NJ2UcrcMFGJLLjkBg="
+        }
+      ]
+    },
+    {
+      "Route": "css/styleinscricoes.dz9lfca70d.css",
+      "AssetFile": "C:\\Users\\julia\\OneDrive\\Documents\\pmv-ads-2024-2-e2-proj-int-t7-jobrefugio\\src\\aspNetJobRefugio\\Job-refugio-bd\\Job-refugio-bd\\wwwroot\\css\\styleinscricoes.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2901"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yaSd/e83NUBpAx6/AMNF412A2+NJ2UcrcMFGJLLjkBg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 15:11:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dz9lfca70d"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styleinscricoes.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yaSd/e83NUBpAx6/AMNF412A2+NJ2UcrcMFGJLLjkBg="
         }
       ]
     },
