@@ -35,11 +35,24 @@ O projeto da base de dados corresponde à representação das entidades e relaci
 
 Foram utilizados os sistemas abaixo para desenvolvimento dos códigos e banco de dados:
 
-- Visual Studio Code: desenvolvimento dos códigos do front-end em HTML, CSS, JS;
-- Visua Studio Community: desenvolvimento do back-end com o framwork para o banco de dados da aplicação. Usado linguagem C#;
-- GitHub com a documentação, quadro kanban com o backlog das entregas e arquivos com os códigos desenvolvidos.
+- `Visual Studio Code:` desenvolvimento dos códigos do front-end em HTML, CSS, JS;
+- `Visua Studio Community:` desenvolvimento da aplicação. utilizando linguagem C#;
+- `GitHub:` com a documentação, quadro kanban com o backlog das entregas e arquivos com os códigos desenvolvidos.
+- `SQL Server:` desenvolvimento do banco de dados.
 
 ## Hospedagem
 
-A hospedagem será criada na 5º etapa
+O projeto foi hospedado na plataforma SmarterASP.NET, escolhida por sua robustez e capacidade de atender plenamente às tecnologias utilizadas no desenvolvimento, como ASP.NET e SQL Server. Essa plataforma oferece um ambiente confiável, com suporte especializado, alta disponibilidade e desempenho otimizado para aplicações baseadas no ecossistema Microsoft.
+
+Dessa forma, a aplicação pode ser acessada através do seguinte endereço: (http://projr2024-001-site1.anytempurl.com/).
+
+Para utilizar o sistema, seguem as instruções de acesso:
+
+1. Acessar o link: http://projr2024-001-site1.anytempurl.com/
+2. Inserir os dados: <br><br>
+    > - Nome de usuário: 11207342
+    > - Senha: 60-dayfreetrial
+     
+Para acessar as principais funcionalidades da aplicação, o usuário deve realizar um cadastro como candidato ou empregador e, em seguida, fazer login no sistema.
+Após o login, será possível explorar todos os recursos disponíveis.
 
