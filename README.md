@@ -7,8 +7,9 @@
 `Eixo 2`
 
 <p align="center">
-  <img src= "https://github.com/user-attachments/assets/0659c64d-46d2-4a0b-9e41-cb39df7fbf64" width="300">
+  <img src= "https://github.com/user-attachments/assets/c36a8327-922f-458d-b6ae-9a70b76ab2ca" width="200">
 </p>
+
 
 Este projeto consiste de uma aplicação interativa que fornece vagas de emprego e informações adicionais sobre o mercado de trabalho brasileiro especificamente para cidadãos refugiados no Brasil.
 
@@ -32,6 +33,8 @@ Para utilizar a aplicação deve acessar o endereço: http://projr2024-001-site1
 Em seguida inserir os dados
 * Nome de Usuário: 11207342
 * Senha: 60-dayfreetrial
+
+> Para acessar funcionalidades na aplicação é necessario criar uma cadastro como Candidato ou Empregador e fazer login no sistema.
 
 # Documentação
 
