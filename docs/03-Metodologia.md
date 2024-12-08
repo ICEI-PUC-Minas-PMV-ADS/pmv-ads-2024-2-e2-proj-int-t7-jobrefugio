@@ -48,7 +48,8 @@ A equipe está utilizando o GitHub para organização e estruturação das taref
 
 O quadro kanban no GitHub está disponível neste [link](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1333/views/1) e é apresentado, no estado atual, na figura abaixo:
 
-![Kanban241124](https://github.com/user-attachments/assets/1fe1f849-7c8d-43d8-abad-685a557ebc10)
+![registro_projeto](https://github.com/user-attachments/assets/5a5b5eb4-15ca-49f9-adb4-b176559f9913)
+
 
 ### Ferramentas
 
