@@ -6,6 +6,10 @@
 
 `Eixo 2`
 
+<p align="center">
+  <img src= "https://github.com/user-attachments/assets/0659c64d-46d2-4a0b-9e41-cb39df7fbf64" width="300">
+</p>
+
 Este projeto consiste de uma aplicação interativa que fornece vagas de emprego e informações adicionais sobre o mercado de trabalho brasileiro especificamente para cidadãos refugiados no Brasil.
 
 ## Integrantes
@@ -23,13 +27,11 @@ Este projeto consiste de uma aplicação interativa que fornece vagas de emprego
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Para utilizar a aplicação deve acessar o endereço: http://projr2024-001-site1.anytempurl.com/
 
-Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
-
-Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
-
-O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
+Em seguida inserir os dados
+* Nome de Usuário: 11207342
+* Senha: 60-dayfreetrial
 
 # Documentação
 
