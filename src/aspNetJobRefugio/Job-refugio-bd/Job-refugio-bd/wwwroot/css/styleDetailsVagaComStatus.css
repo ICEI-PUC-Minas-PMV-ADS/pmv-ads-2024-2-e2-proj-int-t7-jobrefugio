@@ -1,0 +1,124 @@
+﻿* {
+    font-family: "Inter", sans-serif;
+}
+
+.candidatar {
+    background-color: #2CC4EA;
+    padding: 4% 6% 4% 6%;
+    border: none;
+    font-size: 16px;
+    color: white;
+    border-radius: 6px;
+    margin-top: 40%
+}
+
+    .candidatar:hover {
+        background-color: #19bfe9;
+        box-shadow: rgba(0, 0, 0, 0.25) 0.0625rem 0.0625rem 4px 0px;
+    }
+
+
+.req {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#Datap {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+body {
+    height: 1000px;
+}
+
+.conteudo {
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 50px;
+}
+
+#Requisitos {
+    margin-top: 30px;
+}
+
+.titulo {
+    font-size: 24px;
+    padding-top: 30px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+#informacaoAdicional {
+    margin-top: 30px;
+}
+
+#sobreAEmpresa {
+    margin-top: 30px;
+}
+
+#descricaoDaVaga {
+    margin-top: 30px;
+}
+
+.resumo1 {
+    display: inline;
+    list-style-type: none;
+    margin-left: 0;
+    padding: 0;
+}
+
+.resumo2 {
+    display: inline;
+    list-style-type: none;
+    margin-left: 0;
+}
+
+.resumo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.item_info_vaga {
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 3% 0 3% 0;
+    gap: 0.5rem;
+    width: 100%
+}
+
+
+.progress-container {
+    width: 50%;
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+    margin: 20px 0;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 4%;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #4caf50;
+    width: 0;
+    border-radius: 5px 0 0 5px;
+    transition: width 0.5s ease;
+}
+
+.progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+}

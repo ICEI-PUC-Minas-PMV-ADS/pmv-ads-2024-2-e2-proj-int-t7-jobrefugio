@@ -40,6 +40,8 @@ namespace Job_refugio_bd.Controllers
             var usu = await _context.Candidatos
                 .FirstOrDefaultAsync(u => u.Email == email && u.Senha == senha);
 
+            bool hasCurriculum = await _context.Curriculos.AnyAsync(c => c.CandidatoId == usu.IdCandidato);
+
             if (usu != null)
             {
                 var claims = new List<Claim>
@@ -47,7 +49,9 @@ namespace Job_refugio_bd.Controllers
                     new Claim (ClaimTypes.Name, usu.NomeUsuario ),
                     new Claim (ClaimTypes.NameIdentifier, usu.IdCandidato.ToString() ),
                     new Claim (ClaimTypes.Email, usu.Email),
-                    new Claim("OtherProperties", "Example Role"),
+                    new Claim (ClaimTypes.Role, "Candidato"),
+                    new Claim ("HasCurriculum", hasCurriculum.ToString()),
+                    new Claim ("OtherProperties", "Example Role"),
                 };
 
                 var usuarioIdentity = new ClaimsIdentity(claims, "login");
@@ -110,8 +114,27 @@ namespace Job_refugio_bd.Controllers
             return View(candidato);
         }
         
-        // GET: Candidatos Detalhes Visualização
+        // GET: Candidatos Detalhes Visualização Empregador
         public async Task<IActionResult> DetailsExibir(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var candidato = await _context.Candidatos
+                .Include(v => v.Curriculo)
+                .FirstOrDefaultAsync(m => m.IdCandidato == id);
+            if (candidato == null)
+            {
+                return NotFound();
+            }
+
+            return View(candidato);
+        }
+
+        // GET: Candidatos Detalhes Visualização Candidato
+        public async Task<IActionResult> DetailsExibirCandidato(int? id)
         {
             if (id == null)
             {

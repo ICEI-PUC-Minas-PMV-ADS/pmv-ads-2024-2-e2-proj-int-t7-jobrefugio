@@ -44,7 +44,7 @@
                 
 
 
-                <textarea asp-for="SobreEmpresa"  id="sobreEmpresa"></textarea>
+                <textarea asp-for="SobreEmpresa" id="sobreEmpresa" placeholder="Sobre a Empresa"></textarea>
                 <span asp-validation-for="SobreEmpresa" class="text-danger"></span>
 
 
@@ -59,7 +59,10 @@
                 <textarea asp-for="InfoAdicional"  id="infoAdd" placeholder="Informaçâo Adicional"></textarea>
                 <span asp-validation-for="InfoAdicional" class="text-danger"></span>
 
-                <select asp-for="EmpregadorId" asp-items="ViewBag.EmpregadorId" style="display:none"></select>
+
+                <select asp-for="EmpregadorId" asp-items="ViewBag.EmpregadorId" style="display:none">
+                    <option value="@User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value"></option>
+                </select>
             
             <div class="divBotao">
                 <button type="submit" value="Create" id="botaosubmit">Salvar</button>

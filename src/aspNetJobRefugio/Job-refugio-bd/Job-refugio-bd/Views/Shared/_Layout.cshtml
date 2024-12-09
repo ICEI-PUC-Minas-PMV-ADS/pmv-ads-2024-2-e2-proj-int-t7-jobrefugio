@@ -1,4 +1,6 @@
 ﻿@using System.Security.Claims
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -42,28 +44,67 @@
                     <li class="itemMenu"><a class="link-item-menu" asp-area="" asp-controller="Vagas" asp-action="VagasDisponiveis">Vagas</a></li>
                     <li class="itemMenu"><a class="link-item-menu" asp-area="" asp-controller="Guia" asp-action="GuiaRefugiado">Guia Refugiado</a></li>
                     <li class="itemMenu"><a class="link-item-menu" asp-area="" asp-controller="Sobre" asp-action="Sobre">Sobre</a></li>
+                    
                 </ul>
             </div>
+
+
+
             <div class="perfil">
+
+                <a asp-area="" asp-controller="OpcaoLogin" asp-action="Index" id="btnLogin">Login/Cadastrar</a>
+       
+
                 @if (User.Identity.IsAuthenticated)
                 {
-                    <a href="#"><img id="logo_perfil" src="~/img/perfil.png" alt="imagem representa perfil"></a>
-                    <ul>
-                        <li class="drop">
-                            <a style="text-decoration: none;" asp-area="" asp-controller="Candidatos" asp-action="Details" asp-route-id="@userId"><span id="nome_usuario_menu">@User.Identity.Name</span></a>
-                            
-                            <div class="divisao"></div>
-                            <a id="link_login" asp-area="" asp-controller="Candidatos" asp-action="Logout">Sair</a>
-                        </li>
-                    </ul>
+                    
+
+                    if (User.IsInRole("Candidato"))
+                    {
+                        <input hidden type="text" id="autenticado" value="true" />
+                        <a href="#"><img id="logo_perfil" src="~/img/perfil.png" alt="imagem representa perfil"></a>
+                        <ul>
+                            <li class="drop">
+                                Olá Candidato(a)
+                                <a style="text-decoration: none;" asp-area="" asp-controller="Candidatos" asp-action="Details" asp-route-id="@userId"><span id="nome_usuario_menu">@User.Identity.Name</span></a>
+
+                                <div class="divisao"></div>
+                                <a id="link_login" asp-area="" asp-controller="Candidatos" asp-action="Logout">Sair</a>
+                            </li>
+                        </ul>
+                    }
+
+                    if (User.IsInRole("Empregador"))
+                    {
+                        <input hidden type="text" id="autenticado" value="true" />
+                        <a href="#"><img id="logo_perfil" src="~/img/perfil.png" alt="imagem representa perfil"></a>
+                        <ul>
+                            <li class="drop">
+                                Olá Empregador
+                                <a style="text-decoration: none;" asp-area="" asp-controller="Empregadores" asp-action="Details" asp-route-id="@userId"><span id="nome_usuario_menu">@User.Identity.Name</span></a>
+
+                                <div class="divisao"></div>
+                                <a id="link_login" asp-area="" asp-controller="Empregadores" asp-action="Logout">Sair</a>
+                            </li>
+                        </ul>
+                    }
                 }
-                else
-                {
-                    <a href="#"><img id="logo_perfil" src="~/img/perfil.png" alt="imagem representa perfil"></a>
-                    <ul>
-                        <li class="drop"><a id="link_login" asp-area="" asp-controller="OpcaoLogin" asp-action="Index">Login/Cadastrar</a></li>
-                    </ul>
-                }
+                
+                
+                    <script>
+
+                    // Verifica se o usuário está autenticado
+                    console.log("Script executado!")
+
+                    const btnLogin = document.getElementById("btnLogin");
+                    const autenticado = document.getElementById("autenticado").value;
+
+                    // Atualiza e remove botão login
+                    if (autenticado == "true") btnLogin.style.display = "none"; // Oculta o botão de Login
+                    console.log("Usuário Autenticado!")
+
+                    </script>
+                 
                 
             </div>
         </div>
@@ -75,6 +116,8 @@
 
             @RenderBody()
         </main>
+
+
     <script src="~/js/scriptCriarVaga.js"></script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

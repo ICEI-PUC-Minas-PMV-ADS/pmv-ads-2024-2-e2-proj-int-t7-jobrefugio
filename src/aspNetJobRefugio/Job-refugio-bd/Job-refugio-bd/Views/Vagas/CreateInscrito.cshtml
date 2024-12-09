@@ -1,4 +1,6 @@
-﻿@model IEnumerable<Job_refugio_bd.Models.Vaga>
+﻿@using System.Security.Claims
+@model Job_refugio_bd.Models.Vaga
+
 
 @{
 
@@ -6,22 +8,4 @@
 
 }
 
-<h1>CreateInscrito</h1>
-
-<h4>Vaga</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="CreateInscrito">
-
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
+     

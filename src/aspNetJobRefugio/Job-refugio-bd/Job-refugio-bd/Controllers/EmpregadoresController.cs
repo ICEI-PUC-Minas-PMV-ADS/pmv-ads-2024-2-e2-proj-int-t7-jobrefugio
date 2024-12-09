@@ -50,6 +50,7 @@ namespace Job_refugio_bd.Controllers
                     new Claim (ClaimTypes.Name, usu.NomeFantasia ),
                     new Claim (ClaimTypes.NameIdentifier, usu.Id.ToString() ),
                     new Claim (ClaimTypes.Email, usu.Email),
+                    new Claim(ClaimTypes.Role, "Empregador"),
                     new Claim("OtherProperties", "Example Role"),
                 };
 

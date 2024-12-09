@@ -19,10 +19,25 @@
         <a class="linksLateral" asp-area="" asp-controller="Candidatos" asp-action="Details" asp-route-id="@userId">Home</a>
         <a class="linksLateral" asp-area="" asp-controller="Candidatos" asp-action="Edit" asp-route-id="@userId">Meus Dados</a>
         <a class="linksLateral" asp-area="" asp-controller="Candidatos" asp-action="Inscricoes" asp-route-id="@userId">Minhas Candidaturas</a>
+        @if (User.Claims.FirstOrDefault(c => c.Type == "HasCurriculum")?.Value == "True")
+        {
+            <a class="linksLateral" asp-controller="Candidatos" asp-action="DetailsExibirCandidato" asp-route-id="@Model.IdCandidato">Ver Currículo</a>
+        }
+        else
+        {
+            <a class="linksLateral" asp-controller="Curriculos" asp-action="Create">Cadastrar Currículo</a>
+        }
     </aside>
     <!--Cards tipo botão para acessar currículos e vagas anunciadas-->
     <div class="card">
-        <a class="linkCard" asp-area="" asp-controller="Curriculos" asp-action="Create">Cadastrar Curriculo</a>
+        @if (User.Claims.FirstOrDefault(c => c.Type == "HasCurriculum")?.Value == "True")
+        {
+            <a class="linkCard" asp-controller="Candidatos" asp-action="DetailsExibirCandidato" asp-route-id="@Model.IdCandidato">Ver Currículo</a>
+        }
+        else
+        {
+            <a class="linkCard" asp-controller="Curriculos" asp-action="Create">Cadastrar Currículo</a>
+        }
     </div>
 
     <div class="card">

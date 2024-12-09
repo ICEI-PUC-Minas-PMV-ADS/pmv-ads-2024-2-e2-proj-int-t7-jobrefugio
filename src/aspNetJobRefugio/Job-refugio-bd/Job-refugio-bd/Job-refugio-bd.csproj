@@ -8,6 +8,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Views\Usuarios\**" />
+    <Content Remove="Views\Usuarios\**" />
+    <EmbeddedResource Remove="Views\Usuarios\**" />
+    <None Remove="Views\Usuarios\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\UsuariosController.cs" />
+    <Compile Remove="Migrations\20241105012451_M09-AddRelacionamentoTabelas.cs" />
+    <Compile Remove="Migrations\20241105012451_M09-AddRelacionamentoTabelas.Designer.cs" />
+    <Compile Remove="Models\Usuario.cs" />
     <Compile Remove="Views\_OpcaoLogin.cshtml.cs" />
   </ItemGroup>
 

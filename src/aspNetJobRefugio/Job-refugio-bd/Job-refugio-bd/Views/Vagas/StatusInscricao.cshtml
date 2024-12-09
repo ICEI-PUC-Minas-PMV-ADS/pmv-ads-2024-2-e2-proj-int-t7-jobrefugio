@@ -1,43 +1,57 @@
 ﻿@using System.Security.Claims
-@model Job_refugio_bd.Models.StatusInscricaoViewModel
-@using (Html.BeginForm())
-
-{
-    <label hidden for="Id"></label>
-    <input hidden type="text" asp-for="Id" />
-
-}
+@model Job_refugio_bd.Models.Inscrito
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "StatusInscricao";
 }
 
 @{
     var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
 }
 
-@{
-    // Recuperando os modelos do ViewBag
-    var inscrito = ViewBag.Inscrito as Job_refugio_bd.Models.Inscrito;
-}
-
-<link rel="stylesheet" href="~/css/styleDescVaga.css" asp-append-version="true" />
+<link rel="stylesheet" href="~/css/styleDetailsVagaComStatus.css" asp-append-version="true" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
 <main>
 
-    <div id="barraProgresso" class="barra-progresso">
-        <div class="fase" data-status="1">INSCRITO</div>
-        <div class="fase" data-status="2">EM ANÁLISE</div>
-        <div class="fase" data-status="3">ENTREVISTA</div>
-        <div class="fase" data-status="4">ADMISSÃO</div>
+    @{
+        int statusInscricao = Model.StatusInscricao; //Nivel do status na model Inscrito
+        string progressoTexto = "";
+        int progressoPercentual = 0;
+
+        if (statusInscricao == 1)
+        {
+            progressoTexto = "Inscrito";
+            progressoPercentual = 25;
+        }
+        else if (statusInscricao == 2)
+        {
+            progressoTexto = "Em análise";
+            progressoPercentual = 50;
+        }
+        else if (statusInscricao == 3)
+        {
+            progressoTexto = "Entrevista";
+            progressoPercentual = 75;
+        }
+        else if (statusInscricao == 4)
+        {
+            progressoTexto = "Admissão";
+            progressoPercentual = 100;
+        }
+    }
+
+    <div class="progress-container">
+        <div class="progress-bar" style="width: @progressoPercentual%;"></div>
+        <span class="progress-text">@progressoTexto (@progressoPercentual%)</span>
     </div>
 
-
-
     <div class="conteudo">
-        <h1 class="titulo">@Html.DisplayFor(model => model.NomeCargo)</h1>
-        <p id="Datap">Data da publicação @Html.DisplayFor(model => model.DataPublicacao)</p>
+
+
+
+        <h1 class="titulo">@Html.DisplayFor(model => model.Vaga.NomeCargo)</h1>
+        <p id="Datap">Data da publicação @Html.DisplayFor(model => model.Vaga.DataPublicacao)</p>
         <hr>
         <div class="resumo">
 
@@ -45,24 +59,24 @@
                 <li class="item_info_vaga">
                     <span class="material-symbols-outlined">
                         location_on
-                    </span>@Html.DisplayFor(model => model.Local)
+                    </span>@Html.DisplayFor(model => model.Vaga.Local)
                 </li>
                 <li class="item_info_vaga">
                     <span class="material-symbols-outlined">
                         home_work
-                    </span>@Html.DisplayFor(model => model.RegimeTrabalho)
+                    </span>@Html.DisplayFor(model => model.Vaga.RegimeTrabalho)
                 </li>
             </ul>
             <ul class="resumo2">
                 <li class="item_info_vaga">
                     <span class="material-symbols-outlined">
                         work
-                    </span>@Html.DisplayFor(model => model.MetodoContratacao)
+                    </span>@Html.DisplayFor(model => model.Vaga.MetodoContratacao)
                 </li>
                 <li class="item_info_vaga">
                     <span class="material-symbols-outlined">
                         accessible
-                    </span> Vagas tambem pra PCD @Html.DisplayFor(model => model.VagaPCD)
+                    </span> Vagas tambem pra PCD @Html.DisplayFor(model => model.Vaga.VagaPCD)
                 </li>
             </ul>
 
@@ -71,85 +85,22 @@
         <hr>
 
         <h1 class="titulo">Sobre a Empresa</h1>
-        <p id="sobreAEmpresa">@Html.DisplayFor(model => model.SobreEmpresa)</p>
+        <p id="sobreAEmpresa">@Html.DisplayFor(model => model.Vaga.SobreEmpresa)</p>
 
 
         <h1 class="titulo">Descrição da Vaga</h1>
-        <p id="descricaoDaVaga">@Html.DisplayFor(model => model.DescVaga)</p>
+        <p id="descricaoDaVaga">@Html.DisplayFor(model => model.Vaga.DescVaga)</p>
 
         <h1 class="titulo">Requisitos e Qualificações</h1>
 
         <ul class="req">
-            <li>@Html.DisplayFor(model => model.RequisitosQualificacao)</li>
+            <li>@Html.DisplayFor(model => model.Vaga.RequisitosQualificacao)</li>
         </ul>
 
         <h1 class="titulo">Informação Adicional </h1>
-        <p id="informacaoAdicional">@Html.DisplayFor(model => model.InfoAdicional)</p>
-        <div class="botao-cad">
-            <form asp-action="CreateInscrito" method="post">
-                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                <div hidden class="form-group">
-                    <input id="idVaga" asp-for="@Model.Id" class="form-control" name="meuValor" value="@Html.DisplayFor(model => model.Id)" />
-                </div>
-                <div hidden class="form-group">
-                    <input id="idCandidato" asp-for="@userId" class="form-control" />
-                </div>
-
-                <button class="candidatar" type="submit" onclick="candidatar(idVaga)" asp-for="@Model.Id">Candidatar-se</button>
-            </form>
-        </div>
-        @if (ViewBag.ErrorMessage != null)
-
-        {
-            <div class="alert alert-danger">
-                @ViewBag.ErrorMessage
-            </div>
-        }
+        <p id="informacaoAdicional">@Html.DisplayFor(model => model.Vaga.InfoAdicional)</p>
 
     </div>
 
-    @section scripts {
-        <script defer>
-            function candidatar(idVaga) {
-                $.ajax({
-                    url: '/Vagas/CreateInscrito',
-                    type: 'POST',
-                    data: { id: @Model.Id },
-                    success: function (data) {
-                        console.log(data);
-                    }
-                });
-                document.getElementById('idVaga').value = idVaga;
-                console.log(idVaga.value);
-            }
-        </script>
-        
-        <script>
-            document.addEventListener("DOMContentLoaded", function () {
-                const statusInscricao = @Model.StatusInscricao;
-                console.log("Status Inscrição:", statusInscricao);
-
-
-                // Função para atualizar a barra de progresso com base no status
-                function atualizarBarraProgresso(status) {
-                const barra = document.getElementById("barraProgresso");
-                const fases = barra.querySelectorAll(".fase");
-
-                // Atualiza a cor de cada fase com base no status
-                fases.forEach((fase, index) => {
-                    if (index + 1 <= status) {
-                        fase.classList.add("ativo");
-                    } else {
-                        fase.classList.remove("ativo");
-                    }
-                });
-            }
-
-            // Chama a função para atualizar a barra com o status obtido
-            atualizarBarraProgresso(statusInscricao);
-        });
-    </script>
-
-    }
-
 </main>
+

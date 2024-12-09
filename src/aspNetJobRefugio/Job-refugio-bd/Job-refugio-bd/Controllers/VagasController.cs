@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Job_refugio_bd.Models;
 using Microsoft.AspNetCore.Authorization;
 using System.Security.Claims;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
 
 namespace Job_refugio_bd.Controllers
 {
@@ -85,7 +86,7 @@ namespace Job_refugio_bd.Controllers
         public int Id { get; set; }
 
         [HttpPost]
-        public IActionResult CreateInscrito(Vaga oinscrito, Candidato ocandidato, int id)
+        /*public async Task<IActionResult> CreateInscrito(Vaga oinscrito, Candidato ocandidato, int id)
         {
 
 
@@ -101,15 +102,65 @@ namespace Job_refugio_bd.Controllers
                 inscrito.DataInscricao = DateOnly.FromDateTime(DateTime.Now);
 
                 _context.Add(inscrito);
-                _context.SaveChangesAsync();
+                await _context.SaveChangesAsync();
                 return RedirectToAction("VagasDisponiveis", "Vagas");
             }
-
             return RedirectToAction("ErroPageInscrito", "Vagas");
+        }*/
 
 
 
+
+        [HttpPost]
+        public IActionResult CandidatarSe(int vagaId)
+        {
+            // Obtém o ID do usuário autenticado (implementação fictícia para exemplo)
+            int candidatoId = GetUserId();
+
+            // Verifica se a vaga existe
+            var vagaExistente = _context.Vagas.FirstOrDefault(v => v.Id == vagaId);
+            if (vagaExistente == null)
+            {
+                TempData["MensagemErro"] = "A vaga selecionada não existe.";
+                return RedirectToAction("Details", "Vagas", new { id = vagaId });
+            }
+
+            // Verifica se o candidato já está inscrito nesta vaga
+            var inscricaoExistente = _context.Inscritos
+                .FirstOrDefault(i => i.CandidatoId == candidatoId && i.VagaId == vagaId);
+
+            if (inscricaoExistente != null)
+            {
+                TempData["MensagemErro"] = "Você já se candidatou a esta vaga.";
+                return RedirectToAction("Details", "Vagas", new { id = vagaId });
+            }
+
+            // Cria um novo registro de inscrição
+            var novaInscricao = new Inscrito
+            {
+                DataInscricao = DateOnly.FromDateTime(DateTime.Now),
+                StatusInscricao = 1, // Status 1 para "Inscrito"
+                CandidatoId = candidatoId,
+                VagaId = vagaId
+            };
+
+            try
+            {
+                _context.Inscritos.Add(novaInscricao);
+                _context.SaveChanges();
+
+                TempData["MensagemSucesso"] = "Inscrição realizada com sucesso!";
+            }
+            catch (Exception ex)
+            {
+                TempData["MensagemErro"] = "Ocorreu um erro ao processar sua inscrição.";
+                // Log do erro (opcional)
+                Console.WriteLine(ex.Message);
+            }
+
+            return RedirectToAction("Details", "Vagas", new { id = vagaId });
         }
+
 
         // GET: Vagas/Edit/5
         public async Task<IActionResult> Edit(int? id)
@@ -207,19 +258,19 @@ namespace Job_refugio_bd.Controllers
             if (id == null)
                 return NotFound();
 
-            var vaga = await _context.Vagas.FindAsync(id);
+            var vaga = await _context.Vagas.FindAsync(id); 
 
-            if (vaga == null)
+            if (vaga == null) 
                 return NotFound();
 
-            var inscritos = await _context.Inscritos
+            var inscritos = await _context.Inscritos 
                 .Include(v => v.Candidato)
                 .Include(v => v.Candidato.Curriculo)
-                .Where(c => c.VagaId == id)
-                .OrderByDescending(c => c.DataInscricao)
-                .ToListAsync();
+                .Where(c => c.VagaId == id) 
+                .OrderByDescending(c => c.DataInscricao) 
+                .ToListAsync(); 
 
-            ViewBag.Vaga = vaga;
+            ViewBag.Vaga = vaga; 
 
             return View(inscritos);
         }
@@ -232,27 +283,22 @@ namespace Job_refugio_bd.Controllers
             return View(await appDbContext.ToListAsync());
         }
 
-
-        // GET: Status Inscricao
-        public ActionResult StatusInscricao(int inscritoId)
+        public async Task<IActionResult> StatusInscricao(int? id)
         {
-            // Buscar o Inscrito pelo ID
-            Inscrito inscrito = _context.Inscritos.FirstOrDefault(i => i.Idinscricao == inscritoId);
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var inscrito = await _context.Inscritos
+                .Include(v => v.Vaga)
+                .FirstOrDefaultAsync(m => m.Idinscricao == id);
             if (inscrito == null)
             {
                 return NotFound();
             }
 
-            // Criar o ViewModel
-            var viewModel = new StatusInscricaoViewModel
-            {
-                Inscrito = inscrito,
-                 StatusInscricao = inscrito.StatusInscricao
-            };
-
-            return View(viewModel);
+            return View(inscrito);
         }
-
-
     }
 }

@@ -71,17 +71,17 @@
         <h1 class="titulo">Informação Adicional </h1>
         <p id="informacaoAdicional">@Html.DisplayFor(model => model.InfoAdicional)</p>
         <div class="botao-cad">
-        <form asp-action="CreateInscrito" method="post">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div hidden class="form-group">
-                <input id="idVaga" asp-for="@Model.Id" class="form-control" name="meuValor" value="@Html.DisplayFor(model => model.Id)" />
-            </div>
-            <div hidden class="form-group">
-                <input id="idCandidato" asp-for="@userId" class="form-control" />
-            </div>
-
-            <button class="candidatar" type="submit" onclick="candidatar(idVaga)" asp-for="@Model.Id">Candidatar-se</button>
-        </form>
+            @if (User.IsInRole("Candidato"))
+            { 
+            <form asp-action="CandidatarSe" asp-controller="Vagas" method="post">
+                <input type="hidden" name="vagaId" value="@Model.Id" />
+                <button type="submit" class="btn btn-primary">Candidatar-se</button>
+            </form>
+            }
+            else if (User.IsInRole("Empregador"))
+            {
+                <p style=" margin-top: 8%" class="alert alert-danger">Somente candidatos podem se inscrever nesta vaga.</p>
+            }
         </div>
         @if (ViewBag.ErrorMessage != null)
 
@@ -90,6 +90,19 @@
                 @ViewBag.ErrorMessage
             </div>
         }
+        @if (TempData["MensagemSucesso"] != null)
+        {
+            <div class="alert alert-success">
+                @TempData["MensagemSucesso"]
+            </div>
+        }
+        @if (TempData["MensagemErro"] != null)
+        {
+            <div class="alert alert-danger">
+                @TempData["MensagemErro"]
+            </div>
+        }
+
 
     </div>
 

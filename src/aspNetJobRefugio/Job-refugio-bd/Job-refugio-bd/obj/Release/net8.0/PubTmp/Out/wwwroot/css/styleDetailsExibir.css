@@ -1,0 +1,21 @@
+﻿#ExibeCurriculo {
+    background-color: #f5f5f5;
+    padding: 8%;
+    border-radius: 10px;
+}
+
+.Titulo-detalhes {
+    font-family: "Inter", sans-serif;
+    padding: 2% 0;
+    margin-top: 2%;
+}
+
+.col-sm-2 {
+    width: 30%;
+    padding: 0.5%;
+}
+
+.col-sm-10 {
+    width: 70%;
+    padding: 0.5%;
+}

@@ -51,7 +51,9 @@
                 <span asp-validation-for="CursosComplIdioma" class="text-danger"></span>
             
                 
-                <select asp-for="CandidatoId" asp-items="ViewBag.CandidatoId" style="display:none"></select>
+                <select asp-for="CandidatoId" asp-items="ViewBag.CandidatoId" style="display:none">
+                    <option value="@User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value"></option>
+                </select>
 
             <div class="divBotao">
                 <button type="submit" value="Create"  id="botaosubmit">Salvar</button>

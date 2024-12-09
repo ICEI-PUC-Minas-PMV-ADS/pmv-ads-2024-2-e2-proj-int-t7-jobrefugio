@@ -26,10 +26,40 @@
             {
                 <div class="caixa">
                     <h2>@Html.DisplayFor(modelItem => item.Vaga.NomeCargo)</h2>
-                    <div class="barra-externa">
-                        <div class="barra-interna" style="width: 40%;"></div>
+                    
+                    @{
+                        int statusInscricao = item.StatusInscricao ;
+                        string progressoTexto = "";
+                        int progressoPercentual = 0;
+
+                        if (statusInscricao == 1)
+                        {
+                            progressoTexto = "Inscrito";
+                            progressoPercentual = 25;
+                        }
+                        else if (statusInscricao == 2)
+                        {
+                            progressoTexto = "Em análise";
+                            progressoPercentual = 50;
+                        }
+                        else if (statusInscricao == 3)
+                        {
+                            progressoTexto = "Entrevista";
+                            progressoPercentual = 75;
+                        }
+                        else if (statusInscricao == 4)
+                        {
+                            progressoTexto = "Admissão";
+                            progressoPercentual = 100;
+                        }
+                    }
+
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width: @progressoPercentual%;"></div>
+                        
                     </div>
-                    <a class="btnVer" type="button" asp-area="" asp-controller="Vagas" asp-action="StatusInscricao" asp-route-inscritoId="@item.Idinscricao">Ver status</a>
+                    <a asp-controller="Vagas" asp-action="StatusInscricao" asp-route-id="@item.Idinscricao" class="btnVer">Ver status</a>
+
                 </div>
 
             }

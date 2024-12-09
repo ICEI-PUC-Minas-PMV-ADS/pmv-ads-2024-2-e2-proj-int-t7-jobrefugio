@@ -17,119 +17,199 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Job_refugio_bd
 build_property.RootNamespace = Job_refugio_bd
-build_property.ProjectDir = C:\Users\lucas\OneDrive\Documentos\Bkp-Projeto\V6\Job-refugio-bd\Job-refugio-bd\
+build_property.ProjectDir = D:\Users\lucas\Documents\Backup backend\Bkp-Projeto\V33 Add status e correcoes\Job-refugio-bd\Job-refugio-bd\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = C:\Users\lucas\OneDrive\Documentos\Bkp-Projeto\V6\Job-refugio-bd\Job-refugio-bd
+build_property.MSBuildProjectDirectory = D:\Users\lucas\Documents\Backup backend\Bkp-Projeto\V33 Add status e correcoes\Job-refugio-bd\Job-refugio-bd
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/lucas/OneDrive/Documentos/Bkp-Projeto/V6/Job-refugio-bd/Job-refugio-bd/Views/Candidatos/Create.cshtml]
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/AcessoNegado/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNlc3NvTmVnYWRvXEFjY2Vzc0RlbmllZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Candidatos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRvc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/OneDrive/Documentos/Bkp-Projeto/V6/Job-refugio-bd/Job-refugio-bd/Views/Candidatos/Delete.cshtml]
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Candidatos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRvc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/OneDrive/Documentos/Bkp-Projeto/V6/Job-refugio-bd/Job-refugio-bd/Views/Candidatos/Details.cshtml]
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Candidatos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRvc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/OneDrive/Documentos/Bkp-Projeto/V6/Job-refugio-bd/Job-refugio-bd/Views/Candidatos/Edit.cshtml]
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Candidatos/DetailsExibir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRvc1xEZXRhaWxzRXhpYmlyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Candidatos/DetailsExibirCandidato.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRvc1xEZXRhaWxzRXhpYmlyQ2FuZGlkYXRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Candidatos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRvc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/OneDrive/Documentos/Bkp-Projeto/V6/Job-refugio-bd/Job-refugio-bd/Views/Candidatos/Index.cshtml]
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Candidatos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRvc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/OneDrive/Documentos/Bkp-Projeto/V6/Job-refugio-bd/Job-refugio-bd/Views/Curriculos/Create.cshtml]
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Candidatos/Inscricoes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRvc1xJbnNjcmljb2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Candidatos/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRvc1xMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Candidatos/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRvc1xMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Candidatos/PerfilCandidato.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRvc1xQZXJmaWxDYW5kaWRhdG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Candidatos/StatusCandidatura.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRvc1xTdGF0dXNDYW5kaWRhdHVyYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Curriculos/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmljdWxvc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/OneDrive/Documentos/Bkp-Projeto/V6/Job-refugio-bd/Job-refugio-bd/Views/Curriculos/Delete.cshtml]
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Curriculos/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmljdWxvc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/OneDrive/Documentos/Bkp-Projeto/V6/Job-refugio-bd/Job-refugio-bd/Views/Curriculos/Details.cshtml]
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Curriculos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmljdWxvc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/OneDrive/Documentos/Bkp-Projeto/V6/Job-refugio-bd/Job-refugio-bd/Views/Curriculos/Edit.cshtml]
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Curriculos/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmljdWxvc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/OneDrive/Documentos/Bkp-Projeto/V6/Job-refugio-bd/Job-refugio-bd/Views/Curriculos/Index.cshtml]
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Curriculos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VycmljdWxvc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/OneDrive/Documentos/Bkp-Projeto/V6/Job-refugio-bd/Job-refugio-bd/Views/Empregadores/Create.cshtml]
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Empregadores/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVnYWRvcmVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/OneDrive/Documentos/Bkp-Projeto/V6/Job-refugio-bd/Job-refugio-bd/Views/Empregadores/Delete.cshtml]
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Empregadores/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVnYWRvcmVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/OneDrive/Documentos/Bkp-Projeto/V6/Job-refugio-bd/Job-refugio-bd/Views/Empregadores/Details.cshtml]
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Empregadores/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVnYWRvcmVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/OneDrive/Documentos/Bkp-Projeto/V6/Job-refugio-bd/Job-refugio-bd/Views/Empregadores/Edit.cshtml]
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Empregadores/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVnYWRvcmVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/OneDrive/Documentos/Bkp-Projeto/V6/Job-refugio-bd/Job-refugio-bd/Views/Empregadores/Index.cshtml]
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Empregadores/GerenciarVagas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVnYWRvcmVzXEdlcmVuY2lhclZhZ2FzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Empregadores/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVnYWRvcmVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/OneDrive/Documentos/Bkp-Projeto/V6/Job-refugio-bd/Job-refugio-bd/Views/Home/Index.cshtml]
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Empregadores/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVnYWRvcmVzXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Empregadores/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVnYWRvcmVzXExvZ291dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Empregadores/PerfilEmpregador.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVnYWRvcmVzXFBlcmZpbEVtcHJlZ2Fkb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Guia/GuiaRefugiado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3VpYVxHdWlhUmVmdWdpYWRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/OneDrive/Documentos/Bkp-Projeto/V6/Job-refugio-bd/Job-refugio-bd/Views/Home/Privacy.cshtml]
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/OneDrive/Documentos/Bkp-Projeto/V6/Job-refugio-bd/Job-refugio-bd/Views/Shared/Error.cshtml]
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/OpcaoLogin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BjYW9Mb2dpblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/OneDrive/Documentos/Bkp-Projeto/V6/Job-refugio-bd/Job-refugio-bd/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/OneDrive/Documentos/Bkp-Projeto/V6/Job-refugio-bd/Job-refugio-bd/Views/Vagas/Create.cshtml]
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Sobre/Sobre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU29icmVcU29icmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Vagas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFnYXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/OneDrive/Documentos/Bkp-Projeto/V6/Job-refugio-bd/Job-refugio-bd/Views/Vagas/Delete.cshtml]
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Vagas/CreateInscrito.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFnYXNcQ3JlYXRlSW5zY3JpdG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Vagas/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFnYXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/OneDrive/Documentos/Bkp-Projeto/V6/Job-refugio-bd/Job-refugio-bd/Views/Vagas/Details.cshtml]
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Vagas/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFnYXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/OneDrive/Documentos/Bkp-Projeto/V6/Job-refugio-bd/Job-refugio-bd/Views/Vagas/Edit.cshtml]
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Vagas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFnYXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/OneDrive/Documentos/Bkp-Projeto/V6/Job-refugio-bd/Job-refugio-bd/Views/Vagas/Index.cshtml]
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Vagas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFnYXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/OneDrive/Documentos/Bkp-Projeto/V6/Job-refugio-bd/Job-refugio-bd/Views/_ViewImports.cshtml]
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Vagas/InscrevernaVaga.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFnYXNcSW5zY3JldmVybmFWYWdhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Vagas/Inscritos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFnYXNcSW5zY3JpdG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Vagas/StatusInscricao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFnYXNcU3RhdHVzSW5zY3JpY2FvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Vagas/VagasDisponiveis.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFnYXNcVmFnYXNEaXNwb25pdmVpcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/OneDrive/Documentos/Bkp-Projeto/V6/Job-refugio-bd/Job-refugio-bd/Views/_ViewStart.cshtml]
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/lucas/OneDrive/Documentos/Bkp-Projeto/V6/Job-refugio-bd/Job-refugio-bd/Views/Shared/_Layout.cshtml]
+[D:/Users/lucas/Documents/Backup backend/Bkp-Projeto/V33 Add status e correcoes/Job-refugio-bd/Job-refugio-bd/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-uv7y97ojkq

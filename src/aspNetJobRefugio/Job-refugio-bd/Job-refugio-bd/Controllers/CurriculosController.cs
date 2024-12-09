@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Job_refugio_bd.Models;
 using Microsoft.AspNetCore.Authorization;
 using System.Security.Claims;
+using Microsoft.AspNetCore.Authentication;
 
 namespace Job_refugio_bd.Controllers
 {
@@ -71,6 +72,22 @@ namespace Job_refugio_bd.Controllers
             {
                 _context.Add(curriculo);
                 await _context.SaveChangesAsync();
+
+                // Atualizar a claim
+                var identity = (ClaimsIdentity)User.Identity;
+                var existingClaim = identity.FindFirst("HasCurriculum");
+
+                if (existingClaim != null)
+                {
+                    identity.RemoveClaim(existingClaim);
+                }
+
+                identity.AddClaim(new Claim("HasCurriculum", "True"));
+
+                // Re-autenticar o usuário para refletir as alterações nas claims
+                await HttpContext.SignOutAsync();
+                await HttpContext.SignInAsync(new ClaimsPrincipal(identity));
+
                 return RedirectToAction("Details", "Candidatos", new { id = GetUserId() });
             }
             

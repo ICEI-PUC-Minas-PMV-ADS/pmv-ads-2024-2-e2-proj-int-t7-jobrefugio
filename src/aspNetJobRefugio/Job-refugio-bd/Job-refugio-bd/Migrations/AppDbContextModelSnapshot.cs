@@ -191,39 +191,6 @@ namespace Job_refugio_bd.Migrations
                     b.ToTable("Inscrito");
                 });
 
-            modelBuilder.Entity("Job_refugio_bd.Models.Usuario", b =>
-                {
-                    b.Property<int>("IdUsuario")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdUsuario"));
-
-                    b.Property<string>("Email")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("IdCandidato")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("IdEmpregador")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Senha")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("IdUsuario");
-
-                    b.HasIndex("IdCandidato")
-                        .IsUnique()
-                        .HasFilter("[IdCandidato] IS NOT NULL");
-
-                    b.HasIndex("IdEmpregador")
-                        .IsUnique()
-                        .HasFilter("[IdEmpregador] IS NOT NULL");
-
-                    b.ToTable("Usuario");
-                });
-
             modelBuilder.Entity("Job_refugio_bd.Models.Vaga", b =>
                 {
                     b.Property<int>("Id")
@@ -303,21 +270,6 @@ namespace Job_refugio_bd.Migrations
                     b.Navigation("Candidato");
 
                     b.Navigation("Vaga");
-                });
-
-            modelBuilder.Entity("Job_refugio_bd.Models.Usuario", b =>
-                {
-                    b.HasOne("Job_refugio_bd.Models.Candidato", "Candidato")
-                        .WithOne()
-                        .HasForeignKey("Job_refugio_bd.Models.Usuario", "IdCandidato");
-
-                    b.HasOne("Job_refugio_bd.Models.Empregador", "Empregador")
-                        .WithOne()
-                        .HasForeignKey("Job_refugio_bd.Models.Usuario", "IdEmpregador");
-
-                    b.Navigation("Candidato");
-
-                    b.Navigation("Empregador");
                 });
 
             modelBuilder.Entity("Job_refugio_bd.Models.Vaga", b =>

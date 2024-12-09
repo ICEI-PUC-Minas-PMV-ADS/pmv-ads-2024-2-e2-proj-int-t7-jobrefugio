@@ -20,6 +20,11 @@
 
 
     <dl class="row" id="ExibeCurriculo" >
+        @{
+            var idCurriculo = @Html.DisplayFor(model => model.Curriculo.Id);
+        }
+            
+        
         <dt class="col-sm-2">
             Nome: 
         </dt>
@@ -90,6 +95,11 @@
     </dl>
     <div class="signupButton">
         <a style="margin-right: 2%" asp-area="" asp-controller="Candidatos" asp-action="Index" class="btn btn-outline-primary">Voltar</a>
+
+        @if (User.IsInRole("Candidato"))
+        {
+            <a style="margin-right: 2%" asp-area="" asp-controller="Curriculos" asp-action="Edit" asp-route-id="@Model.Curriculo.Id" class="btn btn-success">Editar</a>
+        }
         
     </div>
 </div>

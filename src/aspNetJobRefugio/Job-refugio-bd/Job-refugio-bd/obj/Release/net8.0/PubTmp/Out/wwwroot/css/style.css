@@ -1,0 +1,546 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_home {
+    height: 1500px;
+}
+
+main {
+    height: 1400px;
+}
+
+#logo {
+    width: 80px;
+    padding: 6%;
+    transition: 0.5s;
+}
+
+.logo {
+    width: 10%;
+}
+
+.perfil {
+    width: 10%;
+}
+
+#logo_perfil {
+    width: 70px;
+    padding: 10%;
+    transition: 0.2s ease;
+}
+
+    #logo_perfil:hover {
+        width: 71px;
+        transition: 0.2s ease;
+    }
+
+.nav {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0 auto;
+    transition: 0.5s;
+}
+
+header {
+    box-shadow: -2px 0px 17px -8px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px 0px 17px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 0px 17px -8px rgba(0,0,0,0.75);
+    position: sticky;
+    top: 0px;
+    left: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+.menu_horizontal {
+    margin-bottom: -1%;
+    list-style: none;
+}
+
+.menu {
+    width: 90%;
+    text-align: center;
+}
+
+.itemMenu {
+    padding: 2%;
+    margin-bottom: 1%;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    transition: 0.5s ease;
+}
+
+    .itemMenu:hover {
+        font-size: 17px;
+    }
+
+.nav-desktop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+}
+
+.link-item-menu {
+    text-decoration: none;
+    color: #5F6D7A;
+}
+
+.nav.sticky {
+    color: #fff;
+    height: 60px;
+    transition: 0.5s;
+    #logo
+
+{
+    width: 60px;
+    transition: 0.5s;
+}
+
+#logo_perfil {
+    width: 62px;
+    transition: 0.5s;
+}
+
+.itemMenu:hover {
+    background-color: #2CC4EA;
+    .link-item-menu
+
+{
+    color: #fff;
+}
+
+}
+}
+
+.drop {
+    display: none;
+    background-color: #2CC4EA;
+    padding: 1%;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.05);
+}
+
+.perfil:hover {
+    .drop
+
+{
+    display: flex;
+    position: fixed;
+}
+
+}
+
+#link_login {
+    text-decoration: none;
+    color: #1A1A1A;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+}
+/*style conteudo pagina home*/
+#banner1 {
+    width: 100%;
+    height: 400px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 340px 340px 340px;
+    grid-template-rows: 340px;
+    grid-auto-flow: row;
+    column-gap: 40px;
+    row-gap: 18px;
+    justify-content: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+.card1, .card2, .card3 {
+    background-color: #3C5B87;
+    padding: 10%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    transition: 0.5s ease;
+}
+
+.card3 {
+    gap: 2.2rem;
+}
+
+.card1:hover {
+    box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.75);
+    transition: 0.5s ease;
+}
+
+.card2:hover {
+    box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.75);
+    transition: 0.5s ease;
+}
+
+.card3:hover {
+    box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.75);
+    transition: 0.5s ease;
+}
+
+.btn_saibamais {
+    font-family: "Inter", sans-serif;
+    padding: 5%;
+    background-color: #F3F4FB;
+    text-decoration: none;
+    transition: ease 0.5s;
+    font-weight: 700;
+    color: #3C5B87;
+    text-align: center;
+    border-radius: 8px;
+}
+
+    .btn_saibamais:hover {
+        padding-left: 35px;
+        padding-right: 35px;
+        transition: ease 0.5s;
+        background-color: #2CC4EA;
+        color: #fff;
+    }
+
+.imgCard {
+    max-width: 100%;
+}
+
+.bloco_txt_card {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.card3 > .bloco_txt_card {
+    margin-top: 46px;
+}
+
+.nomeVaga {
+    margin-top: 4%;
+    text-align: left;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.logo_empresa_card {
+    width: 30px;
+}
+
+.titulo_empresa_card {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+
+.divisao_card {
+    margin: 4%;
+    border-top: 0.0625rem solid rgb(221, 221, 221);
+}
+
+.dados_empresa {
+    margin-top: 4%;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 50px;
+}
+
+.local {
+    display: flex;
+    flex-direction: row;
+    font-family: "Inter", sans-serif;
+}
+
+.desc_vaga {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 30px;
+}
+
+.parceiros {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 6%;
+    width: 1180px;
+    height: 24%;
+    align-content: center;
+    border-radius: 16px;
+    background-color: #ffff;
+}
+
+#titulo_parceiros {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-bottom: 2%;
+    color: #5F6D7A;
+}
+
+.logo_empresa {
+    width: 100px;
+}
+
+.drop {
+    display: none;
+    background-color: #2CC4EA;
+    border-radius: 10px;
+    padding: 1%;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.05);
+    transition: 0.2s ease;
+}
+
+.perfil:hover {
+    .drop
+
+{
+    display: flex;
+    position: fixed;
+    transition: 0.2s ease;
+}
+
+}
+
+#link_login {
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+}
+
+.card-list .card-item {
+    list-style: none;
+    margin-right: 0;
+    margin: 0;
+    text-align: center;
+}
+
+    .card-list .card-item .card-link {
+        width: 400px;
+        display: block;
+        text-decoration: none;
+    }
+
+.card-list .card-link .logo_empresa {
+    width: 20%;
+    aspect-ratio: 16 / 19;
+    object-fit: cover;
+}
+
+.div_empresas {
+    max-width: 1000px;
+    margin: 0 180px 35px 180px;
+    padding: 20px 10px;
+    overflow: hidden;
+}
+
+.swiper-button-prev {
+    margin-left: 50px;
+    color: #fff;
+    background: none;
+}
+
+.swiper-button-next {
+    margin-right: 50px;
+}
+
+
+/* -------------- Banner página home -------------- */
+
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%; /* Para 3 imagens */
+}
+
+.carousel-item {
+    min-width: 100%;
+}
+
+#prev, #next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: none;
+    border: none;
+    cursor: pointer;
+    font-size: 2em;
+    padding: 10px;
+    z-index: 1;
+}
+
+.prev {
+    left: 10px;
+    background: none;
+    color: #ffff;
+}
+
+.next {
+    right: 10px;
+    background: none;
+    color: #ffff;
+}
+
+.introducao {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #F3F4FB;
+    height: 35%;
+    padding: 4%;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+}
+
+.bloco_texto {
+    width: 80%;
+    color: #646464;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.texto_introducao {
+    margin-top: 2%;
+    text-align: center;
+}
+
+.texto_introducao_titulo {
+    margin-top: 1%;
+    font-size: 28px;
+    color: #3C5B87;
+    font-weight: 600;
+    text-align: center;
+}
+
+.barra {
+    width: 100%;
+    height: 3px;
+    background-color: #F99F15;
+}
+
+footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    box-shadow: -2px 0px 17px -8px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px 0px 17px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 0px 17px -8px rgba(0,0,0,0.75);
+    width: 100%;
+    height: 200px;
+    background-color: #3C5B87;
+    padding: 0 10% 0 10%;
+}
+
+.links_footer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    margin-top: 4%;
+}
+
+.titulo_nav_footer {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 4%;
+}
+
+.links_pag_footer {
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    transition: 0.3s ease;
+    font-weight: 200;
+    text-align: center;
+}
+
+    .links_pag_footer:hover {
+        margin-left: 2px;
+        transition: 0.3s ease;
+    }
+
+.barra_vertical {
+    width: 1px;
+    height: 80%;
+    background: linear-gradient(to right, #ffffff, #000000);
+    margin-top: 2%;
+}
+
+.links_contato {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 2%;
+    padding: 1%;
+    margin-top: 4%;
+}
+
+.logo_redes_sociais {
+    width: 30px;
+    margin: 4px;
+}
+
+.svg_social {
+    color: #F3F4FB;
+    width: 30px;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+.icones_redes_sociais {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    gap: 1.5rem;
+    height: 30px;
+}
+
+#icon_footer_youtube {
+    margin-top: -5px;
+}
+
+    #icon_footer_youtube:hover {
+        margin-top: 2px;
+        transition: 0.3s ease;
+        cursor: pointer;
+    }
+
+.svg_social:hover {
+    margin-top: 2px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}

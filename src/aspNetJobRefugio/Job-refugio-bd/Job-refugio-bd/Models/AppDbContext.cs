@@ -18,19 +18,10 @@ namespace Job_refugio_bd.Models
 
         public DbSet<Inscrito> Inscritos { get; set; }
 
-        public DbSet<Usuario> Usuarios { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Usuario>()
-                .HasOne(u => u.Candidato)
-                .WithOne()
-                .HasForeignKey<Usuario>(u => u.IdCandidato);
-
-            modelBuilder.Entity<Usuario>()
-                .HasOne(u => u.Empregador)
-                .WithOne()
-                .HasForeignKey<Usuario>(u => u.IdEmpregador);
+            
 
             base.OnModelCreating(modelBuilder);
 
@@ -49,6 +40,7 @@ namespace Job_refugio_bd.Models
             modelBuilder.Entity<Inscrito>()
                 .HasIndex(i => new { i.CandidatoId, i.VagaId })
                 .IsUnique();
+
 
         }
 
