@@ -35,7 +35,7 @@
 |   |   |
 | **Caso de Teste** 	| **CT-09 – Visualizar status da candidatura** 	|
 |	Requisito Associado 	| RF-008 - Permitir que o candidato visualize o status da candidatura. |
-|Registro de evidência |  |
+|Registro de evidência | https://github.com/user-attachments/assets/976b97d8-865d-4230-9fcd-bca76a41856a |
 |   |   |
 | **Caso de Teste** 	| **CT-10 – Visualizar vagas inscritas** 	|
 |	Requisito Associado 	| RF-009 - Permitir que o candidato visualize as vagas que inscreveu. |
