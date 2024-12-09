@@ -1,3 +1,7 @@
 # Apresentação da Solução
 
-Faça uma apresentação de um resumo de todos o processo de desenvolvimento e no final apresente a solução desenvolvida, usando um pequeno vídeo.
+Neste vídeo apresentamos a proposta da aplicação e mostramos as principais funcionalidades do projeto.
+
+
+https://github.com/user-attachments/assets/5c42411e-a0fc-4530-bfbc-c7bf13c74860
+
